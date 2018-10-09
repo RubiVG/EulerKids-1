@@ -32,31 +32,31 @@ export default {
           gradient: "grad2",
           to: "math/first-grade"
         },
-        {
-          img: "second.svg",
-          gradient: "grad2",
-          to: "math/second-grade"
-        },
-        {
-          img: "third.svg",
-          gradient: "grad2",
-          to: "math/third-grade"
-        },
-        {
-          img: "fourth.svg",
-          gradient: "grad2",
-          to: "math/fourth-grade"
-        },
-        {
-          img: "fifth.svg",
-          gradient: "grad2",
-          to: "math/fifth-grade"
-        },
-        {
-          img: "sixth.svg",
-          gradient: "grad2",
-          to: "math/sixth-grade"
-        }
+        // {
+        //   img: "second.svg",
+        //   gradient: "grad2",
+        //   to: "math/second-grade"
+        // },
+        // {
+        //   img: "third.svg",
+        //   gradient: "grad2",
+        //   to: "math/third-grade"
+        // },
+        // {
+        //   img: "fourth.svg",
+        //   gradient: "grad2",
+        //   to: "math/fourth-grade"
+        // },
+        // {
+        //   img: "fifth.svg",
+        //   gradient: "grad2",
+        //   to: "math/fifth-grade"
+        // },
+        // {
+        //   img: "sixth.svg",
+        //   gradient: "grad2",
+        //   to: "math/sixth-grade"
+        // }
       ],
       science: [
         {

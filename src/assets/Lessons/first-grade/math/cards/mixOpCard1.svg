@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="187.325mm" height="66.145836mm" version="1.1" viewBox="0 0 187.325 66.145837" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="187.325mm" height="66.145836mm" version="1.1" viewBox="0 0 187.325 66.145837" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <defs>
   <linearGradient id="linearGradient70941" x1="80.036751" x2="179.13971" y1="-58.026459" y2="83.426445" gradientTransform="translate(-2.5476959e-4,2.6245117e-6)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#9c27b0" offset="0"/>
@@ -57,31 +57,8 @@
    <path d="m59.208816-14.163374h-5.275133"/>
   </g>
  </g>
- <g transform="matrix(.49548229 0 0 .49548251 28.114321 11.403505)">
-  <g fill="#73ffad" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="1">
-   <path d="m252.80249 30.509766-13.95264 0.387573-3.83267 3.14365v13.220553l3.4451-1.593356 0.38757 41.685654h15.0723z" fill="#73ffad" stroke-width=".26458335" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-  </g>
-  <g transform="matrix(1.6230488,0,0,1.6230488,78.368628,-244.13509)" fill="#fff" stroke="#00c853" stroke-width=".48904875" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="MIXED">
-   <path d="m43.436659 161.89177 0.72347 11.3602-4.392497 0.37035-0.232544-5.8136-0.887112 3.99631-3.944634 0.55121-1.60197-4.1255 0.577054 4.89204-4.02215 0.82682 0.551216-12.05783 3.953247-0.52538 2.187636 6.89019 2.652723-6.68349z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m48.604302 161.96067 0.878499 11.61858-4.87481 0.92157 0.223931-12.23871z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m53.642755 167.92068-3.600125-3.95324 3.402032-2.07567 2.101508 3.13503 2.144572-3.13503 4.108276 2.44601-4.24608 3.60874 4.047987 4.47863-3.832669 1.52445-2.247924-3.11781-2.041219 3.11781-3.565674-1.32636z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m71.376383 160.34147 0.223931 4.56475-5.357124 0.57706 0.0689 1.04214 3.513998-0.32728 0.310058 3.11781-3.669027 0.26699 0.06029 0.84405 5.202094-0.39619 0.775146 3.9188-10.257772 0.35312 1.042142-12.42818z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m73.477893 173.9496-0.551216-12.05783q11.747776 0 11.747776 6.02891 0 6.02892-11.19656 6.02892zm3.066135-8.86251 0.577053 4.16857q3.729316 0.0172 3.729316-2.07567 0-2.0929-4.306369-2.0929z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-  </g>
-  <g transform="matrix(1.1597822,0,0,1.6146295,127.52095,-235.97057)" fill="#fff" stroke="#00c853" stroke-width=".58004153" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="operations">
-   <path d="m6.1212353 189.50299q-2.9111058 0-4.9695504-1.76561-2.04983186-1.76561-2.04983186-4.26331 0-2.49769 2.04983186-4.2633 2.0584446-1.76561 4.9695504-1.76561 2.902493 0 4.9523247 1.76561 2.058445 1.76561 2.058445 4.2633 0 2.4977-2.058445 4.26331-2.0498317 1.76561-4.9523247 1.76561zm-0.4823134-3.76377q1.2402344 0 2.1187338-0.75792 0.8871121-0.75792 0.8871121-1.8259t-0.8871121-1.8259q-0.8784994-0.75792-2.1187338-0.75792-1.2488472 0-2.1359593 0.75792-0.8784993 0.75792-0.8784993 1.8259t0.8784993 1.8259q0.8871121 0.75792 2.1359593 0.75792z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m18.222133 186.03206 0.697632 2.57521-4.495849 0.89572-0.852662-11.53246q11.472169-1.85174 12.049222 3.781 0 4.30637-7.398343 4.28053zm-1.179945-5.09874 0.482314 1.67948q4.650879 0 4.375271-1.22301t-4.857585-0.45647z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m35.172003 175.89486 0.223932 4.56475-5.357124 0.57706 0.0689 1.04214 3.513997-0.32728 0.310059 3.11781-3.669027 0.26699 0.06029 0.84405 5.202095-0.39619 0.775146 3.9188-10.257772 0.35312 1.042142-12.42818z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m40.94254 180.28736 0.120579 2.32544q4.306369 0 4.306369-0.86127 0-0.86128-4.426948-1.46417zm0.577054 8.518-4.797296 0.67179 0.999078-12.85882q11.093208 0.82683 11.463556 4.44418 0.37896 3.60873-3.815444 4.99539l3.445096 1.86896-3.531223 3.12642-4.039375-4.99538z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m52.983147 187.78044-0.602892 1.72255-3.393419-2.04983 4.254693-10.008 3.23839-0.22393 5.090129 10.36112-4.022149 1.92064-0.887113-2.42018zm2.945557-3.77238-0.964627-3.11781-1.136882 3.4451z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m66.324281 181.11418 0.422025 7.33806-4.668105 1.20578 0.800985-8.76777-3.52261-0.30144 0.275607-3.18672 10.102743-0.60289 0.370348 4.71117z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m74.549443 177.51406 0.878499 11.61858-4.87481 0.92157 0.223931-12.23871z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m82.877964 189.50299q-2.911105 0-4.96955-1.76561-2.049832-1.76561-2.049832-4.26331 0-2.49769 2.049832-4.2633 2.058445-1.76561 4.96955-1.76561 2.902493 0 4.952325 1.76561 2.058445 1.76561 2.058445 4.2633 0 2.4977-2.058445 4.26331-2.049832 1.76561-4.952325 1.76561zm-0.482313-3.76377q1.240234 0 2.118734-0.75792 0.887112-0.75792 0.887112-1.8259t-0.887112-1.8259q-0.8785-0.75792-2.118734-0.75792-1.248847 0-2.135959 0.75792-0.8785 0.75792-0.8785 1.8259t0.8785 1.8259q0.887112 0.75792 2.135959 0.75792z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m94.642963 183.47407 0.852661 4.9351-4.297757 1.09382-0.869886-11.30853 4.314982-0.7493 4.254693 5.63273 0.05168-5.63273 5.339894-0.55122-1.8948 12.60905-3.419255 0.49954z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   <path d="m107.32092 184.74015q-3.1092-0.43925-2.74747-3.86712 0.36174-3.42787 7.99262-4.0566l0.72347 3.89295q-3.78099-0.0861-4.0566 0.89573-0.2756 0.98185 2.89388 1.12827 3.16949 0.14641 3.10059 3.8585-0.0689 3.7121-8.34574 3.96186l-1.52446-4.07382q4.23747 0.45647 4.65949-0.42202 0.42203-0.88712-2.69578-1.31775z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-  </g>
-  <rect x=".11408447" y=".11408447" width="264.35516" height="87.084328" ry="3.035013" opacity="0" stroke-width=".22816895"/>
-  <g transform="translate(20.914614,124.12956)" fill="#f9eab0">
+ <g transform="matrix(.42499998 0 0 .42424242 37.504792 14.563293)">
+  <g transform="translate(13.388688,-191.53029)" fill="#f9eab0">
    <g transform="translate(-4.3209865,-13.021881)">
     <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
     <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
@@ -99,90 +76,110 @@
     <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
    </g>
   </g>
-  <g transform="translate(-343.85694,165.85258)" letter-spacing="0px" word-spacing="0px">
+  <g transform="translate(-351.38287,-149.80727)" letter-spacing="0px" word-spacing="0px">
    <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
    <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1523.83,508.32688)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1531.3559,192.66703)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
    <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1674.5146,479.59538)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1682.0405,163.93553)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
    <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1674.2706,533.83278)" points="" fill="#f9eab0"/>
-  <g transform="translate(309.09447,-199.93547)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1681.7965,218.17293)" points="" fill="#f9eab0"/>
+  <g transform="translate(301.56854,-515.59532)" letter-spacing="0px" word-spacing="0px">
    <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
    <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1825.4199,481.83268)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1832.9458,166.17283)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
    <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1820.555,545.13498)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1828.0809,229.47513)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
    <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1526.9613,1480.4196)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1534.4872,1164.7597)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
    <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1523.83,1515.0092)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1531.3559,1199.3493)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
    <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1674.5146,1486.2777)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1682.0405,1170.6178)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
    <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1674.2706,1540.5152)" points="" fill="#f9eab0"/>
-  <g transform="translate(309.09447,806.74688)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1681.7965,1224.8553)" points="" fill="#f9eab0"/>
+  <g transform="translate(301.56854,491.08703)" letter-spacing="0px" word-spacing="0px">
    <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
    <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1825.4199,1488.515)" points="" fill="#f9eab0"/>
-  <g transform="translate(320.99271,182.77378)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1832.9458,1172.8551)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,-132.88607)" letter-spacing="0px" word-spacing="0px">
    <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
    <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1820.555,1551.8173)" points="" fill="#f9eab0"/>
-  <g transform="translate(954.26072,819.90448)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1828.0809,1236.1574)" points="" fill="#f9eab0"/>
+  <g transform="translate(946.73479,504.24463)" letter-spacing="0px" word-spacing="0px">
    <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
    <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,949.29149,683.21459)" points="" fill="#f9eab0"/>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,178.88033,501.99496)" points="" fill="#f9eab0"/>
-  <g transform="matrix(.84201031 0 0 .84201031 -10.23719 -67.508701)">
-   <g transform="matrix(.1190174 0 0 .1190174 15.359821 101.59062)" fill="#00c853">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,941.76556,367.55474)" points="" fill="#f9eab0"/>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,171.3544,186.33511)" points="" fill="#f9eab0"/>
+  <g transform="translate(-7.5259261,-315.65985)">
+   <rect x="7.5259261" y="315.65985" width="264.58334" height="87.3125" opacity="0" stroke-width="6.81303024"/>
+   <g transform="matrix(.10201188 0 0 .10201188 8.2511348 330.89055)" fill="#00c853">
     <g fill="#00c853">
      <g fill="#00c853">
       <path d="m477.549 182.379h-148.531v-148.532c0-18.69-15.154-33.844-33.844-33.844h-78.954c-18.69 0-33.844 15.153-33.844 33.844v148.526h-148.532c-18.691 0-33.844 15.153-33.844 33.843v78.966c0 18.691 15.153 33.844 33.844 33.844h148.532v148.527c0 18.689 15.153 33.842 33.844 33.842h78.96c18.691 0 33.844-15.152 33.844-33.842v-148.527h148.533c18.689 0 33.842-15.152 33.842-33.844v-78.966c-6e-3 -18.69-15.153-33.837-33.85-33.837z" fill="#00c853"/>
      </g>
     </g>
    </g>
-   <rect x="64.53038" y="144.757" width="60.882935" height="17.698526" ry="3.3627203" fill="#e91e63"/>
-   <rect x="47.358662" y="105.38378" width="3.6059895" height="14.423959" ry="1.8029947" fill="#a9ffcd"/>
-   <rect x="118.27647" y="147.83669" width="4.0867882" height="11.539167" ry="2.0433941" fill="#f9bfd3"/>
+   <rect x="50.396076" y="367.88919" width="52.183823" height="15.169715" ry="2.882246" fill="#e91e63" stroke-width=".85711741"/>
+   <rect x="35.56694" y="334.03076" width="3.9784296" height="12.363026" ry="1.9892148" fill="#a9ffcd" stroke-width=".97244215"/>
+   <rect x="96.462784" y="370.52884" width="3.5028572" height="9.8904209" ry="1.7514286" fill="#f9bfd3" stroke-width=".85711741"/>
+   <g fill="#fff" stroke="#00c853" stroke-width=".79374999" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="mixed ">
+    <path d="m149.47249 335.89875 1.15755 18.17632-7.02799 0.59256-0.37207-9.30176-1.41938 6.3941-6.31142 0.88194-2.56315-6.6008 0.92329 7.82726-6.43544 1.32291 0.88194-19.29253 6.3252-0.8406 3.50022 11.0243 4.24435-10.69358z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m157.74072 336.00899 1.4056 18.58974-7.7997 1.4745 0.35829-19.58192z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m165.80224 345.54502-5.7602-6.3252 5.44326-3.32107 3.36241 5.01606 3.43131-5.01606 6.57325 3.91363-6.79373 5.77398 6.47678 7.1658-6.13227 2.43912-3.59668-4.98849-3.26595 4.98849-5.70508-2.12217z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m194.17605 333.41828 0.35829 7.3036-8.5714 0.92329 0.11024 1.66742 5.6224-0.52365 0.49609 4.9885-5.87044 0.42719 0.0965 1.35048 8.32336-0.6339 1.24023 6.27007-16.41244 0.565 1.66743-19.88509z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m197.53847 355.19128-0.88195-19.29253q18.79644 0 18.79644 9.64627 0 9.64626-17.91449 9.64626zm4.90581-14.18001 0.92329 6.66971q5.9669 0.0276 5.9669-3.32108 0-3.34863-6.89019-3.34863z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+   <g transform="scale(.87293337 1.1455628)" fill="#fff" stroke="#00c853" stroke-width=".69569224" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="operations">
+    <path d="m155.75945 333.95999q-4.08236 0-6.969-2.47599-2.87456-2.47598-2.87456-5.9786t2.87456-5.97861q2.88664-2.47599 6.969-2.47599 4.07028 0 6.94484 2.47599 2.88664 2.47599 2.88664 5.97861t-2.88664 5.9786q-2.87456 2.47599-6.94484 2.47599zm-0.67637-5.27808q1.73923 0 2.97119-1.06286 1.24403-1.06287 1.24403-2.56054t-1.24403-2.56053q-1.23196-1.06287-2.97119-1.06287-1.75131 0-2.99534 1.06287-1.23195 1.06286-1.23195 2.56053t1.23195 2.56054q1.24403 1.06286 2.99534 1.06286z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m172.72903 329.09256 0.97831 3.61132-6.30471 1.25611-1.19572-16.17243q16.08789-2.59677 16.89711 5.30224 0 6.039-10.37499 6.00276zm-1.65469-7.15017 0.67637 2.35521q6.52212 0 6.13562-1.71508-0.3865-1.71507-6.81199-0.64013z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m196.49851 314.87677 0.31403 6.40133-7.51251 0.80923 0.0966 1.46143 4.92782-0.45896 0.4348 4.37223-5.14522 0.37442 0.0846 1.18364 7.2951-0.55558 1.08702 5.49548-14.38489 0.4952 1.46144-17.42854z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m204.59077 321.03654 0.16909 3.26106q6.03899 0 6.03899-1.2078t-6.20808-2.05326zm0.80922 11.94513-6.72744 0.94209 1.40105-18.03244q15.55645 1.15948 16.0758 6.23224 0.53144 5.06068-5.35055 7.00524l4.8312 2.62092-4.95198 4.38431-5.66457-7.00523z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m221.4758 331.54439-0.84546 2.4156-4.75873-2.87456 5.96653-14.03463 4.54133-0.31402 7.13809 14.52982-5.64042 2.69339-1.24404-3.39391zm4.13067-5.29016-1.35273-4.37223-1.5943 4.8312z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m240.18461 322.19603 0.59182 10.29045-6.54627 1.69092 1.12325-12.2954-4.9399-0.42273 0.3865-4.46886 14.16748-0.84546 0.51936 6.60667z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m251.71909 317.14743 1.23195 16.29321-6.83614 1.29234 0.31403-17.16282z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m263.3985 333.95999q-4.08236 0-6.969-2.47599-2.87456-2.47598-2.87456-5.9786t2.87456-5.97861q2.88664-2.47599 6.969-2.47599 4.07029 0 6.94485 2.47599 2.88664 2.47599 2.88664 5.97861t-2.88664 5.9786q-2.87456 2.47599-6.94485 2.47599zm-0.67636-5.27808q1.73923 0 2.97118-1.06286 1.24403-1.06287 1.24403-2.56054t-1.24403-2.56053q-1.23195-1.06287-2.97118-1.06287-1.75131 0-2.99535 1.06287-1.23195 1.06286-1.23195 2.56053t1.23195 2.56054q1.24404 1.06286 2.99535 1.06286z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m279.89704 325.5054 1.19573 6.92069-6.02692 1.5339-1.21988-15.8584 6.05107-1.05079 5.96653 7.89901 0.0725-7.89901 7.48835-0.77299-2.65715 17.68218-4.79497 0.70052z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m297.67584 327.28086q-4.36016-0.61598-3.85288-5.42302 0.50727-4.80704 11.20837-5.68873l1.01456 5.45925q-5.30224-0.12078-5.68874 1.25611-0.38649 1.37689 4.05821 1.58222t4.34807 5.41094q-0.0966 5.20561-11.70357 5.55588l-2.1378-5.71289q5.94237 0.64013 6.53419-0.59182 0.59182-1.24404-3.78041-1.84794z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
   </g>
  </g>
 </svg>

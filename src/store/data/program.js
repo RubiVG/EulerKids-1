@@ -3,25 +3,25 @@ export default {
     "first-grade": {
       math: [
         {
-          img: "numbers.svg",
+          img: "numbers1.svg",
           to: "first-grade/numbers"
         },
-        {
-          img: "mixOp.svg",
-          to: "first-grade/mixed-operations"
-        }
+        // {
+        //   img: "mixOp1.svg",
+        //   to: "first-grade/mixed-operations"
+        // }
       ]
-      // espanol: [
+      // language: [
       //   {
       //     img: "bigo.svg",
-      //     to: "primero/palabras-con-h"
+      //     to: "first-grade/some-skill"
       //   }
       // ]
     },
     "second-grade": {
       math: [
         {
-          img: "time.svg",
+          img: "time2.svg",
           to: "second-grade/time"
         }
       ]
@@ -29,11 +29,11 @@ export default {
     "third-grade": {
       math: [
         {
-          img: "additions.svg",
+          img: "additions3.svg",
           to: "third-grade/additions"
         },
         {
-          img: "multiplications.svg",
+          img: "multiplications3.svg",
           to: "third-grade/multiplications"
         }
       ]
@@ -41,7 +41,7 @@ export default {
     "fourth-grade": {
       math: [
         {
-          img: "numbers.svg",
+          img: "numbers4.svg",
           to: "fourth-grade/numbers"
         }
       ]
@@ -49,7 +49,7 @@ export default {
     "fifth-grade": {
       math: [
         {
-          img: "2dShapes.svg",
+          img: "2dShapes5.svg",
           to: "fifth-grade/2d-shapes"
         }
       ]
@@ -57,11 +57,11 @@ export default {
     "sixth-grade": {
       math: [
         {
-          img: "numbers.svg",
+          img: "numbers6.svg",
           to: "sixth-grade/numbers"
         },
         {
-          img: "decimals.svg",
+          img: "decimals6.svg",
           to: "sixth-grade/decimals"
         }
       ]
@@ -76,34 +76,34 @@ export default {
           img: "numbersCard1.svg",
           lessons: [
             {
-              lesson: "Comparing numbers", // Igual que ejercicio Texto
-              img: "uno1.svg",
-              to: "numbers/comparing-numbers",
-              page: "comparing-numbers", // para la navegación del libro.
-              exercises: [
-                {
-                  exercise: "comparing-numbers-e", // único id para la database
-                  exerciseName: "Comparing numbers",
-                  img: "compCant.svg",
-                  to:
-                    "comparing-numbers/comparing-numbers-e"
-                }
-              ]
-            },
-            {
               lesson: "More or less",
-              img: "uno2.svg",
+              img: "uno1.svg",
               to: "numbers/more-or-less",
               page: "more-or-less",
               exercises: [
                 {
                   exercise: "more-or-less-e", // único id para la database
                   exerciseName: "More or less",
-                  img: "quienMasMenos.svg",
+                  img: "moreLess1.svg",
                   to: "more-or-less/more-or-less-e"
                 }
               ]
-            }
+            },
+            // {
+            //   lesson: "Comparing numbers", // Igual que ejercicio Texto
+            //   img: "uno2.svg",
+            //   to: "numbers/comparing-numbers",
+            //   page: "comparing-numbers", // para la navegación del libro.
+            //   exercises: [
+            //     {
+            //       exercise: "comparing-numbers-e", // único id para la database
+            //       exerciseName: "Comparing numbers",
+            //       img: "compNum1.svg",
+            //       to:
+            //         "comparing-numbers/comparing-numbers-e"
+            //     }
+            //   ]
+            // }
           ]
         },
         "mixed-operations": {
@@ -119,7 +119,7 @@ export default {
                 {
                   exercise: "plus-and-minus-symbols-e",
                   exerciseName: "\"+\" and \"-\" symbols",
-                  img: "simbolosMasMenos.svg",
+                  img: "plusMinus1.svg",
                   to:
                     "plus-and-minus-symbols/plus-and-minus-symbols-e"
                 }
@@ -144,7 +144,7 @@ export default {
                 {
                   exercise: "days-of-the-week-e", // -e
                   exerciseName: "Days of the week",
-                  img: "diasSemana.svg",
+                  img: "daysWeek2.svg",
                   to: "days-of-the-week/days-of-the-week-e"
                 }
               ]
@@ -168,7 +168,7 @@ export default {
                 {
                   exercise: "two-digit-additions-e", // -e
                   exerciseName: "Two-digit additions",
-                  img: "sumas2DigiSinLlevar.svg",
+                  img: "2digitAdds3.svg",
                   to:
                     "two-digit-additions/two-digit-additions-e"
                 }
@@ -189,7 +189,7 @@ export default {
                 {
                   exercise: "2-3-4-5-and-10-times-tables-e", // -e
                   exerciseName: "2, 3, 4, 5 and 10 times tables",
-                  img: "tablas24510.svg",
+                  img: "234TimesTables3.svg",
                   to:
                     "2-3-4-5-and-10-times-tables/2-3-4-5-and-10-times-tables-e"
                 }
@@ -215,7 +215,7 @@ export default {
                 {
                   exercise: "expanded-to-standard-form-e",
                   exerciseName: "Expanded to standard form",
-                  img: "notacionDesEstandar.svg",
+                  img: "expandToStd4.svg",
                   to:
                     "expanded-to-standard-form/expanded-to-standard-form-e"
                 }
@@ -240,7 +240,7 @@ export default {
                 {
                   exercise: "parallels-secants-and-perpendicular-lines-e",
                   exerciseName: "Parallels, secants and perpendicular lines",
-                  img: "parPerSec5.svg",
+                  img: "parSecPerp5.svg",
                   to:
                     "parallels-secants-and-perpendicular-lines/parallels-secants-and-perpendicular-lines-e"
                 }
@@ -265,7 +265,7 @@ export default {
                 {
                   exercise: "comparing-numbers-e",
                   exerciseName: "Comparing numbers",
-                  img: "compNumMas6.svg",
+                  img: "compNum6.svg",
                   to:
                     "comparing-numbers/comparing-numbers-e"
                 }
@@ -286,7 +286,7 @@ export default {
                 {
                   exercise: "decimals-additions-and-subtractions-e",
                   exerciseName: "Decimals additions and subtractions",
-                  img: "sumRestDecimal.svg",
+                  img: "addSubDecimals6.svg",
                   to:
                     "decimals-additions-and-subtractions/decimals-additions-and-subtractions-e"
                 }

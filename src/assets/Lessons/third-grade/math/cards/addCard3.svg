@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="187.325mm" height="66.145836mm" version="1.1" viewBox="0 0 187.325 66.145837" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="187.325mm" height="66.145836mm" version="1.1" viewBox="0 0 187.325 66.145837" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <defs>
   <linearGradient id="linearGradient70941" x1="80.036751" x2="179.13971" y1="-58.026459" y2="83.426445" gradientTransform="translate(-2.5476959e-4,2.6245117e-6)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#9c27b0" offset="0"/>
@@ -57,213 +57,400 @@
    <path d="m59.208816-14.163374h-5.275133"/>
   </g>
  </g>
- <g transform="matrix(.49345648 0 0 .49624022 28.114552 11.403417)">
-  <g transform="translate(64.824445,106.43769)" fill="#f9eab0">
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,291.32132,434.67535)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,307.33646,443.60248)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,333.79178,451.09397)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,298.64056,411.18751)" points=""/>
-   <g transform="translate(304.39909,71.666099)">
+ <g transform="matrix(.42499998 0 0 .42424242 37.438541 14.552085)">
+  <g transform="translate(13.388688,123.36572)" fill="#f9eab0">
+   <g transform="translate(-4.3209865,-13.021881)">
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+   </g>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,287.00033,421.65347)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,303.01547,430.5806)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,329.47079,438.07209)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,294.31957,398.16563)" points=""/>
+   <g transform="translate(300.0781,58.644218)">
     <polygon transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)" points=""/>
     <polygon transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)" points=""/>
     <polygon transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)" points=""/>
     <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
    </g>
   </g>
-  <g transform="translate(-295.62612,161.18259)" letter-spacing="0px" word-spacing="0px">
+  <g transform="translate(-351.38287,165.08874)" letter-spacing="0px" word-spacing="0px">
    <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
    <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1475.5992,503.65689)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1531.3559,507.56304)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
    <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1626.2838,474.92539)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1682.0405,478.83154)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
    <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1626.0398,529.16279)" points="" fill="#f9eab0"/>
-  <g transform="translate(357.32529,-204.60546)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1681.7965,533.06894)" points="" fill="#f9eab0"/>
+  <g transform="translate(301.56854,-200.69931)" letter-spacing="0px" word-spacing="0px">
    <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
    <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1777.1891,477.16269)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1832.9458,481.06884)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
    <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1772.3242,540.46499)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1828.0809,544.37114)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
    <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1478.7305,1475.7496)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1534.4872,1479.6558)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
    <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1475.5992,1510.3392)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1531.3559,1514.2454)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
    <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1626.2838,1481.6077)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1682.0405,1485.5139)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
    <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1626.0398,1535.8452)" points="" fill="#f9eab0"/>
-  <g transform="translate(357.32529,802.07689)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1681.7965,1539.7514)" points="" fill="#f9eab0"/>
+  <g transform="translate(301.56854,805.98304)" letter-spacing="0px" word-spacing="0px">
    <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
    <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1777.1891,1483.845)" points="" fill="#f9eab0"/>
-  <g transform="translate(369.22353,178.10379)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1832.9458,1487.7512)" points="" fill="#f9eab0"/>
+  <g transform="translate(313.46678,182.00994)" letter-spacing="0px" word-spacing="0px">
    <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
    <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1772.3242,1547.1473)" points="" fill="#f9eab0"/>
-  <g transform="translate(1002.4915,815.23449)" letter-spacing="0px" word-spacing="0px">
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1828.0809,1551.0535)" points="" fill="#f9eab0"/>
+  <g transform="translate(946.73479,819.14064)" letter-spacing="0px" word-spacing="0px">
    <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
    <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
    <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
   </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,997.52231,678.5446)" points="" fill="#f9eab0"/>
-  <g transform="translate(92.091363,100.58282)" fill="#f9eab0">
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,291.32132,434.67535)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,307.33646,443.60248)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,333.79178,451.09397)" points=""/>
-   <polygon transform="matrix(3.4969519,0,0,3.4969519,298.64056,411.18751)" points=""/>
-   <g transform="translate(304.39909,71.666099)">
-    <polygon transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)" points=""/>
-    <polygon transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)" points=""/>
-    <polygon transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)" points=""/>
-    <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
-   </g>
-  </g>
-  <g transform="translate(-268.3592,155.32772)" letter-spacing="0px" word-spacing="0px">
-   <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
-   <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1448.3322,497.80202)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
-   <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1599.0168,469.07052)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
-   <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1598.7728,523.30792)" points="" fill="#f9eab0"/>
-  <g transform="translate(384.59221,-210.46033)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
-   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1749.9221,471.30782)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
-   <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1745.0572,534.61012)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
-   <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1451.4635,1469.8947)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
-   <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1448.3322,1504.4843)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
-   <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1599.0168,1475.7528)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
-   <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1598.7728,1529.9903)" points="" fill="#f9eab0"/>
-  <g transform="translate(384.59221,796.22202)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
-   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1749.9221,1477.9901)" points="" fill="#f9eab0"/>
-  <g transform="translate(396.49045,172.24892)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
-   <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1745.0572,1541.2924)" points="" fill="#f9eab0"/>
-  <g transform="translate(1029.7585,809.37962)" letter-spacing="0px" word-spacing="0px">
-   <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
-   <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
-   <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
-  </g>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,1024.7892,672.68973)" points="" fill="#f9eab0"/>
-  <polygon transform="matrix(3.4969519,0,0,3.4969519,254.37807,491.4701)" points="" fill="#f9eab0"/>
-  <rect x=".11408447" y=".11408692" width="264.35516" height="87.084328" ry="3.035013" opacity="0" stroke-width=".22816895"/>
-  <g transform="translate(0,-199.91138)" fill="#db92e7" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="3">
-   <path d="m226.36656 231.91472 0.38757 13.13443 16.57952-0.38758-13.95263 10.11997q3.83266-0.55983 7.53614 0.43064 7.49308 1.98093 7.27777 9.77546-0.25839 7.83759-7.53615 7.7084-3.66041-0.0861-7.27776-1.72255l-3.40204 14.03876q6.20118 1.98093 13.522 2.11013 14.51247 0.30144 19.85237-8.82806 7.32082-12.5746-0.1292-21.27347-3.74654-4.34943-8.56967-6.6318l14.90004-18.30207z" fill="#db92e7" stroke-width=".26458335" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-  </g>
-  <g fill="#fff" stroke="#9c27b0">
-   <g transform="translate(-4.4980114,-147.18344)" stroke-width=".79375005" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="Sums">
-    <path d="m123.4573 192.22724q-4.35288-0.61495-3.84645-5.41397t11.18967-5.67924l1.01286 5.45014q-5.29339-0.12058-5.67924 1.25401-0.38585 1.3746 4.05143 1.57958 4.43729 0.20498 4.34082 5.40191-0.0965 5.19693-11.68404 5.5466l-2.13423-5.70335q5.93245 0.63906 6.52328-0.59084 0.59084-1.24195-3.7741-1.84484z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-    <path d="m136.66063 182.8583 6.42683 1.25401q-3.20739 9.85125 0.91639 9.95977 4.89548-0.0362 2.83359-10.20092l5.88423-1.85691q2.70095 16.73627-8.71782 16.88097-11.53934-0.10852-7.34322-16.03692z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-    <path d="m173.12352 182.01425 1.01286 15.90428-6.1495 0.51849-0.32556-8.13904-1.24195 5.59484-5.52249 0.7717-2.24276-5.7757 0.80788 6.84885-5.63101 1.15755 0.7717-16.88097 5.53454-0.73553 3.06269 9.64627 3.71382-9.35688z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-    <path d="m179.11626 192.22724q-4.35287-0.61495-3.84644-5.41397 0.50642-4.79902 11.18967-5.67924l1.01285 5.45014q-5.29339-0.12058-5.67924 1.25401-0.38585 1.3746 4.05144 1.57958 4.43728 0.20498 4.34082 5.40191-0.0965 5.19693-11.68404 5.5466l-2.13424-5.70335q5.93245 0.63906 6.52329-0.59084 0.59083-1.24195-3.77411-1.84484z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   </g>
-   <g transform="matrix(1.548862,0,0,1.548862,-333.12005,-111.9823)" stroke-width=".51247305" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="53">
-    <path d="m250.30328 81.11946 7.2347 0.303168 0.42719-4.065212-11.17589-0.427192 0.17915 8.516276q1.70877-0.35829 3.18327-0.220487 2.949 0.289388 3.0179 2.797418 0.0827 2.52181-2.48047 2.866319-1.28157 0.179145-2.59071-0.151584l-0.24805 4.161675q2.72852 0.330729 5.42947-0.35829 5.38813-1.350477 5.1263-6.380316-0.23426-5.02984-4.21679-6.035807-1.9706-0.633898-3.91363-0.124024z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-    <path d="m259.32943 77.357416 0.12402 4.203016 5.30545-0.124023-4.46484 3.238389q1.22645-0.179145 2.41156 0.137804 2.39779 0.633898 2.32889 3.128147-0.0827 2.508029-2.41157 2.466688-1.17133-0.02756-2.32888-0.551215l-1.08865 4.492404q1.98437 0.633898 4.32704 0.675239 4.64398 0.09646 6.35275-2.824978 2.34267-4.023872-0.0413-6.807509-1.19889-1.391818-2.74229-2.122179l4.76801-5.856662z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   </g>
-   <g transform="matrix(1.548862,0,0,1.548862,-333.12005,-111.9823)" stroke-width=".51247305" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="24">
-    <path d="m257.08323 99.969117q-4.14789-2.52181-7.71701-0.04134-1.79145 1.309133-3.15571 3.238393l2.78364 3.52777q0.35829-0.57877 1.00597-1.07487 1.43316-1.43316 2.8801-1.12999 0.81304 0.17915 0.66145 1.10243-0.12402 0.78548-0.92328 2.05328-1.50206 2.35644-3.66558 3.7896-0.93707 0.79927-1.73633 1.4056l-0.33073 4.87826 11.20345 0.23426 0.0138-4.67154-5.66374 0.26182q2.68718-2.48047 4.60265-5.40191 1.68121-2.54937 1.87413-4.47862 0.26183-2.41157-1.83279-3.693142z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-    <path d="m267.26694 105.68798h-2.8801l0.12402-6.173616-4.75423 0.137804v10.004552l7.24848 0.26183-0.52366 8.03396 4.9885 0.12403 0.39963-18.562176h-4.47862z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-   </g>
-  </g>
-  <g transform="matrix(.05315599 0 0 .05315599 9.0898214 44.537849)" fill="#00c853">
-   <g fill="#00c853">
-    <g fill="#00c853">
-     <path d="m477.549 182.379h-148.531v-148.532c0-18.69-15.154-33.844-33.844-33.844h-78.954c-18.69 0-33.844 15.153-33.844 33.844v148.526h-148.532c-18.691 0-33.844 15.153-33.844 33.843v78.966c0 18.691 15.153 33.844 33.844 33.844h148.532v148.527c0 18.689 15.153 33.842 33.844 33.842h78.96c18.691 0 33.844-15.152 33.844-33.842v-148.527h148.533c18.689 0 33.842-15.152 33.842-33.844v-78.966c-6e-3 -18.69-15.153-33.837-33.85-33.837z" fill="#00c853"/>
+  <g fill="#f9eab0">
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,941.76556,682.45075)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,171.3544,501.23112)" points=""/>
+   <g transform="translate(382.20981,328.64403)">
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,291.32132,434.67535)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,307.33646,443.60248)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,333.79178,451.09397)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,298.64056,411.18751)" points=""/>
+    <g transform="translate(304.39909,71.666099)">
+     <polygon transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)" points=""/>
+     <polygon transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)" points=""/>
+     <polygon transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)" points=""/>
+     <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
     </g>
    </g>
   </g>
-  <rect x="23.817513" y="46.493668" width="1.5669416" height="6.1894193" ry=".78347081" fill="#92ffbf"/>
-  <rect x="1.8473252" y="75.197479" width="94.183174" height="4.4849129" ry="2.2424564" fill="#2196f3"/>
-  <rect x="80.073662" y="76.15052" width="12.994522" height="2.0307758" ry="1.0153879" fill="#abd7fa"/>
+  <g transform="translate(21.759254,383.38893)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
+   <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1158.2138,725.86323)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1308.8984,697.13173)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1308.6544,751.36913)" points="" fill="#f9eab0"/>
+  <g transform="translate(674.71066,17.600878)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1459.8037,699.36903)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1454.9388,762.67133)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
+   <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1161.3451,1697.956)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
+   <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1158.2138,1732.5456)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1308.8984,1703.8141)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1308.6544,1758.0516)" points="" fill="#f9eab0"/>
+  <g transform="translate(674.71066,1024.2833)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1459.8037,1706.0514)" points="" fill="#f9eab0"/>
+  <g transform="translate(686.6089,400.31013)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1454.9388,1769.3537)" points="" fill="#f9eab0"/>
+  <g transform="translate(1319.8769,1037.4409)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
+   <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,1314.9077,900.75094)" points="" fill="#f9eab0"/>
+  <g transform="translate(54.158801,352.62117)" fill="#f9eab0">
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,291.32132,434.67535)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,307.33646,443.60248)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,333.79178,451.09397)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,298.64056,411.18751)" points=""/>
+   <g transform="translate(304.39909,71.666099)">
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)" points=""/>
+    <polygon transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
+   </g>
+  </g>
+  <g transform="translate(-306.29177,407.36607)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
+   <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1486.2648,749.84037)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1636.9494,721.10887)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1636.7054,775.34627)" points="" fill="#f9eab0"/>
+  <g transform="translate(346.65964,41.578018)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1787.8547,723.34617)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1782.9898,786.64847)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
+   <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1489.3961,1721.9331)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
+   <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1486.2648,1756.5227)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1636.9494,1727.7912)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1636.7054,1782.0287)" points="" fill="#f9eab0"/>
+  <g transform="translate(346.65964,1048.2604)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1787.8547,1730.0285)" points="" fill="#f9eab0"/>
+  <g transform="translate(358.55788,424.28727)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1782.9898,1793.3308)" points="" fill="#f9eab0"/>
+  <g transform="translate(991.82585,1061.418)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
+   <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,986.85666,924.72808)" points="" fill="#f9eab0"/>
+  <g transform="translate(81.425719,346.7663)" fill="#f9eab0">
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,291.32132,434.67535)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,307.33646,443.60248)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,333.79178,451.09397)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,298.64056,411.18751)" points=""/>
+   <g transform="translate(304.39909,71.666099)">
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)" points=""/>
+    <polygon transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)" points=""/>
+    <polygon transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)" points=""/>
+   </g>
+  </g>
+  <g transform="translate(-279.02485,401.5112)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1222.3983" y="-173.37076" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1222.3983" y="-164.00699" stroke-width=".26458332"/></text>
+   <text x="-2245.1282" y="-126.3082" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2245.1282" y="114.67583" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="912.07428" y="386.35889" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="912.07428" y="395.72266" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1458.9978,743.9855)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="-155.70239" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="-146.33862" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="-108.63977" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="132.34424" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="404.02722" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="413.39099" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1609.6824,715.254)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="-184.43384" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="-175.07007" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="-137.37134" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="103.61267" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="375.29578" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="384.65955" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1609.4384,769.4914)" points="" fill="#f9eab0"/>
+  <g transform="translate(373.92656,35.723148)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1760.5877,717.4913)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="-182.19659" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="-172.83282" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="-135.13403" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="105.84998" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="377.53308" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="386.89685" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1755.7228,780.7936)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2180.8418" y="-118.89429" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2180.8418" y="-109.53052" stroke-width=".26458332"/></text>
+   <text x="-3203.5715" y="-71.831665" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3203.5715" y="169.15234" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-46.369076" y="440.83533" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-46.369076" y="450.1991" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1462.1291,1716.0782)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1887.2479" y="816.39038" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1887.2479" y="825.75415" stroke-width=".26458332"/></text>
+   <text x="-2909.9778" y="863.45288" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2909.9778" y="1104.437" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="247.22462" y="1376.1199" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="247.22462" y="1385.4836" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1458.9978,1750.6678)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-1884.1167" y="850.97998" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-1884.1167" y="860.34375" stroke-width=".26458332"/></text>
+   <text x="-2906.8464" y="898.04248" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-2906.8464" y="1139.0266" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="250.35588" y="1410.7095" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="250.35588" y="1420.0732" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1609.6824,1721.9363)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2034.8013" y="822.24841" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2034.8013" y="831.61218" stroke-width=".26458332"/></text>
+   <text x="-3057.531" y="869.31104" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3057.531" y="1110.2949" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="99.671333" y="1381.978" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="99.671333" y="1391.3418" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1609.4384,1776.1738)" points="" fill="#f9eab0"/>
+  <g transform="translate(373.92656,1042.4055)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2022.6592" y="252.51283" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2022.6592" y="261.87659" stroke-width=".26458332"/></text>
+   <text x="-3045.3889" y="299.57538" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3045.3889" y="540.55945" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="111.81351" y="812.24249" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="111.81351" y="821.60626" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1760.5877,1724.1736)" points="" fill="#f9eab0"/>
+  <g transform="translate(385.8248,418.4324)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2185.7068" y="824.48572" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2185.7068" y="833.84949" stroke-width=".26458332"/></text>
+   <text x="-3208.4365" y="871.54834" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3208.4365" y="1112.5322" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-51.233967" y="1384.2153" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-51.233967" y="1393.5791" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,-1755.7228,1787.4759)" points="" fill="#f9eab0"/>
+  <g transform="translate(1019.0929,1055.5631)" letter-spacing="0px" word-spacing="0px">
+   <text x="-2814.1099" y="250.65732" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-2814.1099" y="260.02109" stroke-width=".26458332"/></text>
+   <text x="-3836.8396" y="297.71988" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-3836.8396" y="538.70392" font-family="'SC Gum Kids'" font-size="266.9718323px" stroke-width=".80091542" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+   <text x="-679.63708" y="810.38696" font-family="sans-serif" font-size="10.58333302px" stroke-width=".26458332" style="line-height:1.25" xml:space="preserve"><tspan x="-679.63708" y="819.75073" stroke-width=".26458332"/></text>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,1014.1236,918.87321)" points="" fill="#f9eab0"/>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,243.71242,737.65358)" points="" fill="#f9eab0"/>
+  <rect x="1.3128662e-8" y="4.6794129e-9" width="264.58334" height="87.3125" opacity="0" stroke-width="6.81303024"/>
+  <g transform="translate(2.4872629,-246.51193)">
+   <g transform="matrix(1.548862,0,0,1.548862,-336.25977,134.96502)" fill="#fff" stroke="#9c27b0" stroke-width=".51247305" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="53">
+    <path d="m250.30328 81.11946 7.2347 0.303168 0.42719-4.065212-11.17589-0.427192 0.17915 8.516276q1.70877-0.35829 3.18327-0.220487 2.949 0.289388 3.0179 2.797418 0.0827 2.52181-2.48047 2.866319-1.28157 0.179145-2.59071-0.151584l-0.24805 4.161675q2.72852 0.330729 5.42947-0.35829 5.38813-1.350477 5.1263-6.380316-0.23426-5.02984-4.21679-6.035807-1.9706-0.633898-3.91363-0.124024z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m259.32943 77.357416 0.12402 4.203016 5.30545-0.124023-4.46484 3.238389q1.22645-0.179145 2.41156 0.137804 2.39779 0.633898 2.32889 3.128147-0.0827 2.508029-2.41157 2.466688-1.17133-0.02756-2.32888-0.551215l-1.08865 4.492404q1.98437 0.633898 4.32704 0.675239 4.64398 0.09646 6.35275-2.824978 2.34267-4.023872-0.0413-6.807509-1.19889-1.391818-2.74229-2.122179l4.76801-5.856662z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+   <g transform="matrix(1.548862,0,0,1.548862,-336.25977,134.96502)" fill="#fff" stroke="#9c27b0" stroke-width=".51247305" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="24">
+    <path d="m257.08323 99.969117q-4.14789-2.52181-7.71701-0.04134-1.79145 1.309133-3.15571 3.238393l2.78364 3.52777q0.35829-0.57877 1.00597-1.07487 1.43316-1.43316 2.8801-1.12999 0.81304 0.17915 0.66145 1.10243-0.12402 0.78548-0.92328 2.05328-1.50206 2.35644-3.66558 3.7896-0.93707 0.79927-1.73633 1.4056l-0.33073 4.87826 11.20345 0.23426 0.0138-4.67154-5.66374 0.26182q2.68718-2.48047 4.60265-5.40191 1.68121-2.54937 1.87413-4.47862 0.26183-2.41157-1.83279-3.693142z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m267.26694 105.68798h-2.8801l0.12402-6.173616-4.75423 0.137804v10.004552l7.24848 0.26183-0.52366 8.03396 4.9885 0.12403 0.39963-18.562176h-4.47862z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+   <g transform="translate(-3.1397176,246.94732)">
+    <g transform="matrix(.05315599 0 0 .05315599 9.0898214 44.537849)" fill="#00c853">
+     <g fill="#00c853">
+      <g fill="#00c853">
+       <path d="m477.549 182.379h-148.531v-148.532c0-18.69-15.154-33.844-33.844-33.844h-78.954c-18.69 0-33.844 15.153-33.844 33.844v148.526h-148.532c-18.691 0-33.844 15.153-33.844 33.843v78.966c0 18.691 15.153 33.844 33.844 33.844h148.532v148.527c0 18.689 15.153 33.842 33.844 33.842h78.96c18.691 0 33.844-15.152 33.844-33.842v-148.527h148.533c18.689 0 33.842-15.152 33.842-33.844v-78.966c-6e-3 -18.69-15.153-33.837-33.85-33.837z" fill="#00c853"/>
+      </g>
+     </g>
+    </g>
+    <rect x="23.817513" y="46.493668" width="1.5669416" height="6.1894193" ry=".78347081" fill="#92ffbf"/>
+   </g>
+   <g transform="translate(-3.1397176,246.94732)">
+    <rect x="1.8473252" y="75.197479" width="94.183174" height="4.4849129" ry="2.2424564" fill="#2196f3"/>
+    <rect x="80.073662" y="76.15052" width="12.994522" height="2.0307758" ry="1.0153879" fill="#abd7fa"/>
+   </g>
+  </g>
+  <g transform="scale(.94390779 1.0594255)" fill="#fff" stroke="#9c27b0" stroke-width=".75069267" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="additions">
+   <path d="m133.01879 47.417629-0.9123 2.606571-5.13495-3.10182 6.43824-15.144182 4.90035-0.338855 7.70242 15.67853-6.08635 2.906327-1.34238-3.662233zm4.45724-5.708393-1.45968-4.717895-1.72034 5.213144z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m147.51133 50.0242-0.8341-18.246002q17.77682 0 17.77682 9.123001t-16.94272 9.123001zm4.6397-13.410812 0.8732 6.307904q5.64323 0.02607 5.64323-3.140919 0-3.166985-6.51643-3.166985z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m165.96586 50.0242-0.83411-18.246002q17.77682 0 17.77682 9.123001t-16.94271 9.123001zm4.63969-13.410812 0.8732 6.307904q5.64323 0.02607 5.64323-3.140919 0-3.166985-6.51643-3.166985z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m189.63353 31.88246 1.32935 17.581327-7.3766 1.394516 0.33886-18.519692z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m202.15811 37.330196 0.63861 11.103996-7.06381 1.8246 1.21205-13.267451-5.33043-0.45615 0.41705-4.822158 15.28754-0.9123 0.56041 7.128974z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m214.60449 31.88246 1.32935 17.581327-7.3766 1.394516 0.33886-18.519692z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m227.20726 50.0242q-4.40511 0-7.51996-2.671736-3.10182-2.671736-3.10182-6.451265t3.10182-6.451265q3.11485-2.671736 7.51996-2.671736 4.39207 0 7.49389 2.671736 3.11486 2.671736 3.11486 6.451265t-3.11486 6.451265q-3.10182 2.671736-7.49389 2.671736zm-0.72984-5.695359q1.87673 0 3.20608-1.146892 1.34239-1.146891 1.34239-2.762966 0-1.616074-1.34239-2.762966-1.32935-1.146892-3.20608-1.146892-1.88976 0-3.23215 1.146892-1.32935 1.146892-1.32935 2.762966 0 1.616075 1.32935 2.762966 1.34239 1.146892 3.23215 1.146892z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m245.01015 40.901199 1.29025 7.467828-6.5034 1.655173-1.31632-17.112144 6.52947-1.133858 6.43823 8.523489 0.0782-8.523489 8.08038-0.834103-2.86723 19.080105-5.17405 0.755906z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m264.19452 42.817029q-4.70486-0.664676-4.15748-5.851753 0.54738-5.187078 12.09449-6.138477l1.09476 5.890852q-5.72143-0.130328-6.13848 1.355418t4.37904 1.707304q4.79609 0.221559 4.69183 5.838721t-12.62884 5.995115l-2.30681-6.164542q6.41216 0.690741 7.05077-0.63861 0.63861-1.342385-4.07928-1.994028z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  </g>
  </g>
 </svg>

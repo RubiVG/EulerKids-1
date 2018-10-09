@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const expressValidator = require("express-validator");
 const app = express();
 
-app.use(favicon(path.join(__dirname, 'static/Favicon', 'eulerKids.ico')));
+app.use(favicon(path.join(__dirname, 'static/Favicon', 'ekFavicon.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressValidator());

@@ -75,7 +75,6 @@
              :text="snackbar.text"
              @updateApp="updateApp">
     </new-app>
-
     <v-footer app
               :absolute="absolute"
               height="auto">
@@ -88,7 +87,6 @@
           <v-layout row
                     wrap>
             <v-flex xs12
-                    py-1
                     class="text-xs-center">
               <v-btn small
                      v-for="icon in icons"
@@ -101,10 +99,26 @@
               </v-btn>
             </v-flex>
             <v-flex xs12
+                    py-1
+                    class="text-xs-center">
+              <router-link class="caption grey--text lighten-2 mr-2"
+                           to="/help">
+                Help
+              </router-link>
+              <router-link class="caption grey--text lighten-2 mr-2"
+                           to="/privacy-policy">
+                Privacy
+              </router-link>
+              <router-link class="caption grey--text lighten-2 mr-1"
+                           to="/terms-of-service">
+                Terms
+              </router-link>
+            </v-flex>
+            <v-flex xs12
                     text-xs-center
                     grey--text
                     lighten-2>
-              &copy;{{ year }} — <strong>Euler Kids</strong>
+              &copy;{{ year }} — <strong>Euler Kids</strong> made with <v-icon color="grey" small>favorite</v-icon>
             </v-flex>
           </v-layout>
         </v-flex>

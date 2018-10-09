@@ -69,7 +69,7 @@ module.exports.sendLink = (
           from: "no_reply@eulerkids.com",
           subject: "Reset password",
           html:
-            '<img src="https://www.wndacademy.org/static/Email/dragonIconM.png"/> ' +
+            '<img src="https://www.eulerkids.com/static/Email/rocketS.png"/> ' +
             texto +
             aTag
         };

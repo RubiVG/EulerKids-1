@@ -13,6 +13,13 @@ const SettingsParent = () => import("./views/Settings/Parent");
 const SettingsMenu = () => import("./views/Settings/SettingsMenu");
 const Setting = () => import("./views/Settings/Setting/Setting");
 
+const Love = () => import("./views/Love/Love");
+const AboutUs = () => import("./views/AboutUs/AboutUs");
+const Donate = () => import("./views/Donate/Donate");
+const Help = () => import("./views/Help/Help");
+const Privacy = () => import("./views/Privacy/Privacy");
+const Terms = () => import("./views/Terms/Terms");
+
 const ResetPassword = () => import("./views/ResetPassword/ResetPassword");
 
 Vue.use(Router);
@@ -70,6 +77,36 @@ export default new Router({
           component: Setting
         }
       ]
+    },
+    {
+      path: "/love",
+      name: "love",
+      component: Love
+    },
+    {
+      path: "/about-us",
+      name: "aboutUs",
+      component: AboutUs
+    },
+    {
+      path: "/donate",
+      name: "donate",
+      component: Donate
+    },
+    {
+      path: "/help",
+      name: "help",
+      component: Help
+    },
+    {
+      path: "/privacy-policy",
+      name: "privacyPolicy",
+      component: Privacy
+    },
+    {
+      path: "/terms-of-service",
+      name: "termsOfService",
+      component: Terms
     },
     {
       path: "/reset/:token",
