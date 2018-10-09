@@ -167,7 +167,6 @@ export default {
     dialogOn() {
       if (this.$route.matched[0].path === "/reset/:token") {
         this.$router.push({ path: "/" });
-        this.$store.dispatch("resetServerMsg");
       }
 
       this.$store.commit("dialogPayload", true);

@@ -51,7 +51,7 @@
         </v-container>
       </v-card>
     </v-flex>
-    <!--Planteamiento-->
+    <!--Statement-->
     <v-flex xs12
             xl10
             offset-xl1>
@@ -103,7 +103,7 @@
         </v-container>
       </v-card>
     </v-flex>
-    <!--/Planteamiento-->
+    <!--/Statement-->
   </v-layout>
 </template>
 <script>
