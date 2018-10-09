@@ -1,4 +1,4 @@
-# wd-v3
+# EulerKids
 
 ## Project setup
 ```
