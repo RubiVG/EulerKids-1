@@ -7,7 +7,7 @@ const Grades = () => import("./views/Learn/01Grades/Grades");
 const Skills = () => import("./views/Learn/02Skills/Skills");
 const Lessons = () => import("./views/Learn/03Lessons/Lessons");
 const Lesson = () => import("./views/Learn/04Lesson/Lesson");
-const Exercise = () => import("./views/Learn/05Ejercicio/Ejercicio");
+const Exercise = () => import("./views/Learn/05Exercise/Exercise");
 
 const SettingsParent = () => import("./views/Settings/Parent");
 const SettingsMenu = () => import("./views/Settings/SettingsMenu");

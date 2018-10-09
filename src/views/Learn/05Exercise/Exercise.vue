@@ -30,10 +30,10 @@
                 <div id="myBar"
                      :style="{
                        width: changeWidth(rating),
-                       'background-color': colorBarra(rating)
+                       'background-color': barColor(rating)
                      }">
                   <div class="subheading">
-                    {{ numeroBarra(rating) }}
+                    {{ barNumber(rating) }}
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@
             offset-xl1>
       <v-card>
         <v-container fluid>
-          <div :class="colorMargen(subject)">
+          <div :class="borderColor(subject)">
             <div class="grey--text text--darken-1 title ">
               <b>{{ skillName }}</b>
             </div>
@@ -68,7 +68,7 @@
               <v-flex xs12
                       v-if="alertRespuesta">
                 <v-alert :value="true"
-                         :color="colorAlertaRespuesta(userAnswer)"
+                         :color="answerAlertColor(userAnswer)"
                          :icon="iconAlert(userAnswer)">
                   <div class="title">{{ emoji(userAnswer)}} </div>
                 </v-alert>
@@ -97,7 +97,7 @@
                    :color="helpers.btnColorMaster(subject)"
                    dark
                    @click="gotIt">
-              {{ entendidoTexto(userAnswer) }}
+              {{ btnGotItText(userAnswer) }}
             </v-btn>
           </div>
         </v-container>
@@ -131,8 +131,7 @@ export default {
       size2: 44,
       width: 2,
       icon: "videogame_asset",
-      msg:
-        "(╹◡╹) Login to track your progress and access all levels.",
+      msg: "(╹◡╹) Login to track your progress and access all levels.",
       alertRespuesta: false,
       timer: null,
       seconds: 0,
@@ -164,7 +163,7 @@ export default {
       if (this.isAuthenticated) {
         if (this.userAnswer) {
           //Primero actualizamos el rating
-          this.actualizarRatingGlicko(1, 0);
+          this.updateRatingGlicko(1, 0);
 
           // Actualizamos ratings de usuario y pregunta
           this.updateRatings(true);
@@ -173,13 +172,13 @@ export default {
         if (!this.userAnswer) {
           //Primero actualizamos el rating
           if (this.$store.state.Learn.rating > 0) {
-            this.actualizarRatingGlicko(0, 100);
+            this.updateRatingGlicko(0, 100);
 
             // Actualizamos ratings de usuario y pregunta
             this.updateRatings(false);
           }
           if (this.$store.state.Learn.rating <= 0) {
-            this.actualizarRatingGlicko(0, 0);
+            this.updateRatingGlicko(0, 0);
 
             // Actualizamos ratings de usuario y pregunta
             this.updateRatings(false);
@@ -232,7 +231,7 @@ export default {
         return "100%";
       }
     },
-    colorBarra(rating) {
+    barColor(rating) {
       let b = Math.floor((rating * 100) / this.max);
 
       if (b < 50) {
@@ -248,7 +247,7 @@ export default {
         return "#64DD17";
       }
     },
-    numeroBarra(rating) {
+    barNumber(rating) {
       let porcentaje = (rating * 100) / this.max;
 
       if (porcentaje < 0) {
@@ -264,7 +263,7 @@ export default {
         return "100";
       }
     },
-    colorMargen(subject) {
+    borderColor(subject) {
       if (subject === "math") {
         return {
           math: true
@@ -276,7 +275,7 @@ export default {
         };
       }
     },
-    colorAlertaRespuesta(correct) {
+    answerAlertColor(correct) {
       return correct ? "green accent-4" : "pink";
     },
     iconAlert(correct) {
@@ -311,7 +310,7 @@ export default {
         question: Math.round(b.getRating())
       };
     },
-    actualizarRatingGlicko(point, less) {
+    updateRatingGlicko(point, less) {
       const rating =
         this.glicko(
           this.$store.state.Learn.rating,
@@ -337,7 +336,7 @@ export default {
         behavior: "smooth"
       });
     },
-    entendidoTexto(userAnswer) {
+    btnGotItText(userAnswer) {
       return userAnswer ? "Next" : "Got it";
     }
   },
@@ -384,7 +383,6 @@ export default {
     this.getQuestionDb();
 
     if (!this.currentView) {
-      // Aquí puede ir el 404
       this.$store.commit("Learn/resetExercise");
     }
   },
