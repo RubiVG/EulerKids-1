@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 
 const SECURITY = {
-  appVersion: "0.01c",
+  appVersion: "0.02",
   secret: process.env.SECURITY_SECRET,
   token(docs) {
     return new Promise((resolve, reject) => {
