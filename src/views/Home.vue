@@ -57,14 +57,14 @@ export default {
         },
         {
           title: "Science",
-          description: "Falta la descripción de ciencias",
+          description: "Discover the wonders of the universe through science!",
           img: "science.svg",
           gradient: "grad3",
           to: "/learn/science"
         },
         {
           title: "Language",
-          description: "Falta la descripción de español",
+          description: "Learn how to communicate by landing on the language planet!",
           img: "language.svg",
           gradient: "grad1",
           to: "/learn/language"
