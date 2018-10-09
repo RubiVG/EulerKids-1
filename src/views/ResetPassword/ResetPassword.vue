@@ -30,7 +30,8 @@
                      :size="size"
                      :width="width">
             </spinner>
-            <v-layout row
+            <v-layout v-if="!spinner"
+                      row
                       wrap>
               <v-flex xs12>
                 <v-text-field label="New password"
@@ -41,7 +42,7 @@
                               :error-messages="newPasswordErrors"
                               @input="$v.newPassword.$touch()"
                               @blur="$v.newPassword.$touch()"
-                              @keyup.enter="guardar"
+                              @keyup.enter="reset"
                               :append-icon="e1 ? 'visibility' : 'visibility_off'"
                               @click:append="() => (e1 = !e1)"
                               :type="e1 ? 'password' : 'text'">
@@ -56,7 +57,7 @@
                               :error-messages="confirmPasswordErrors"
                               @input="$v.confirmPassword.$touch()"
                               @blur="$v.confirmPassword.$touch()"
-                              @keyup.enter="guardar"
+                              @keyup.enter="reset"
                               :append-icon="e2 ? 'visibility' : 'visibility_off'"
                               @click:append="() => (e2 = !e2)"
                               :type="e2 ? 'password' : 'text'">
@@ -69,8 +70,8 @@
                    outline
                    flat
                    :disabled="spinner"
-                   @click.native="guardar">
-              Guardar
+                   @click.native="reset">
+              Reset
             </v-btn>
           </v-card-actions>
           <v-card-actions v-if="success">
@@ -131,7 +132,7 @@ export default {
       this.newPassword = "";
       this.confirmPassword = "";
     },
-    guardar() {
+    reset() {
       this.$v.$touch();
 
       if (this.$v.$invalid) {
@@ -208,6 +209,9 @@ export default {
           store.dispatch("getServerMsgError", error);
         });
     });
+  },
+  destroyed() {
+    this.$store.dispatch("resetServerMsg");
   }
 };
 </script>

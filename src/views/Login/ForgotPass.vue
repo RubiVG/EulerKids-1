@@ -29,11 +29,13 @@
         </div>
       </v-alert>
       <div v-if="!success">
-        <div class="grey--text text--darken-2 subheading">
+        <div v-if="!spinner"
+             class="grey--text text--darken-2 subheading">
           Enter the email address associated with your account, and we’ll email you a
           link to reset your password.
         </div>
-        <v-flex xs12>
+        <v-flex v-if="!spinner"
+                xs12>
           <v-text-field label="Email"
                         color="blue darken-1"
                         required
