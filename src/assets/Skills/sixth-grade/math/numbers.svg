@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1004.69" height="329.99997" version="1.1" viewBox="0 0 265.82423 87.312494" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g fill="#f9eab0">
+  <g transform="translate(68.288401,120.02829)">
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,113.27756,365.73105)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+  </g>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,359.60972,554.70364)" points=""/>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,375.62486,563.63077)" points=""/>
+  <polygon transform="matrix(3.4969519,0,0,3.4969519,139.36782,469.07685)" points=""/>
+  <g transform="translate(26.090265,103.3458)">
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,342.59567,411.52488)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,289.53119,373.17891)" points=""/>
+   <polygon transform="matrix(3.4969519,0,0,3.4969519,300.01292,440.20544)" points=""/>
+  </g>
+ </g>
+ <rect x=".11408447" y=".11408703" width="264.35516" height="87.084328" ry="3.035013" opacity="0" stroke-width=".22816895"/>
+ <g transform="translate(0,-507.42937)" fill="#ffba73" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="6">
+  <path d="m246.49966 579.49508q-1.50723 0.12919-2.32544-0.77515-0.73208-0.77515-0.73208-2.02399 0-1.24885 0.60289-2.23932 0.64595-1.03352 1.67948-1.20578 2.45463-0.43064 3.66042 0.43064 1.07659 0.73208 0.9474 2.11012-0.12919 1.29191-1.16272 2.3685-1.11966 1.16272-2.66995 1.33498zm-1.03353-19.68011q-0.51676-1.80868 0.51676-3.31591 2.15319-3.05752 10.07691-1.67948l2.28237-13.39281q-1.98093-0.99046-5.51215-1.24884-7.10551-0.43064-14.85697 3.35896-4.04799 1.98093-7.7084 9.43095-3.74654 7.7084-4.43556 16.06276-0.73209 9.6032 3.22977 16.01969 4.65088 7.57921 15.20149 9.2587 9.1295 1.46416 15.28761-3.61735 5.55521-4.56475 6.20117-12.01477 0.64595-7.49309-4.26331-12.78992-5.55521-5.98585-16.01969-6.07198z" fill="#ffba73" stroke-width=".26458335" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+ </g>
+ <g transform="translate(-74.513124,-85.824097)" fill="#fff" stroke="#f57c00" stroke-width=".79374999" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="numbers">
+  <path d="m200.63627 129.43164 1.36426 7.89616-6.87641 1.75011-1.39182-18.09364 6.90397-1.19889 6.80751 9.01237 0.0827-9.01237 8.54384-0.88195-3.03169 20.17448-5.47081 0.79926z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m217.71016 120.75 7.34495 1.43316q-3.66559 11.25857 1.04731 11.3826 5.59483-0.0413 3.23839-11.65821l6.72482-2.12217q3.08681 19.12717-9.96321 19.29253-13.18783-0.12402-8.39226-18.32791z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m259.38204 119.78538 1.15755 18.17632-7.02799 0.59256-0.37207-9.30176-1.41938 6.3941-6.31142 0.88194-2.56315-6.6008 0.92329 7.82725-6.43544 1.32292 0.88194-19.29253 6.3252-0.84061 3.50022 11.02431 4.24435-10.69358z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m266.58918 126.55154q4.27192-0.79926 4.18924-2.42534-0.0827-1.62609-4.36838-0.50988zm0.66146 8.18555q6.24252-0.24805 6.2563-2.1773 0.0276-1.92925-6.463-1.84657zm-5.99446 4.34082 0.50987-17.84559q9.85297-4.0101 13.54612-0.38585 3.69314 3.62424-0.93707 7.3036 7.028 2.16352 4.53375 7.06933-2.48047 4.89204-17.65267 3.85851z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m295.04567 117.30491 0.35829 7.3036-8.5714 0.92329 0.11025 1.66742 5.62239-0.52365 0.4961 4.9885-5.87045 0.42719 0.0965 1.35047 8.32335-0.63389 1.24023 6.27007-16.41243 0.565 1.66742-19.88509z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m304.27853 124.3329 0.19293 3.72071q6.89019 0 6.89019-1.37804t-7.08312-2.34267zm0.92329 13.6288-7.67568 1.07487 1.59853-20.57411q17.74913 1.32292 18.34169 7.11068 0.60633 5.77398-6.10471 7.99262l5.51215 2.99034-5.64996 5.00228-6.463-7.99262z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  <path d="m323.72265 131.45736q-4.97472-0.7028-4.39594-6.18739 0.57877-5.48459 12.78819-6.49056l1.15755 6.22873q-6.04959-0.1378-6.49056 1.43316t4.63021 1.80523 4.96094 6.17361q-0.11024 5.93935-13.35319 6.33898l-2.43913-6.51812q6.77995 0.73036 7.45519-0.67524 0.67524-1.41938-4.31326-2.1084z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+ </g>
+ <g transform="matrix(1.3643142,0,0,1.3643142,-72.231552,-140.25914)">
+  <g transform="translate(27.490419,103.3458)" stroke="#f57c00">
+   <g transform="matrix(1.6163142,0,0,1.6163142,-233.52071,-6.0440646)" fill="#f57c00" stroke-width="1.05833328" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="4">
+    <path d="m178.17531 22.737582h-4.32015l0.18604-9.260416-7.13135 0.206706v15.006835l10.87272 0.392741-0.78548 12.050944 7.48275 0.186035 0.59944-27.843261h-6.71793z" fill="#f57c00" stroke="#f57c00" stroke-width="1.05833328" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+   <g transform="matrix(1.6163142,0,0,1.6163142,-235.63739,-6.0440646)" fill="#fff" stroke-width=".65478194" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="3">
+    <path d="m189.75488 4.8712626 0.093 3.1522623 3.97909-0.093018-3.34864 2.4287931q0.91984-0.134359 1.80868 0.103352 1.79834 0.475424 1.74666 2.34611-0.062 1.881022-1.80867 1.850017-0.8785-0.02067-1.74667-0.413412l-0.81648 3.369303q1.48828 0.475424 3.24528 0.506429 3.48299 0.07235 4.76456-2.118733 1.757-3.017904-0.031-5.105632-0.89917-1.0438638-2.05673-1.591634l3.57601-4.3924966z" fill="#fff" stroke="#f57c00" stroke-width=".65478194" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+  </g>
+  <rect x="87.659355" y="120.76468" width="3.6626475" height="14.894766" ry="1.8313237" fill="#ffd8b0"/>
+ </g>
+</svg>

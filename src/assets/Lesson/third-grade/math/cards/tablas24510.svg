@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="452.94138mm"
+   height="218.28125mm"
+   version="1.1"
+   viewBox="0 0 452.94138 218.28125"
+   id="svg1525"
+   sodipodi:docname="tablas24510.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1913"
+     inkscape:window-height="1030"
+     id="namedview1527"
+     showgrid="false"
+     inkscape:zoom="0.42724417"
+     inkscape:cx="876.01296"
+     inkscape:cy="316.48012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1525" />
+  <defs
+     id="defs1197">
+    <pattern
+       id="pattern19315"
+       width="700.00001"
+       height="699.99998"
+       patternTransform="matrix(.26458333 0 0 .26458333 615.05186 -407.90118)"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="m0 0v52.7304l62.0019-13.7773 19.078101-38.9531zm200.8281 0 30.0098 43.1386-117.209-26.5117-19.535199 79.535201-94.093701-35.437501v128.1191l14.5586 4.9922 20.9316-75.3476 75.3477 71.1621 55.8144-129.7676 78.1387 62.791 40.4668-100.4648 62.789 16.7441 5.6661-38.9531zm171.793 0 47.9843 135.2324-122.791-58.605499-40.4648 119.999999-73.9531-80.9297-50.2325 128.3711-89.3027-50.2324-43.8613 68.5352v74.582l57.8144-102.6504 99.0703 101.8594-85.115199-26.5117 69.767599 120 5.5801-60 53.0234 83.7207-89.3027 6.9765 11.164 80.9317-96.2793-125.5821 69.767601 9.7676-26.5117-54.418-43.255901 8.3711 27.9063-72.5586-53.6289 40.8047v101.7442l42.4668 26.289-18.1407 26.5118 97.6758 65.58199-85.1172-19.53516 60.000001 82.32423-58.603501-33.48829 25.449201 102.90821h46.197299l-47.9258-66.6289 54.418 13.95312-19.535199 5.58203 26.511799 18.14063-13.9532 8.37109 6.0039 20.58203h35.6153l-38.8282-95.93165 78.1387 18.14064-27.9062-133.95317 97.6738 48.836 39.0703-107.4414 20.9297 138.14059 51.6289-69.76759 72.5566 89.30079 58.6055-161.85939 58.6035 89.3028 34.8848-78.1407 58.60551 120.00002s25.3676-31.70342 44.9746-52.50392v-39.5508l-40.7891 47.4043-40.46481-86.5117 41.85931 46.0469-25.1152-101.8613 43.2559 90.6972-2.7911-46.0449 24.045 25.9688v-28.5059l-71.4864-82.5801-16.74411 75.3496-48.8379-82.3261 30.6973 19.5351 25.1172-58.6055 71.16211 73.9532 10.0918-6.92v-76.3359l-37.9981-66.0449-22.3262 66.9766-51.62891-62.7911-4.1855 85.1153h-55.8145l46.0469 89.3027-136.7441-12.5586 1.3965 73.9551-62.7911-93.4883 126.9766-16.7441-43.2559-85.1172 55.8145 12.5586 69.7676-92.0938 43.25581 43.2559 36.2774-83.7207 35.209 50.666v-108.611299l-44.9746-20.193401-30.6993 104.6504-32.09181-68.373099-43.2558 111.628999-32.0938-97.6739-1.3945 115.8125-142.3262-32.0918 120-64.1855-55.8144-90.6992 62.791 23.7207 46.7129-57.0918zm177.5918 0-5.4219 145 40.4668-108.8379 34.88281 44.652301 16.6055-80.814401zm107.19721 0 42.5899 54.8613v-54.8613zm-253.54881 22.209 47.4414 83.7207 23.7227 11.1621-33.4903 6.9785zm-78.1387 93.4882 57.209 29.3028-33.4883 26.5117 2.791 37.6738 99.0684 30.6973-80.9297-4.1856 82.3262 53.0235-140.9297-33.4883 23.7207-100.4648-47.4434 27.9062zm-135.3496 73.9532 33.4883 73.9531 79.5352-61.3945-34.8829 80.9296 136.7442 22.3262-80.9317 41.8594 107.4434 128.373-150.6992-85.1172-12.5567 58.6055-75.3496-54.4179 55.8145 2.791-11.1641-66.9786 65.5821 32.0938-64.1856-69.7676 18.1387-27.9062-68.3711 48.8359 2.791-53.0215-47.4434 19.5332zm245.582 111.6289 37.6739 22.3242-66.9766 8.373 33.4883-13.9531zm-217.6738 13.9531 4.1856 57.209-92.0938-20.9297 72.5586-1.3965zm274.8828 78.1387 51.627 4.1875-19.5332 11.1621 27.9062 36.2793 20.9297-30.6973-15.3476 64.1856zm-20.9297 29.3027-37.6757 118.6055-47.4414-57.211 44.6523 26.5117zm-262.3261 11.1621 46.0468 43.2559-6.9765 37.6758-71.1641-40.4649 62.791 18.1387zm106.0468 0 47.4415 26.5117-32.0938 68.3731 15.3496-62.791zm-315.955 44.0664v37.5547l20.1406 10.4727zm142.9316 25.7012 22.3262 87.90819-79.535199-5.58203 57.208999-6.97656zm369.7676 19.5351-41.8613 147.90826-90.6973-117.21095-44.6504 69.76759-103.2559-66.97658 22.3243 94.88478-76.7442 4.18555-12.2539 44.30273h67.1778l41.3554-26.16406 1.3965-64.18556 86.5117 41.86134 29.3008-40.46485 45.9766 88.95313h62.0488l41.2773-118.25587 66.9766 68.37111 26.51171-50.23244 6.9766 62.79103 58.9297-19.64258v-110.63283l-37.9981 78.64845-44.65231-64.1875-4.1856 50.23242zm-512.6992 10.4512v34.46291l24.3261 8.10937zm0 57.57033v59.75196l29.9082 1.99414zm550.373 43.60743-42.209 65.23242h70.9121zm-246.9765 13.95313 23.8496 51.27929h38.5781zm87.9062 5.58203-7.6152 45.69726h43.8593zm-391.3027 6.95312v38.74414h41.5605zm620.14061 8.39453-10.31841 30.34961h26.98051zm79.8594 1.63477-16.8457 28.71484h16.8457z"
+         fill="#bd39d3"
+         id="path1191" />
+    </pattern>
+    <pattern
+       id="pattern46666"
+       width="780"
+       height="449.99989"
+       patternTransform="matrix(.26458333 0 0 .26458333 617.6756 115.48758)"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="m751.14482 449.99989c15.98626 0 28.85518-12.86903 28.85518-28.85549v-233.74601l-128.47446-51.69332 44.45896-93.857385-40.68548-41.847685h-50.48239l-7.58589 161.66589 182.41776 87.84374-82.59553 200.49026zm-100.65638 0l46.22287-183.60741-194.75604-32.54687-8.66003-158.792886-212.40831 44.097636-45.15024-119.15036h-66.68976l23.98639 184.7636 196.32416-11.54899-31.75786 127.03529 242.51981-5.77542 1.48233 155.52541zm-108.30085 0l-52.21871-64.82812-210.32239-4.08401-20.20876-141.46874-106.82419 43.30666-63.517603-204.986531-57.74211 54.855681-31.353827-85.212846v221.052656l63.111685-60.7734 43.306585 132.80663 103.93738-20.20902 37.01178 129.54104zm-345.744 0l-29.39452-63.13671-86.615432 23.09764-43.306583-95.27539-37.127055 48.7285v57.73047c0 15.98646 12.871181 28.85549 28.857827 28.85549zm583.55641-315.71668v-105.425761c0-15.986646-12.86892-28.857449-28.85518-28.857449h-38.23824l44.82595 15.499842-63.39439 84.802768zm-419.51358-90.988344 217.54507-43.294866h-262.79092z"
+         fill="#c042d5"
+         id="path1194" />
+    </pattern>
+  </defs>
+  <metadata
+     id="metadata1199">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     fill="#f9eab0"
+     id="g1209">
+    <polygon
+       transform="matrix(3.4969519,0,0,3.4969519,454.53799,116.97428)"
+       points=""
+       id="polygon1201" />
+    <polygon
+       transform="matrix(9.1061708,0,0,9.0930789,1282.4585,1088.9576)"
+       points=""
+       id="polygon1203" />
+    <polygon
+       transform="matrix(3.4969519,0,0,3.4969519,828.57006,-535.68054)"
+       points=""
+       id="polygon1205" />
+    <polygon
+       transform="matrix(3.4969519,0,0,3.4969519,-1847.954,290.9635)"
+       points=""
+       id="polygon1207" />
+  </g>
+  <g
+     transform="translate(-664.84965,-16.9212)"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1223">
+    <text
+       x="-1222.3983"
+       y="-173.37076"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1213"><tspan
+         x="-1222.3983"
+         y="-164.00699"
+         stroke-width=".26458332"
+         id="tspan1211" /></text>
+    <text
+       x="-2245.1282"
+       y="-126.3082"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1217"><tspan
+         x="-2245.1282"
+         y="114.67583"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1215" /></text>
+    <text
+       x="912.07428"
+       y="386.35889"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1221"><tspan
+         x="912.07428"
+         y="395.72266"
+         stroke-width=".26458332"
+         id="tspan1219" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1844.8227,325.5531)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1225" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1239">
+    <text
+       x="-1884.1167"
+       y="-155.70239"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1229"><tspan
+         x="-1884.1167"
+         y="-146.33862"
+         stroke-width=".26458332"
+         id="tspan1227" /></text>
+    <text
+       x="-2906.8464"
+       y="-108.63977"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1233"><tspan
+         x="-2906.8464"
+         y="132.34424"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1231" /></text>
+    <text
+       x="250.35588"
+       y="404.02722"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1237"><tspan
+         x="250.35588"
+         y="413.39099"
+         stroke-width=".26458332"
+         id="tspan1235" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1995.5073,296.8216)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1241" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1255">
+    <text
+       x="-2034.8013"
+       y="-184.43384"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1245"><tspan
+         x="-2034.8013"
+         y="-175.07007"
+         stroke-width=".26458332"
+         id="tspan1243" /></text>
+    <text
+       x="-3057.531"
+       y="-137.37134"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1249"><tspan
+         x="-3057.531"
+         y="103.61267"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1247" /></text>
+    <text
+       x="99.671333"
+       y="375.29578"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1253"><tspan
+         x="99.671333"
+         y="384.65955"
+         stroke-width=".26458332"
+         id="tspan1251" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1995.2633,351.059)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1257" />
+  <g
+     transform="translate(-11.898241,-382.70925)"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1271">
+    <text
+       x="-2022.6592"
+       y="252.51283"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1261"><tspan
+         x="-2022.6592"
+         y="261.87659"
+         stroke-width=".26458332"
+         id="tspan1259" /></text>
+    <text
+       x="-3045.3889"
+       y="299.57538"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1265"><tspan
+         x="-3045.3889"
+         y="540.55945"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1263" /></text>
+    <text
+       x="111.81351"
+       y="812.24249"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1269"><tspan
+         x="111.81351"
+         y="821.60626"
+         stroke-width=".26458332"
+         id="tspan1267" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-2146.4126,299.0589)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1273" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1287">
+    <text
+       x="-2185.7068"
+       y="-182.19659"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1277"><tspan
+         x="-2185.7068"
+         y="-172.83282"
+         stroke-width=".26458332"
+         id="tspan1275" /></text>
+    <text
+       x="-3208.4365"
+       y="-135.13403"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1281"><tspan
+         x="-3208.4365"
+         y="105.84998"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1279" /></text>
+    <text
+       x="-51.233967"
+       y="377.53308"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1285"><tspan
+         x="-51.233967"
+         y="386.89685"
+         stroke-width=".26458332"
+         id="tspan1283" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-2141.5477,362.3612)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1289" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1303">
+    <text
+       x="-2180.8418"
+       y="-118.89429"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1293"><tspan
+         x="-2180.8418"
+         y="-109.53052"
+         stroke-width=".26458332"
+         id="tspan1291" /></text>
+    <text
+       x="-3203.5715"
+       y="-71.831665"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1297"><tspan
+         x="-3203.5715"
+         y="169.15234"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1295" /></text>
+    <text
+       x="-46.369076"
+       y="440.83533"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1301"><tspan
+         x="-46.369076"
+         y="450.1991"
+         stroke-width=".26458332"
+         id="tspan1299" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1847.954,1297.6458)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1305" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1319">
+    <text
+       x="-1887.2479"
+       y="816.39038"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1309"><tspan
+         x="-1887.2479"
+         y="825.75415"
+         stroke-width=".26458332"
+         id="tspan1307" /></text>
+    <text
+       x="-2909.9778"
+       y="863.45288"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1313"><tspan
+         x="-2909.9778"
+         y="1104.437"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1311" /></text>
+    <text
+       x="247.22462"
+       y="1376.1199"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1317"><tspan
+         x="247.22462"
+         y="1385.4836"
+         stroke-width=".26458332"
+         id="tspan1315" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1844.8227,1332.2354)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1321" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1335">
+    <text
+       x="-1884.1167"
+       y="850.97998"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1325"><tspan
+         x="-1884.1167"
+         y="860.34375"
+         stroke-width=".26458332"
+         id="tspan1323" /></text>
+    <text
+       x="-2906.8464"
+       y="898.04248"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1329"><tspan
+         x="-2906.8464"
+         y="1139.0266"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1327" /></text>
+    <text
+       x="250.35588"
+       y="1410.7095"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1333"><tspan
+         x="250.35588"
+         y="1420.0732"
+         stroke-width=".26458332"
+         id="tspan1331" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1995.5073,1303.5039)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1337" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1351">
+    <text
+       x="-2034.8013"
+       y="822.24841"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1341"><tspan
+         x="-2034.8013"
+         y="831.61218"
+         stroke-width=".26458332"
+         id="tspan1339" /></text>
+    <text
+       x="-3057.531"
+       y="869.31104"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1345"><tspan
+         x="-3057.531"
+         y="1110.2949"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1343" /></text>
+    <text
+       x="99.671333"
+       y="1381.978"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1349"><tspan
+         x="99.671333"
+         y="1391.3418"
+         stroke-width=".26458332"
+         id="tspan1347" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-1995.2633,1357.7414)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1353" />
+  <g
+     transform="translate(-11.898241,623.9731)"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1367">
+    <text
+       x="-2022.6592"
+       y="252.51283"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1357"><tspan
+         x="-2022.6592"
+         y="261.87659"
+         stroke-width=".26458332"
+         id="tspan1355" /></text>
+    <text
+       x="-3045.3889"
+       y="299.57538"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1361"><tspan
+         x="-3045.3889"
+         y="540.55945"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1359" /></text>
+    <text
+       x="111.81351"
+       y="812.24249"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1365"><tspan
+         x="111.81351"
+         y="821.60626"
+         stroke-width=".26458332"
+         id="tspan1363" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-2146.4126,1305.7412)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1369" />
+  <g
+     fill="#000000"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1383">
+    <text
+       x="-2185.7068"
+       y="824.48572"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1373"><tspan
+         x="-2185.7068"
+         y="833.84949"
+         stroke-width=".26458332"
+         id="tspan1371" /></text>
+    <text
+       x="-3208.4365"
+       y="871.54834"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1377"><tspan
+         x="-3208.4365"
+         y="1112.5322"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1375" /></text>
+    <text
+       x="-51.233967"
+       y="1384.2153"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1381"><tspan
+         x="-51.233967"
+         y="1393.5791"
+         stroke-width=".26458332"
+         id="tspan1379" /></text>
+  </g>
+  <polygon
+     transform="matrix(3.4969519,0,0,3.4969519,-2141.5477,1369.0435)"
+     points=""
+     fill="#f9eab0"
+     id="polygon1385" />
+  <g
+     transform="translate(633.26801,637.1307)"
+     letter-spacing="0px"
+     word-spacing="0px"
+     id="g1399">
+    <text
+       x="-2814.1099"
+       y="250.65732"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1389"><tspan
+         x="-2814.1099"
+         y="260.02109"
+         stroke-width=".26458332"
+         id="tspan1387" /></text>
+    <text
+       x="-3836.8396"
+       y="297.71988"
+       font-family="'SC Gum Kids'"
+       font-size="266.9718323px"
+       stroke-width=".80091542"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25"
+       xml:space="preserve"
+       id="text1393"><tspan
+         x="-3836.8396"
+         y="538.70392"
+         font-family="'SC Gum Kids'"
+         font-size="266.9718323px"
+         stroke-width=".80091542"
+         style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+         id="tspan1391" /></text>
+    <text
+       x="-679.63708"
+       y="810.38696"
+       font-family="sans-serif"
+       font-size="10.58333302px"
+       stroke-width=".26458332"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text1397"><tspan
+         x="-679.63708"
+         y="819.75073"
+         stroke-width=".26458332"
+         id="tspan1395" /></text>
+  </g>
+  <rect
+     x="5.1217259e-5"
+     y="4.280472e-9"
+     width="452.94128"
+     height="218.28125"
+     opacity="0"
+     stroke-width=".4087455"
+     id="rect1401" />
+  <g
+     stroke="#9c27b0"
+     stroke-linecap="round"
+     stroke-width="1.32291675"
+     id="g1417">
+    <path
+       d="m111.13504 68.89296-89.448762-23.96772 6.25914 42.76465-26.80291 33.90571 89.44876 23.96772z"
+       fill="#fff"
+       id="path1403" />
+    <path
+       d="m341.80635 68.89296 89.44876-23.96772-6.25914 42.76465 26.80291 33.90571-89.44876 23.96772z"
+       fill="#fff"
+       id="path1405" />
+    <path
+       d="m391.83528 78.89429-50.02892-10.00133 20.54376 76.67037 29.48516 12.70596z"
+       fill="#9c27b0"
+       id="path1407" />
+    <path
+       d="m391.83528 78.89429-50.02892-10.00133 20.54376 76.67038 29.48516 12.70596z"
+       fill="url(#pattern19315)"
+       id="path1409" />
+    <path
+       d="m61.106108 78.89429 50.028922-10.00133-20.543762 76.67037-29.48516 12.70596z"
+       fill="#9c27b0"
+       id="path1411" />
+    <path
+       d="m61.10611 78.89429 50.02892-10.00133-20.54376 76.67037-29.48516 12.70596z"
+       fill="url(#pattern46666)"
+       id="path1413" />
+    <path
+       d="m61.106108 78.89429s94.177372 18.67002 165.364592 18.67002 165.36458-18.67002 165.36458-18.67002v79.375s-92.48624 18.67002-165.36458 18.67002-165.364592-18.67002-165.364592-18.67002z"
+       fill="#fff"
+       id="path1415" />
+  </g>
+  <g
+     fill="#fff"
+     stroke-width=".26458335"
+     aria-label="Ejercicio"
+     id="g1437">
+    <path
+       d="m186.40072 191.70512h2.13596q2.41157 0 2.82498 0.89572 0.20671 0.25839 0.20671 0.62012h0.0689q0 0.89573-2.34267 0.89573-3.03168 0.17225-3.03168 0.48231-0.75792 3.03168-0.75792 7.1658 0 1.10243 0.89572 1.10243h0.62012l2.61827-0.0689q1.01631 0 1.72255 0.96462v0.20671q0 0.60289-4.75423 1.44694-1.10243 0.46509-1.10243 0.75792v2.75608l0.0689 0.75792-0.1378 0.41341q0.24115 0 0.41341 3.44509 0.25838 1.24024 1.24023 1.24024l4.27192 0.34451q0.46509 0.29283 0.96463 0.89572-0.7407 1.03353-2.75608 1.03353l-0.0689 0.0689q-5.09874-0.1378-5.09874-0.82682-0.34451-0.1378-0.55122-0.89572l0.0689-2.82498v-0.34451l-0.2067-9.64627v-3.03168q0-6.66626 1.65364-7.57921 0.39619-0.27561 1.03353-0.27561z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1419" />
+    <path
+       d="m202.43764 189.70696q1.03353 0 1.03353 1.17134l0.0689 0.82682q-0.43063 0-0.49954 10.30083-0.0517 10.30084-1.49861 12.3679-1.22301 2.75607-2.96278 2.75607h-0.27561q-2.72163 0-4.47863-1.99815l-0.55121-2.20486v-0.27561q0.55121-1.72255 1.24023-1.72255h0.20671q0.39618 0 0.75792 2.34267 0.49954 1.17133 2.48047 1.17133h0.68902q0.18948-0.0344 0.75792-1.17133 0.53399-0.25839 0.96463-1.79145 0.1378 0 0.1378-0.20671 0.34451-3.03168 0.44786-12.05783t0.86128-9.02615q0.34451-0.48232 0.62011-0.48232z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1421" />
+    <path
+       d="m209.12113 190.75772q1.51584 0 3.5829 1.65364 0.34451 0.62012 0.34451 1.24024 0 3.08336-1.99816 4.27192-2.29099 0.68901-3.7896 0.68901-0.34451 0.36174-0.34451 1.10244v1.17133q0 3.73793 0.96462 8.40603 0 2.51492 1.92926 4.89204 0.60289 0.48231 0.89572 0.48231h0.48231q0.68902-0.25838 1.72255-0.89572l0.41341-0.0689q0.49954 0 0.75792 0.82683 0 1.55029-2.41156 3.10058l-1.10243 0.20671q-0.98185 0-3.4451-2.68718-1.30913-2.04983-1.30913-4.96093-0.89573-4.37528-1.03353-11.16211 0-2.75608 1.92925-6.89019 1.6192-1.37804 2.41157-1.37804zm-1.58475 5.51215 0.34451 0.20671q2.17041 0 2.89388-1.17134 0.20671-0.36173 0.20671-0.68902v-0.2756q0-1.03353-1.30914-1.03353-1.8259 0-2.13596 2.89388z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1423" />
+    <path
+       d="m222.36752 195.18466q1.65365 0.56845 2.27376 1.79145l0.0689 0.34451q-0.24115 1.30914-1.10243 1.30914-0.51676 0-1.79145-1.17133h-0.55121q-1.56752 0-3.04891 1.60197t-0.43064 9.74962q1.06798 8.14765-0.15503 7.51031l-1.24023 0.0344q-0.67179-0.32729-0.82682-8.21656-0.13781-7.90649-0.46509-12.23009 0-1.10243 1.44694-1.10243 0.89572 0 0.89572 0.82683l-0.0689 1.03353q0.1378 0.31005 0.27561 0.34451h0.27561q1.58474-1.82591 4.44417-1.82591z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1425" />
+    <path
+       d="m233.2368 190.9472q3.16948 0 3.16948 1.58474v0.0689q0 0.68902-1.10243 0.96463l-2.68717-0.1378q-1.27469 0-1.99816 1.72254-0.72347 0.43064-1.86035 4.20302-0.68902 2.5666-0.68902 4.75423v0.55122q0 1.99815 1.10243 6.20117 0 1.61919 2.48047 3.5829 0.63735 0.34451 1.03353 0.34451h0.55122q0.36173 0 1.37803-0.62012l0.34451-0.0689q0.89573 0.34451 0.89573 1.30914v0.0689q-0.72347 1.92925-3.514 1.92925-0.96462 0-3.44509-2.06706-0.89573-0.96462-1.10243-1.86035-1.92926-5.80498-1.92926-8.81944 0-4.30637 1.79145-9.30176 1.25746-2.46324 2.48047-3.514 1.37804-0.89572 3.10059-0.89572z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1427" />
+    <path
+       d="m239.21404 190.2065q0.75792 0 1.17133 1.37804-0.34451 1.24023-1.37804 1.24023h-0.2067q-0.75792 0-0.96463-1.17133 0-0.89572 1.30914-1.44694zm0.24116 5.09874q0.75792 0 0.75792 3.16949l0.0689 3.37619q-0.17226 14.64166-0.48232 14.64166-0.75792 0.82682-1.37803 0.82682-0.75792 0-1.03353-1.92925l0.0689-0.0689v-0.0689l0.68902-6.27008 0.1378-6.75238-0.2067-5.1332q0.24115-1.79145 1.37804-1.79145z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1429" />
+    <path
+       d="m249.29094 190.9472q3.16949 0 3.16949 1.58474v0.0689q0 0.68902-1.10243 0.96463l-2.68717-0.1378q-1.27469 0-1.99816 1.72254-0.72347 0.43064-1.86035 4.20302-0.68902 2.5666-0.68902 4.75423v0.55122q0 1.99815 1.10243 6.20117 0 1.61919 2.48047 3.5829 0.63734 0.34451 1.03353 0.34451h0.55121q0.36174 0 1.37804-0.62012l0.34451-0.0689q0.89573 0.34451 0.89573 1.30914v0.0689q-0.72347 1.92925-3.514 1.92925-0.96463 0-3.4451-2.06706-0.89572-0.96462-1.10243-1.86035-1.92925-5.80498-1.92925-8.81944 0-4.30637 1.79145-9.30176 1.25746-2.46324 2.48047-3.514 1.37803-0.89572 3.10058-0.89572z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1431" />
+    <path
+       d="m255.26818 190.2065q0.75793 0 1.17134 1.37804-0.34451 1.24023-1.37804 1.24023h-0.20671q-0.75792 0-0.96462-1.17133 0-0.89572 1.30913-1.44694zm0.24116 5.09874q0.75792 0 0.75792 3.16949l0.0689 3.37619q-0.17225 14.64166-0.48231 14.64166-0.75792 0.82682-1.37804 0.82682-0.75792 0-1.03353-1.92925l0.0689-0.0689v-0.0689l0.68901-6.27008 0.13781-6.75238-0.20671-5.1332q0.24116-1.79145 1.37804-1.79145z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1433" />
+    <path
+       d="m264.58716 194.70235q2.89388 0.56844 2.89388 1.92925 3.01446 4.49585 0.82683 14.81392-1.37804 3.60012-2.48047 4.61642-1.53307 1.92926-3.03169 1.92926-2.32544 0-3.5829-3.03169l-1.17133-5.78776v-1.03353q0-3.47954 1.17133-8.47493 0.18948-0.27561 0.34451-1.24024 1.6192-3.58289 3.10059-3.58289zm-1.30913 2.54937h-0.13781q-0.80959 0-1.10243 1.30914-1.44694 2.65272-1.44694 5.51215-0.2067 0.51677-0.2067 1.79145v2.34267q0 3.04891 1.10243 6.27007 0.51676 1.03353 1.03353 1.03353 0.82682 0 2.34266-1.99816 0.44786 0 1.44694-2.13596 0.41341-1.49861 0.82682-5.71885 0-4.15134-1.10243-6.68349-0.55121-1.49862-0.89572-1.79145z"
+       style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"
+       id="path1435" />
+  </g>
+  <path
+     d="m291.52802 212.11847c-1.29147 1.29147-5.11475-2.63191-6.91868-2.34619-1.80393 0.28571-4.22769 5.19852-5.85504 4.36934-1.62734-0.82917 0.92255-5.67771 0.0934-7.30506-0.82918-1.62735-6.25052-2.41434-5.96481-4.21827 0.28572-1.80393 5.68491-0.87711 6.97638-2.16858s0.36466-6.69067 2.16859-6.97639c1.80393-0.28571 2.59092 5.13563 4.21827 5.96481 1.62735 0.82917 6.47589-1.72072 7.30506-0.0934 0.82918 1.62734-4.08363 4.0511-4.36934 5.85503-0.28572 1.80393 3.63766 5.62721 2.34619 6.91868z"
+     fill="#9c27b0"
+     id="path1439" />
+  <path
+     d="m161.41336 212.11847c1.29147 1.29147 5.11475-2.63191 6.91868-2.34619 1.80393 0.28571 4.22769 5.19852 5.85503 4.36934 1.62735-0.82917-0.92254-5.67771-0.0934-7.30506 0.82918-1.62735 6.25052-2.41434 5.96481-4.21827-0.28572-1.80393-5.68492-0.87711-6.97639-2.16858s-0.36465-6.69067-2.16858-6.97639c-1.80393-0.28571-2.59092 5.13563-4.21827 5.96481-1.62735 0.82917-6.47589-1.72072-7.30507-0.0934-0.82917 1.62734 4.08364 4.0511 4.36935 5.85503 0.28572 1.80393-3.63766 5.62721-2.34619 6.91868z"
+     fill="#9c27b0"
+     id="path1441" />
+  <g
+     id="g1666"
+     transform="matrix(1.8354213,0,0,1.8354213,-264.295,108.13584)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path1501"
+       style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;fill:#ffffff;stroke:#9c27b0;stroke-width:1.69274986"
+       d="m 293.58936,-43.529574 11.57153,0.484902 0.68327,-6.502099 -17.87526,-0.683272 0.28654,13.621348 q 2.73309,-0.573067 5.09148,-0.352658 4.71677,0.462862 4.82697,4.474327 0.13228,4.033506 -3.96738,4.584531 -2.04981,0.286533 -4.14371,-0.242451 l -0.39674,6.656386 q 4.36412,0.528984 8.68416,-0.573067 8.61803,-2.160019 8.19925,-10.204988 -0.37469,-8.044972 -6.74454,-9.653965 -3.15187,-1.013887 -6.25965,-0.19837 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1509"
+       style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;fill:#ffffff;stroke:#9c27b0;stroke-width:1.69274986"
+       d="m 240.21561,-41.152992 h -4.60658 l 0.19837,-9.874383 -7.60415,0.220411 v 16.001768 l 11.59357,0.418784 -0.83756,12.849908 7.97885,0.198379 0.63918,-29.68925 h -7.16332 z" />
+    <g
+       transform="matrix(0.03970406,0.03790424,-0.03790424,0.03970406,267.31285,-52.477972)"
+       id="g1519"
+       style="fill:#ef5350">
+      <g
+         id="g1517"
+         style="fill:#ef5350">
+        <g
+           id="g1515"
+           style="fill:#ef5350">
+          <path
+             d="M 477.549,182.379 H 329.018 V 33.847 c 0,-18.69 -15.154,-33.844 -33.844,-33.844 H 216.22 c -18.69,0 -33.844,15.153 -33.844,33.844 V 182.373 H 33.844 C 15.153,182.373 0,197.526 0,216.216 v 78.966 c 0,18.691 15.153,33.844 33.844,33.844 h 148.532 v 148.527 c 0,18.689 15.153,33.842 33.844,33.842 h 78.96 c 18.691,0 33.844,-15.152 33.844,-33.842 V 329.026 h 148.533 c 18.689,0 33.842,-15.152 33.842,-33.844 v -78.966 c -0.006,-18.69 -15.153,-33.837 -33.85,-33.837 z"
+             id="path1513"
+             inkscape:connector-curvature="0"
+             style="fill:#ef5350" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     aria-label="Tablas de multiplicar"
+     transform="rotate(-1.1460956,-1947.577,-561.57776)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;line-height:1.25;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     id="text1531">
+    <path
+       d="m 66.244068,136.34159 -1.284358,5.78296 4.9616,1.43937 -3.445329,15.94726 6.150605,1.36494 3.738092,-15.9836 4.750959,1.02465 1.311061,-5.1405 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1606" />
+    <path
+       d="m 82.528105,158.65629 q -0.532076,-0.18207 -0.841195,-0.48917 -0.293029,-0.3041 -0.274392,-0.58359 0.03772,-0.29259 0.389385,-0.3937 0.402925,-0.10822 1.101868,0.0716 0.489788,0.14093 0.734551,0.43607 0.212585,0.28916 0.142692,0.57577 -0.07288,0.3027 -0.392374,0.40979 -0.341558,0.13627 -0.860535,-0.0267 z m 6.513848,-10.42412 q -4.077787,-1.52324 -7.167116,-1.64781 -1.554203,-0.0557 -2.282597,0.19176 l 0.06332,4.85523 q 1.894619,-0.16397 3.880673,0.25495 3.972109,0.83784 4.385155,3.81068 -1.344964,-1.18196 -3.205034,-2.01022 -3.752319,-1.66251 -6.411285,0.1071 -1.577497,1.0551 -2.204166,2.63639 -0.623681,1.56519 -0.09951,3.04405 0.5545,1.58435 2.207701,2.54063 1.8504,1.05948 4.720462,1.11002 2.343262,0.0192 4.0325,-1.54771 l -0.632207,1.87985 5.48631,1.0193 q 1.60914,-3.19633 2.066562,-6.82301 0.405903,-3.17021 -0.523655,-5.42344 -1.142584,-2.80878 -4.317108,-3.99777 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1608" />
+    <path
+       d="m 104.46583,159.99042 q -0.7827,-0.28918 -1.03115,-0.70942 -0.22378,-0.36665 -0.0171,-0.73163 0.20159,-0.33266 0.66267,-0.52496 0.49341,-0.18721 0.97834,-0.11069 1.0779,0.20323 1.5016,0.66769 0.38032,0.42448 0.17704,0.87284 -0.222,0.46197 -0.8124,0.63387 -0.67631,0.19148 -1.45902,-0.0977 z m 7.51741,-5.85459 q -2.58905,-2.91013 -6.36204,-2.72687 -1.90138,0.081 -3.31354,0.73618 l 1.26261,-8.00127 -6.72427,-0.74633 -3.349114,21.22357 6.082004,1.14199 0.364755,-2.31148 q 0.231455,0.63292 0.700305,1.65121 1.37659,1.14496 3.5307,1.66712 2.70965,0.67609 4.96143,-0.57555 2.15737,-0.96833 3.6468,-3.268 1.13213,-2.24009 1.02812,-4.62554 -0.38817,-2.57939 -1.82776,-4.16503 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1610" />
+    <path
+       d="m 116.12181,146.34488 -2.98777,21.47574 6.66153,0.92677 3.3201,-21.72689 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1612" />
+    <path
+       d="m 127.88006,165.73506 q -0.5423,-0.1489 -0.86978,-0.43634 -0.31123,-0.28544 -0.30988,-0.56555 0.0196,-0.29436 0.36435,-0.41697 0.39548,-0.13288 1.10419,0.003 0.49755,0.11044 0.76006,0.38991 0.23002,0.27549 0.17794,0.56587 -0.0541,0.30662 -0.36634,0.43321 -0.3325,0.15709 -0.86054,0.0264 z m 5.85824,-10.80618 q -4.164,-1.26873 -7.25513,-1.20244 -1.55468,0.0403 -2.26641,0.33223 l 0.36277,4.84208 q 1.88089,-0.28056 3.88901,0.015 4.01624,0.59116 4.61192,3.53284 -1.41533,-1.09671 -3.32296,-1.80863 -3.84775,-1.42781 -6.39246,0.50249 -1.50939,1.15043 -2.03729,2.76737 -0.52592,1.60069 0.0885,3.04439 0.6512,1.54712 2.36025,2.39956 1.91225,0.9433 4.77996,0.81666 2.33999,-0.12538 3.92932,-1.79358 l -0.51501,1.91528 5.53875,0.67883 q 1.40885,-3.28952 1.64163,-6.93752 0.20952,-3.18921 -0.85729,-5.38079 -1.31372,-2.73293 -4.55556,-3.72378 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1614" />
+    <path
+       d="m 142.01324,164.6131 q 1.43234,0.80214 2.57008,1.42658 3.1233,1.97572 3.83361,1.45516 0.26238,-0.31896 0.12416,-0.57958 -0.13822,-0.26063 -1.52991,-0.97644 -1.37376,-0.73045 -3.17086,-1.50354 -1.79709,-0.77309 -2.32854,-2.19171 -0.50381,-1.3665 0.17944,-2.76147 0.74357,-1.50402 2.49615,-2.24854 2.0262,-0.84854 4.84121,-0.38411 2.37867,0.3876 4.6607,1.57136 1.06114,0.73186 1.63545,1.39824 l -2.3762,3.01718 q -0.88203,-0.71382 -1.74965,-1.0808 -2.8225,-1.36977 -3.10011,-0.24644 -0.0474,0.30771 0.45542,0.70375 0.52079,0.38139 2.2626,1.05022 1.75973,0.6542 2.82906,1.30465 1.59339,0.99928 1.76793,2.85892 0.18754,1.89384 -1.53973,3.69352 -1.7842,1.71171 -5.70976,1.33279 -3.42247,-0.31181 -8.94178,-3.48276 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1616" />
+    <path
+       d="m 173.56651,167.87122 q -0.7796,0.12715 -1.37991,-0.20911 -0.50459,-0.29692 -0.62029,-0.76409 -0.0808,-0.49759 0.35077,-0.81255 0.51544,-0.34203 1.54622,-0.3044 0.47346,0.0324 0.8812,0.30625 0.40663,0.29022 0.5127,0.65832 0.12128,0.38554 -0.17858,0.6931 -0.31841,0.33909 -1.11211,0.43248 z m -5.98362,-7.24866 q -1.75228,1.15965 -2.71402,3.47227 -0.61108,2.22177 0.001,4.54354 0.94618,2.4758 2.66467,3.97103 1.95223,1.67522 4.72808,1.61886 2.23262,-0.0279 3.45202,-0.83027 1.2194,-0.8024 1.58385,-1.33518 l -0.17403,2.54688 6.00203,0.73818 1.34462,-21.83808 -6.58866,-0.79467 -0.56561,8.27735 q -1.23398,-0.90444 -3.0695,-1.40712 -3.67216,-0.98903 -6.66463,1.03721 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1618" />
+    <path
+       d="m 193.42626,162.94022 q 1.45039,-0.19667 2.07184,0.55212 0.31,0.39074 0.32426,0.80091 l -4.43302,0.22593 q -0.0514,-0.31355 0.16175,-0.6807 0.44113,-0.70086 1.87517,-0.89826 z m -0.9807,6.8521 q -0.82869,-0.51243 -1.10169,-1.36017 -0.14504,-0.41606 -0.11394,-0.74228 l 11.02822,-0.813 q -0.27644,-2.22388 -1.68677,-4.36786 -2.85261,-4.3058 -8.63129,-4.0259 -3.29988,0.16239 -5.31799,2.41381 -1.82724,2.01433 -2.12861,5.06395 -0.31329,2.9508 0.9166,5.46341 1.31986,2.69685 3.86517,3.64709 4.41287,1.67333 8.64467,-0.26529 2.12407,-0.96894 3.34522,-2.25708 l -3.34955,-3.82041 q -0.79783,0.61925 -1.88255,1.06174 -2.15382,0.90208 -3.58749,0.002 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1620" />
+    <path
+       d="m 231.19587,159.23443 q -3.50145,-0.0764 -5.27355,2.62632 -1.01006,1.51404 -1.27032,3.41032 0.17602,-1.58601 -0.51677,-2.98241 -0.61904,-2.45953 -2.95395,-3.13233 -1.89397,-0.55481 -4.31692,1.66826 l 0.048,-1.96339 -6.08705,-0.0802 0.0436,17.4942 5.97403,-0.11705 0.28323,-4.84175 q 0.68336,-5.78777 2.44988,-5.67581 1.88118,0.0965 1.66111,5.2333 -0.10186,2.56846 -0.58008,5.13399 l 6.08717,0.0638 q 0.16859,-2.73159 0.64719,-5.34621 0.48177,-5.11839 2.04924,-4.66432 1.58396,0.43783 1.46398,5.32994 -0.23263,2.55108 -0.77529,4.98519 l 5.69687,-0.25013 q 0.68722,-4.18401 0.50716,-8.37477 -0.16778,-3.66701 -1.1495,-5.78571 -1.22296,-2.66062 -3.98805,-2.73128 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1622" />
+    <path
+       d="m 245.56702,160.82451 q 0.45356,2.33188 0.52957,4.60547 0.15233,4.56354 -1.42427,4.28257 -1.57659,-0.28097 -1.91591,-4.34994 -0.15314,-2.02661 0.0682,-4.15856 l -5.83083,-0.21636 q -0.64671,3.85859 0.0646,7.69134 1.38981,7.66612 8.11428,7.53813 6.72447,-0.12799 7.3245,-8.15932 0.28396,-3.99899 -0.75764,-7.98912 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1624" />
+    <path
+       d="m 252.71763,154.10576 0.74556,21.66975 6.72171,-0.23126 -0.46131,-21.97426 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1626" />
+    <path
+       d="m 264.8585,152.65909 0.096,5.2873 -4.40871,-0.0291 -0.0364,5.26104 4.52152,-0.009 0.39788,12.43225 5.57158,0.0212 -0.45013,-12.49522 4.26752,-0.17692 -0.14499,-5.28489 -4.25358,0.12708 -0.13535,-5.08875 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1628" />
+    <path
+       d="m 278.21597,157.52778 q 1.62998,-0.15319 2.43509,-1.1556 0.745,-0.9166 0.60153,-2.13726 -0.14242,-1.20433 -1.04686,-2.01569 -0.97496,-0.88885 -2.44684,-0.82774 -1.32593,0.0354 -2.14529,1.07152 -0.74292,0.94926 -0.74435,2.21196 0.017,1.29432 0.82239,2.0956 0.92702,0.90831 2.52433,0.75721 z m 2.549,0.88681 -5.15956,0.34558 0.95991,16.07387 5.31591,-0.20797 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1630" />
+    <path
+       d="m 292.57899,167.27486 q -1.10908,0.0906 -1.66994,-0.14277 -0.47666,-0.20736 -0.47866,-0.63409 0.002,-0.37779 0.36413,-0.76857 0.37979,-0.3758 0.90736,-0.55022 0.83214,-0.26497 1.59005,-0.0313 0.67371,0.20769 0.92569,0.67968 0.26962,0.48696 -0.10883,0.87907 -0.43837,0.46268 -1.5298,0.56821 z m -0.37027,-9.36124 q -2.56066,0.20907 -4.40632,1.93595 l -0.12085,-1.68125 -5.83396,0.73902 1.75379,21.48018 5.61061,-0.45809 -0.52701,-7.4603 q 2.0787,1.12736 5.03479,0.93526 4.19964,-0.24438 6.26964,-2.84335 1.84798,-2.30172 1.40757,-5.48382 -0.42144,-3.15081 -2.78941,-5.20683 -2.61495,-2.26571 -6.39885,-1.95677 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1632" />
+    <path
+       d="m 300.2221,151.16253 2.16156,21.57455 6.69218,-0.67049 -1.89783,-21.89701 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1634" />
+    <path
+       d="m 311.01231,154.68532 q 1.62119,-0.22808 2.3793,-1.2665 0.702,-0.94993 0.50248,-2.16269 -0.19772,-1.19649 -1.13856,-1.96535 -1.01486,-0.84301 -2.48235,-0.7142 -1.32291,0.0964 -2.09369,1.16917 -0.69842,0.98245 -0.64171,2.24388 0.0766,1.29216 0.91801,2.05551 0.96786,0.86466 2.55652,0.64018 z m 2.58712,0.7685 -5.13817,0.58278 1.699,16.01262 5.30069,-0.45251 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1636" />
+    <path
+       d="m 326.60997,160.25672 q -0.65862,-0.51023 -1.50947,-0.71562 -1.68547,-0.41286 -2.56755,1.08476 -0.49967,0.87171 -0.18352,1.67285 0.25921,0.74238 1.08815,1.165 0.84312,0.40433 1.83132,0.26237 1.08149,-0.18679 1.93238,-1.02061 l 4.46242,2.66659 q -0.93414,1.86713 -2.88198,3.2856 -3.91398,2.82278 -8.99666,0.59782 -2.6734,-1.17819 -3.6177,-4.58835 -0.89534,-3.28441 0.34084,-6.41055 1.31684,-3.40031 4.48118,-4.46186 3.68975,-1.21074 8.81365,1.33889 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1638" />
+    <path
+       d="m 339.11118,164.19285 q -0.56235,0.003 -0.95533,-0.18502 -0.3768,-0.19071 -0.4512,-0.46076 -0.0607,-0.2887 0.2381,-0.49992 0.34484,-0.23483 1.06402,-0.29512 0.50888,-0.0281 0.83715,0.16998 0.29592,0.20307 0.32426,0.49671 0.0308,0.30982 -0.23562,0.51611 -0.27767,0.2411 -0.82138,0.25802 z m 2.71963,-11.98733 q -4.35194,-0.0961 -7.31011,0.80315 -1.48594,0.45896 -2.09228,0.93242 l 1.65795,4.56383 q 1.73506,-0.77847 3.74834,-1.03663 4.02654,-0.51632 5.39511,2.15489 -1.65907,-0.67338 -3.68812,-0.84322 -4.09044,-0.33474 -6.01875,2.21149 -1.14229,1.51555 -1.21354,3.21499 -0.0737,1.68327 0.90802,2.90717 1.04511,1.31355 2.92096,1.67236 2.09602,0.39136 4.82278,-0.50563 2.21902,-0.75314 3.29834,-2.7888 l 0.0218,1.98319 5.51609,-0.84339 q 0.46735,-3.54788 -0.29448,-7.12302 -0.66023,-3.12716 -2.27966,-4.94885 -2.00346,-2.27616 -5.39245,-2.35395 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1640" />
+    <path
+       d="m 353.46724,148.72671 -5.13315,1.0437 3.33588,16.46002 5.3239,-0.81162 -1.41871,-6.77845 q 0.10004,-3.55777 3.08009,-4.9341 1.48859,-0.69623 2.95509,-0.67388 l -0.98159,-5.62615 q -4.50761,0.9161 -6.73686,3.33923 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1642" />
+  </g>
+  <g
+     aria-label="2, 3, 4, 5 y 10"
+     transform="rotate(-6.0431851,95.800496,-651.35963)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;line-height:1.25;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     id="text1535">
+    <path
+       d="m 78.485663,140.59778 q -4.171424,-3.97856 -8.941537,-2.00733 -2.410545,1.06379 -4.482979,2.95541 l 2.333414,4.79913 q 0.562583,-0.58043 1.439874,-0.99147 2.026404,-1.29864 3.627935,-0.57957 0.897675,0.41425 0.487407,1.44681 -0.343308,0.8797 -1.59238,2.14746 -2.340757,2.35219 -5.214408,3.46538 -1.289967,0.68925 -2.371093,1.18969 l -1.622261,5.575 12.936955,3.11634 1.202105,-5.41568 -6.636633,-1.13431 q 3.747025,-2.19516 6.710809,-5.0978 2.597557,-2.5305 3.311201,-4.71953 0.916034,-2.73103 -1.188409,-4.74953 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1585" />
+    <path
+       d="m 78.287998,158.19435 -1.695829,4.48698 2.601103,1.19309 2.215677,-4.50189 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1587" />
+    <path
+       d="m 93.290756,143.20027 -0.67251,4.94776 6.239203,0.88701 -5.860452,2.92487 q 1.471588,0.0288 2.798219,0.63066 2.685549,1.20913 2.119518,4.11761 -0.584855,2.92195 -3.304985,2.42038 -1.366796,-0.2602 -2.620922,-1.09886 l -2.149405,5.05081 q 2.201258,1.12868 4.937531,1.63293 5.421437,1.0166 7.991607,-2.07324 3.52726,-4.25795 1.27614,-7.98271 -1.13364,-1.86372 -2.79955,-3.0196 l 6.72505,-5.93307 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1589" />
+    <path
+       d="m 106.71134,163.15467 -1.50115,4.5558 2.65004,1.08004 2.01987,-4.59308 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1591" />
+    <path
+       d="m 128.96478,155.61229 -3.39256,-0.43331 1.07491,-7.25343 -5.62089,-0.55295 -1.50518,11.78468 8.49881,1.39895 -1.82553,9.38467 5.85744,0.89661 3.26342,-21.80484 -5.27551,-0.67381 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1593" />
+    <path
+       d="m 134.34311,166.87817 -1.33838,4.60625 2.68673,0.98523 1.85545,-4.66193 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1595" />
+    <path
+       d="m 151.57043,155.57554 8.52034,1.15855 0.95467,-4.75922 -13.16645,-1.74105 -0.73002,10.08894 q 2.05996,-0.23465 3.78808,0.0914 3.45472,0.66829 3.25882,3.64125 -0.18114,2.99078 -3.24975,3.11464 -1.53507,0.0701 -3.04634,-0.46573 l -0.75352,4.89308 q 3.18945,0.69278 6.4591,0.17683 6.51995,-1.00083 6.76664,-6.97676 0.27928,-5.97289 -4.31817,-7.60272 -2.25981,-0.96741 -4.61352,-0.57945 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1597" />
+    <path
+       d="m 180.61003,157.81947 q 0.49041,3.91703 0.0135,7.31383 -1.08485,5.75234 -3.92035,3.91714 -1.37855,-0.75936 -1.22908,-5.9805 0.25086,-2.67323 0.77213,-5.21461 l -6.12024,-0.45221 q -0.8015,3.34351 -0.75909,7.08466 0.10114,7.48334 4.3697,9.47466 2.27765,1.06211 4.94934,0.55862 1.32717,-0.2441 2.2084,-0.69673 0.19044,2.17641 -0.60193,4.07758 -1.56944,3.81969 -6.4794,2.37814 l -1.42988,5.76334 q 0.896,0.35174 2.26167,0.53639 2.72927,0.40197 4.97755,-0.40701 7.19508,-2.54609 6.99895,-16.05307 -0.12452,-7.63239 1.09388,-11.60543 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1599" />
+    <path
+       d="m 203.69682,154.29135 -5.30382,-0.0482 -1.49946,1.14009 -0.18516,5.0204 1.33056,-0.55681 -0.43666,15.83521 5.72358,0.2111 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1601" />
+    <path
+       d="m 212.63636,168.62192 q -0.52565,0.0868 -0.81772,-0.78701 -0.26112,-0.79132 -0.25126,-2.00234 0.009,-1.19466 0.27263,-2.00736 0.29796,-0.91016 0.771,-0.83444 0.88133,0.11729 1.27192,0.97689 0.34363,0.76037 0.23773,1.8711 -0.10412,1.02894 -0.51449,1.83845 -0.42743,0.84188 -0.96981,0.94471 z m -0.71004,-14.82845 q -2.3918,0.0955 -4.59093,3.38696 -2.1152,3.19507 -2.76145,7.33855 -0.70313,4.50235 0.85029,7.59682 1.82056,3.60766 6.30974,4.16319 4.50519,0.57224 6.93691,-2.87785 2.14473,-3.04711 1.95512,-7.89616 -0.17573,-4.73417 -2.44298,-8.12235 -2.4732,-3.70364 -6.2567,-3.58916 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.51388931px;font-family:'SC Gum Kids';-inkscape-font-specification:'SC Gum Kids, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#9c27b0;fill-opacity:1;stroke-width:0.26458332"
+       id="path1603" />
+  </g>
+</svg>
