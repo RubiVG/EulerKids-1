@@ -12,7 +12,7 @@ const SECURITY = {
         },
         SECURITY.secret,
         {
-          expiresIn: process.env.EXPIRES_IN // "2 days" '5s' "10h" "7d" '1m' '1h' "10m 1d"
+          expiresIn: process.env.EXPIRES_IN
         },
         (err, token) => {
           if (err) {

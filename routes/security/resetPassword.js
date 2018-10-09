@@ -15,7 +15,7 @@ const RESET_PASS = {
         },
         RESET_PASS.TokenResetPassword,
         {
-          expiresIn: process.env.EXPIRES_IN_RESETPASS // "2 days" '5s' "10h" "7d" '1m' '1h' "10m 1d"
+          expiresIn: process.env.EXPIRES_IN_RESETPASS
         },
         (err, token) => {
           if (err) {
