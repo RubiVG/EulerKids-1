@@ -35,7 +35,6 @@ module.exports.login = (db, MONGO, bcrypt, SECURITY, errorMsg) => {
         });
       })
       .catch(err => {
-        console.log(err.status)
         const message = err => {
           if (err.status === 500) {
             return errorMsg.error500Gen();

@@ -1,5 +1,4 @@
 const uuidv4 = require("uuid/v4");
-const fs = require("fs");
 
 const logic = {
   sujetos: [
@@ -901,23 +900,3 @@ const logic = {
     );
   }
 };
-
-const isEqual = require("lodash.isequal");
-const uniqWith = require("lodash.uniqwith");
-const uniqBy = require("lodash.uniqby");
-const sinDupli = uniqWith(logic.all(), isEqual); // Checamos que ningún objeto sea igual
-const sinDupliId = uniqBy(logic.all(), "id"); // Checamos que ningún id sea igual
-console.log(logic.all());
-console.log("sinDupli = ", sinDupli.length);
-console.log("sinDupliId = ", sinDupliId.length);
-
-// Después de verificar sin duplicados asignamos all ajercicio
-let ejercicio = logic.all();
-let string = JSON.stringify(ejercicio);
-
-// fs.writeFile("MoreOrLess.json", string, function(err) {
-//   if (err) {
-//     console.log(err);
-//     throw err;
-//   }
-// });

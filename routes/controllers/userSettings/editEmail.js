@@ -1,6 +1,5 @@
 module.exports.editEmail = (db, MONGO, bcrypt, errorMsg) => {
   return (req, res) => {
-    console.log("editEmail");
     const username = req.body.username;
     const password = req.body.password;
     const newEmail = req.body.newEmail;

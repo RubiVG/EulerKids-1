@@ -1,6 +1,5 @@
 module.exports.getEmail = (db, MONGO, _, errorMsg) => {
   return (req, res) => {
-    console.log("getEmail");
     const username = req.body.username;
 
     MONGO.findUsername(db.get(), username)

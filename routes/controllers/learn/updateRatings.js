@@ -1,7 +1,5 @@
 module.exports.updateRatings = (_, db, MONGO, moment, errorMsg) => {
   return (req, res) => {
-    console.log("updateRatings");
-
     const username = req.body.username;
     const subject = req.body.subject;
     const exercise = req.body.exercise;

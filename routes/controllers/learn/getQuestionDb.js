@@ -6,8 +6,6 @@ const exercisesData = require("../../exercisesData/exercisesData");
 const errorMsg = require("../../modules/errorMsg");
 
 module.exports.getQuestionDb = (req, res) => {
-  console.log("getQuestionDb");
-
   const role = req.body.role;
   const username = req.body.username;
   const subject = req.params.subject;

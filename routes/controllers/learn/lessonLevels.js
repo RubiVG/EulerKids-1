@@ -5,8 +5,6 @@ module.exports.lessonLevels = (VAL, db, MONGO) => {
     const grade = req.body.grade;
     const skill = req.body.skill;
 
-    console.log({ username, subject, grade, skill });
-
     MONGO.findSkills(db.get(), subject, username, grade, skill)
       .then(docs => {
         const lessonsName = docs.map(e => {
