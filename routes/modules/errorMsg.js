@@ -1,4 +1,7 @@
 module.exports = {
+  wrongPass1: "(╹‸╹) Wrong password",
+  wrongPass2: "(╹‸╹) Wrong current password",
+  wrongEmail: "New email must be different from the current one",
   error500Gen() {
     return {
       message: `⊙.☉ Houston, we have a problem. Your request could not be processed. Try it again later`,

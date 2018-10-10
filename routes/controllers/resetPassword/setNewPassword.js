@@ -1,4 +1,12 @@
-module.exports.setNewPassword = (db, MONGO, bcrypt, moment, SECURITY, errorMsg) => {
+module.exports.setNewPassword = (
+  db,
+  MONGO,
+  bcrypt,
+  moment,
+  SECURITY,
+  errorMsg,
+  successMsg
+) => {
   return (req, res) => {
     const username = res.locals.username;
     const newPassword = req.body.newPassword;
@@ -19,7 +27,7 @@ module.exports.setNewPassword = (db, MONGO, bcrypt, moment, SECURITY, errorMsg) 
           username: docs.username,
           role: docs.role,
           token: token,
-          message: "(★^◡^★) Your password has been reset successfully"
+          message: successMsg.passResetSuccess
         });
       })
       .catch(err => {

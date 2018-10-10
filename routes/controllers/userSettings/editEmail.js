@@ -1,4 +1,4 @@
-module.exports.editEmail = (db, MONGO, bcrypt, errorMsg) => {
+module.exports.editEmail = (db, MONGO, bcrypt, errorMsg, successMsg) => {
   return (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
@@ -13,7 +13,7 @@ module.exports.editEmail = (db, MONGO, bcrypt, errorMsg) => {
       })
       .then(isMatch => {
         if (!isMatch) {
-          throw { status: 422, message: "(╹‸╹) Wrong password" };
+          throw { status: 422, message: errorMsg.wrongPass1 };
         }
 
         const currentEmail = res.locals.docs.email;
@@ -21,7 +21,7 @@ module.exports.editEmail = (db, MONGO, bcrypt, errorMsg) => {
         if (currentEmail === newEmail) {
           throw {
             status: 422,
-            message: "New email must be different from the current one"
+            message: errorMsg.wrongEmail
           };
         }
 
@@ -31,7 +31,8 @@ module.exports.editEmail = (db, MONGO, bcrypt, errorMsg) => {
         const email = docs.value.email;
 
         res.status(200).send({
-          email: email
+          email: email,
+          message: successMsg.emailEditSuccess
         });
       })
       .catch(err => {

@@ -94,10 +94,10 @@ export default {
           img: "email.svg",
           to: `/settings/email`
         },
-        // {
-        //   img: "password.svg",
-        //   to: `/settings/edit-password`
-        // },
+        {
+          img: "password.svg",
+          to: `/settings/edit-password`
+        },
         // {
         //   img: "delete.svg",
         //   to: `/settings/delete-account`

@@ -459,9 +459,7 @@ module.exports = {
           // Primaria Baja-Alta
           [`${pathPrimariaBajaAlta(grade)}.total`]: 1,
           [`${pathPrimariaBajaAlta(grade)}.time`]: time,
-          [`${pathPrimariaBajaAlta(grade)}.${pathCorrectAnswer(
-            correcta
-          )}`]: 1,
+          [`${pathPrimariaBajaAlta(grade)}.${pathCorrectAnswer(correcta)}`]: 1,
           [`exercises.${exerciseName}.total`]: 1,
           [`exercises.${exerciseName}.time`]: time,
           [`exercises.${exerciseName}.${pathCorrectAnswer(correcta)}`]: 1
@@ -552,6 +550,27 @@ module.exports = {
             },
             $unset: {
               [pathEncryptionKey]: ""
+            }
+          }
+        );
+      });
+  },
+  editPassword(db, username, newPassword, bcrypt) {
+    const collection = db.collection("users");
+
+    return bcrypt
+      .genSalt(10)
+      .then(salt => {
+        return bcrypt.hash(newPassword, salt);
+      })
+      .then(hash => {
+        collection.updateOne(
+          {
+            username: username
+          },
+          {
+            $set: {
+              password: hash
             }
           }
         );

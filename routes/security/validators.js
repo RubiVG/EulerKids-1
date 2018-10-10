@@ -72,97 +72,65 @@ const VAL = {
   },
   lessonLevels(check) {
     return [
-      check("token")
-        .isJWT()
-        .withMessage("Incorrect security token"),
+      check("token").isJWT(),
       check("role")
         .isString()
-        .withMessage("Role has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Role can't be empty"),
+        }),
       check("username")
         .isString()
-        .withMessage("Username has invalid characters")
-        .trim()
-        .isLength({ min: 6 })
-        .withMessage("Username must be at least 6 characters"),
+        .isLength({ min: 6 }),
       check("subject")
         .isString()
-        .withMessage("Subject has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Subject can't be empty"),
+        }),
       check("grade")
         .isString()
-        .withMessage("Grade has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Grade can't be empty"),
+        }),
       check("skill")
         .isString()
-        .withMessage("Skill has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Skill can't be empty"),
-      check("appVersion")
-        .exists()
-        .withMessage("The App version you sent has incomplete data")
+        }),
+      check("appVersion").exists()
     ];
   },
   getProgress(check) {
     return [
-      check("token")
-        .isJWT()
-        .withMessage("Incorrect security token"),
+      check("token").isJWT(),
       check("role")
         .isString()
-        .withMessage("Role has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Role can't be empty"),
+        }),
       check("username")
         .isString()
-        .withMessage("Username has invalid characters")
-        .trim()
-        .isLength({ min: 6 })
-        .withMessage("Username must be at least 6 characters"),
+        .isLength({ min: 6 }),
       check("subject")
         .isString()
-        .withMessage("Subject has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Subject can't be empty"),
+        }),
       check("grade")
         .isString()
-        .withMessage("Grade has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Grade can't be empty"),
+        }),
       check("skill")
         .isString()
-        .withMessage("Skill has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Skill can't be empty"),
+        }),
       check("lesson")
         .isString()
-        .withMessage("Lesson has invalid characters")
         .custom(value => {
           return value.length;
-        })
-        .withMessage("Skill has invalid characters"),
-      check("appVersion")
-        .exists()
-        .withMessage("The App version you sent has incomplete data")
+        }),
+      check("appVersion").exists()
     ];
   },
   getQuestionUserNull(check) {
@@ -372,6 +340,52 @@ const VAL = {
       check("newEmail")
         .isEmail()
         .withMessage("Must be a valid email"),
+      check("appVersion")
+        .exists()
+        .withMessage("The App version you sent has incomplete data")
+    ];
+  },
+  editPassword(check) {
+    return [
+      check("token")
+        .isJWT()
+        .withMessage("Incorrect security token"),
+      check("role")
+        .isString()
+        .withMessage("Role has invalid characters")
+        .custom(value => {
+          return value.length;
+        })
+        .withMessage("Role can't be empty"),
+      check("username")
+        .isString()
+        .withMessage("Username has invalid characters")
+        .trim()
+        .isLength({ min: 6 })
+        .withMessage("Username must be at least 6 characters"),
+      check("password")
+        .isString()
+        .withMessage("Current password has invalid characters")
+        .isLength({ min: 8 })
+        .withMessage("Current password must be at least 8 characters"),
+      check("newPassword")
+        .isString()
+        .withMessage("New password has invalid characters")
+        .isLength({ min: 8 })
+        .withMessage("New Password must be at least 8 characters"),
+      check("confirmPassword")
+        .isString()
+        .withMessage("Confirm password has invalid characters")
+        .isLength({ min: 8 })
+        .withMessage("Confirm password must be at least 8 characters")
+        .custom((value, { req, loc, path }) => {
+          if (value !== req.body.newPassword) {
+            throw new Error("Passwords must be identical");
+          } else {
+            return value;
+          }
+        })
+        .withMessage("Passwords must be identical"),
       check("appVersion")
         .exists()
         .withMessage("The App version you sent has incomplete data")

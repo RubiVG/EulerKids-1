@@ -6,6 +6,7 @@ const MONGO = require("./mongoDb");
 const VAL = require("./security/validators");
 const SECURITY = require("./security/appSecurity");
 const errorMsg = require("./modules/errorMsg");
+const successMsg = require("./modules/successMsg");
 const verifyAppVersion = require("./security/verifyAppVersion");
 const randomString = require("../utilities/random").randomString;
 const RESET_PASS = require("./security/resetPassword");
@@ -35,6 +36,7 @@ const getQuestionDb = require("./controllers/learn/getQuestionDb");
 const updateRatings = require("./controllers/learn/updateRatings");
 const getEmail = require("./controllers/userSettings/getEmail");
 const editEmail = require("./controllers/userSettings/editEmail");
+const editPassword = require("./controllers/userSettings/editPassword");
 
 router.get("/getAppVersion", getAppVersion.getAppVersion(SECURITY.appVersion));
 
@@ -84,7 +86,15 @@ router.post(
   RESET_PASS.decryptToken(db),
   VAL.setNewPassword(check),
   VAL.validationMiddleware,
-  setNewPassword.setNewPassword(db, MONGO, bcrypt, moment, SECURITY, errorMsg)
+  setNewPassword.setNewPassword(
+    db,
+    MONGO,
+    bcrypt,
+    moment,
+    SECURITY,
+    errorMsg,
+    successMsg
+  )
 );
 
 // Ejercicios
@@ -151,7 +161,16 @@ router.post(
   verifyAppVersion.verifyAppVersion(SECURITY.appVersion),
   VAL.editEmail(check),
   VAL.validationMiddleware,
-  editEmail.editEmail(db, MONGO, bcrypt, errorMsg)
+  editEmail.editEmail(db, MONGO, bcrypt, errorMsg, successMsg)
+);
+
+router.post(
+  "/editPassword",
+  SECURITY.verifyToken(db),
+  verifyAppVersion.verifyAppVersion(SECURITY.appVersion),
+  VAL.editPassword(check),
+  VAL.validationMiddleware,
+  editPassword.editPassword(db, MONGO, bcrypt, errorMsg, successMsg)
 );
 
 module.exports = router;

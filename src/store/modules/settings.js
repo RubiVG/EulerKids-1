@@ -31,7 +31,7 @@ const getters = {
 };
 
 const actions = {
-  settingsErrorHandler({ commit, dispatch }, error) {
+  getEmailErrorHandler({ commit, dispatch }, error) {
     if (error.response.status === 500 || error.response.status === 422) {
       commit("getSettingsErrors", {
         message: error.response.data.message,
@@ -49,7 +49,7 @@ const actions = {
       dispatch("getServerMsgError", error, { root: true });
     }
   },
-  editEmailErrorHandler({ commit, dispatch }, error) {
+  settingsErrorHandler({ commit, dispatch }, error) {
     if (error.response.status === 500 || error.response.status === 422) {
       commit("onOffSpinner", false);
 
@@ -80,7 +80,7 @@ const actions = {
           commit("onOffSpinner", false);
         })
         .catch(error => {
-          dispatch("settingsErrorHandler", error);
+          dispatch("getEmailErrorHandler", error);
           reject(error);
         });
     });
@@ -104,7 +104,31 @@ const actions = {
           commit("onOffSpinner", false);
         })
         .catch(error => {
-          dispatch("editEmailErrorHandler", error);
+          dispatch("settingsErrorHandler", error);
+          reject(error);
+        });
+    });
+  },
+  editPassword({ state, commit, dispatch, getters, rootState }, payload) {
+    commit("onOffSpinner", true);
+
+    return new Promise((resolve, reject) => {
+      axios
+        .post("/editPassword", {
+          token: rootState.token,
+          role: rootState.role,
+          username: rootState.username,
+          password: payload.password,
+          newPassword: payload.newPassword,
+          confirmPassword: payload.confirmPassword,
+          appVersion: rootState.appVersion
+        })
+        .then(response => {
+          resolve(response);
+          commit("onOffSpinner", false);
+        })
+        .catch(error => {
+          dispatch("settingsErrorHandler", error);
           reject(error);
         });
     });

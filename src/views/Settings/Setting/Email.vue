@@ -8,8 +8,8 @@
         <v-layout>
           <v-alert v-if="serverMsg"
                    outline
-                   :color="colorAlert(isThereNewApp)"
-                   icon="warning"
+                   :color="colorAlert(isThereNewApp, fail)"
+                   :icon="iconAlert(isThereNewApp, fail)"
                    :value="true">
             {{ serverMsg }}
             <ul v-for="error in errors">
@@ -83,7 +83,7 @@ export default {
     newEmail: { required, email },
     password: { required, minLength: minLength(8) }
   },
-  props: ["isAuthenticated", "isThereNewApp"],
+  props: ["isAuthenticated", "isThereNewApp", "colorAlert", "iconAlert"],
   components: {
     spinner: Spinner
   },
@@ -115,10 +115,10 @@ export default {
 
       this.$store
         .dispatch("Settings/getEmail")
-        .then(response => {
+        .then(() => {
           this.clearForm();
         })
-        .catch(err => {
+        .catch(() => {
           this.clearForm();
         });
     },
@@ -136,8 +136,10 @@ export default {
           password: this.password,
           newEmail: this.newEmail
         })
-        .then(() => {
+        .then(response => {
           this.clearForm();
+          this.serverMsg = response.data.message;
+          this.fail = false;
         })
         .catch(error => {
           this.clearForm();
@@ -145,9 +147,6 @@ export default {
           this.serverMsg = error.response.data.message;
           this.errors = error.response.data.errors;
         });
-    },
-    colorAlert(isThereNewApp) {
-      return isThereNewApp ? "blue darken-1" : "error";
     }
   },
   computed: {

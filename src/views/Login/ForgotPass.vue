@@ -113,7 +113,7 @@ export default {
           this.email = response.data.email;
           this.success = true;
         })
-        .catch(err => {
+        .catch(() => {
           this.clearForm();
           this.spinner = false;
         });

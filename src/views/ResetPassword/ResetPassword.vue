@@ -148,7 +148,7 @@ export default {
           newPassword: this.newPassword,
           confirmPassword: this.confirmPassword
         })
-        .then(response => {
+        .then(() => {
           this.clearForm();
           this.spinner = false;
           this.success = true;
