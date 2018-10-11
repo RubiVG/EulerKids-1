@@ -25,14 +25,12 @@ export const store = new Vuex.Store({
     dialog: false,
     serverMsg: null,
     serverErrors: [],
-    // Partes de ejercicios
     instruction: false,
     operation: false,
     interaction: false,
     yourAnswer: false,
     solution: false,
     correctAnswer: false,
-    //
     error500: false,
     actualizarApp: false
   },

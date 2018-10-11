@@ -19,8 +19,6 @@ moment.locale("es");
 const uuidv4 = require("uuid/v4");
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(process.env.SGMAIL_APIKEY);
-
-// const duration = require("moment-duration-format");
 const _ = require("lodash");
 
 // Controllers

@@ -1,4 +1,4 @@
 export default {
-  "orden-de-dias-de-la-semana-e": () =>
-    import("../../second-grade/math/tiempo/OrdenDiasSemana/OrdenDiasSemana")
+  "days-of-the-week-e": () =>
+    import("../../second-grade/math/time/DaysOfTheWeek/DaysOfTheWeek")
 };

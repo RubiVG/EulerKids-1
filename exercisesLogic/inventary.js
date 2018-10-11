@@ -16,7 +16,7 @@ module.exports = {
     ],
     "second-grade": [
       {
-        exerciseName: "Orden de días de la semana",
+        exerciseName: "Days of the week",
         total: 210
       }
     ],

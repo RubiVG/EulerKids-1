@@ -256,7 +256,6 @@ const actions = {
     });
   },
   updateRatings({ state, commit, dispatch, getters, rootState }, payload) {
-    commit("onOffSpinner", true);
 
     return new Promise((resolve, reject) => {
       axios
@@ -281,9 +280,9 @@ const actions = {
         })
         .then(response => {
           resolve(response);
-          commit("onOffSpinner", false);
         })
         .catch(error => {
+          commit("onOffSpinner", true);
           dispatch("exerciseErrorHandler", error);
           reject(error);
         });

@@ -1,4 +1,4 @@
-const FirstGrade = (loadJsonFile, jsonPath) => {
+const firstGrade = (loadJsonFile, jsonPath) => {
   return {
     "comparing-numbers-e": function() {
       return loadJsonFile(
@@ -18,4 +18,4 @@ const FirstGrade = (loadJsonFile, jsonPath) => {
   };
 };
 
-module.exports = FirstGrade;
+module.exports = firstGrade;

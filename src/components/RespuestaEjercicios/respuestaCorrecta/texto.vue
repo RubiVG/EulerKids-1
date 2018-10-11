@@ -1,12 +1,12 @@
 <template>
   <span class="title blue--text text--darken-1">
-    {{ correcta }}
+    {{ correct }}
   </span>
 </template>
 
 <script>
 export default {
   name: "texto",
-  props: ["correcta"]
+  props: ["correct"]
 };
 </script>

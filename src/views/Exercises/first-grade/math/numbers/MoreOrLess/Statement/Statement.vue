@@ -103,9 +103,9 @@ export default {
   name: "Dynamic",
   props: ["helpers", "subject", "exerciseMethods", "img"],
   components: {
+    "slot-exercises": SlotExercises,
     "question-card": Card,
-    "your-answer": Answer,
-    "slot-exercises": SlotExercises
+    "your-answer": Answer
   },
   methods: {
     forward(a, b) {

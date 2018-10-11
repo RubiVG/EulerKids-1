@@ -22,7 +22,7 @@ export default {
       math: [
         {
           img: "time2.svg",
-          to: "second-grade/time"
+          to: "second-grade/time-skill"
         }
       ]
     },
@@ -131,14 +131,14 @@ export default {
     },
     "second-grade": {
       math: {
-        "time": {
+        "time-skill": {
           skillName: "Time",
           img: "timeCard2.svg",
           lessons: [
             {
               lesson: "Days of the week",
               img: "uno1.svg",
-              to: "time/days-of-the-week",
+              to: "time-skill/days-of-the-week",
               page: "days-of-the-week",
               exercises: [
                 {

@@ -41,12 +41,8 @@
 </template>
 
 <script>
-  export default {
-    name: "BreadCrumbSimple",
-    props: ["breadItems", "breadColor"]
-  }
+export default {
+  name: "BreadCrumbSimple",
+  props: ["breadItems", "breadColor"]
+};
 </script>
-
-<style scoped>
-
-</style>
