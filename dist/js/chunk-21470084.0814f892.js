@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-21470084"],{"20ca":function(e,n,t){},"3b0e":function(e,n,t){"use strict";var c=t("20ca"),u=t.n(c);u.a},fdf0:function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("h1",[e._v("Delete account")])},u=[],o={name:"DeleteAccount"},a=o,i=(t("3b0e"),t("2877")),l=Object(i["a"])(a,c,u,!1,null,"08248ec7",null);l.options.__file="DeleteAccount.vue";n["default"]=l.exports}}]);
-//# sourceMappingURL=chunk-21470084.0814f892.js.map
