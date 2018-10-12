@@ -35,6 +35,7 @@ const updateRatings = require("./controllers/learn/updateRatings");
 const getEmail = require("./controllers/userSettings/getEmail");
 const editEmail = require("./controllers/userSettings/editEmail");
 const editPassword = require("./controllers/userSettings/editPassword");
+const deleteAccount = require("./controllers/userSettings/deleteAccount");
 
 router.get("/getAppVersion", getAppVersion.getAppVersion(SECURITY.appVersion));
 
@@ -169,6 +170,15 @@ router.post(
   VAL.editPassword(check),
   VAL.validationMiddleware,
   editPassword.editPassword(db, MONGO, bcrypt, errorMsg, successMsg)
+);
+
+router.post(
+  "/deleteAccount",
+  SECURITY.verifyToken(db),
+  verifyAppVersion.verifyAppVersion(SECURITY.appVersion),
+  VAL.deleteAccount(check),
+  VAL.validationMiddleware,
+  deleteAccount.deleteAccount(db, MONGO, bcrypt, moment, errorMsg)
 );
 
 module.exports = router;

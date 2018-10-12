@@ -390,6 +390,34 @@ const VAL = {
         .exists()
         .withMessage("The App version you sent has incomplete data")
     ];
+  },
+  deleteAccount(check) {
+    return [
+      check("token")
+        .isJWT()
+        .withMessage("Incorrect security token"),
+      check("role")
+        .isString()
+        .withMessage("Role has invalid characters")
+        .custom(value => {
+          return value.length;
+        })
+        .withMessage("Role can't be empty"),
+      check("username")
+        .isString()
+        .withMessage("Username has invalid characters")
+        .trim()
+        .isLength({ min: 6 })
+        .withMessage("Username must be at least 6 characters"),
+      check("password")
+        .isString()
+        .withMessage("Current password has invalid characters")
+        .isLength({ min: 8 })
+        .withMessage("Current password must be at least 8 characters"),
+      check("appVersion")
+        .exists()
+        .withMessage("The App version you sent has incomplete data")
+    ];
   }
 };
 

@@ -22,6 +22,7 @@ import {
   VDataTable,
   VSnackbar,
   VParallax,
+  VCheckbox,
   transitions
 } from "vuetify";
 import "vuetify/src/stylus/app.styl";
@@ -49,6 +50,7 @@ Vue.use(Vuetify, {
     VDataTable,
     VSnackbar,
     VParallax,
+    VCheckbox,
     transitions
   },
   iconfont: "md"

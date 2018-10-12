@@ -144,8 +144,13 @@ export default {
         .catch(error => {
           this.clearForm();
           this.fail = true;
-          this.serverMsg = error.response.data.message;
-          this.errors = error.response.data.errors;
+          if (error.response.status === 500 || error.response.status === 422) {
+            this.serverMsg = error.response.data.message;
+            this.errors = error.response.data.errors;
+          } else {
+            this.serverMsg = null;
+            this.errors = [];
+          }
         });
     }
   },

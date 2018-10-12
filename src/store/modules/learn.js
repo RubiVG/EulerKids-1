@@ -256,7 +256,6 @@ const actions = {
     });
   },
   updateRatings({ state, commit, dispatch, getters, rootState }, payload) {
-
     return new Promise((resolve, reject) => {
       axios
         .post("/updateRatings", {

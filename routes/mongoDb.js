@@ -84,8 +84,6 @@ module.exports = {
   },
   createUser(db, username, password, email, bcrypt, moment) {
     const collection = db.collection("users");
-    const date = new Date();
-    date.setDate(date.getDate());
 
     return bcrypt
       .genSalt(10)
@@ -98,7 +96,6 @@ module.exports = {
           email,
           role: "user",
           password: hash,
-          created: date,
           createdAt: moment().format("YYYY-MM-DD, h:mm:ss a"),
           banned: false
         });
@@ -504,7 +501,6 @@ module.exports = {
     );
   },
   changePasswordCreated(db, email, moment, encryptionKey) {
-    const pathCreated = "changePassword.created";
     const pathCreatedAt = "changePassword.createdAt";
     const pathEncryptionKey = "changePassword.encryptionKey";
     const pathCompleted = "changePassword.completed";
@@ -516,7 +512,6 @@ module.exports = {
       },
       {
         $set: {
-          [pathCreated]: new Date(),
           [pathCreatedAt]: moment().format("YYYY-MM-DD, h:mm:ss a"),
           [pathEncryptionKey]: encryptionKey,
           [pathCompleted]: false
@@ -527,7 +522,6 @@ module.exports = {
   changePassword(db, username, newPassword, bcrypt, moment) {
     const pathEncryptionKey = "changePassword.encryptionKey";
     const pathCompleted = "changePassword.completed";
-    const pathChanged = "changePassword.changed";
     const pathChangedAt = "changePassword.changedAt";
     const collection = db.collection("users");
 
@@ -545,7 +539,6 @@ module.exports = {
             $set: {
               password: hash,
               [pathCompleted]: true,
-              [pathChanged]: new Date(),
               [pathChangedAt]: moment().format("YYYY-MM-DD, h:mm:ss a")
             },
             $unset: {
@@ -575,5 +568,20 @@ module.exports = {
           }
         );
       });
+  },
+  deleteAccount(db, username, moment) {
+    const collection = db.collection("users");
+
+    return collection.updateOne(
+      {
+        username: username
+      },
+      {
+        $set: {
+          deleted: true,
+          deletedAt: moment().format("YYYY-MM-DD, h:mm:ss a")
+        }
+      }
+    );
   }
 };

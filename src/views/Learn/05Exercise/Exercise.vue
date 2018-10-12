@@ -177,6 +177,7 @@ export default {
             // Actualizamos ratings de usuario y pregunta
             this.updateRatings(false);
           }
+
           if (this.$store.state.Learn.rating <= 0) {
             this.updateRatingGlicko(0, 0);
 
@@ -221,12 +222,15 @@ export default {
       if (porcentaje < 0) {
         return 0;
       }
+
       if (porcentaje < 90) {
         return Math.floor((rating * 100) / this.max) + "%";
       }
+
       if (porcentaje >= 90 && porcentaje < 100) {
         return Math.floor((rating * 100) / this.max) + "%";
       }
+
       if (porcentaje >= 100) {
         return "100%";
       }
@@ -237,12 +241,15 @@ export default {
       if (b < 50) {
         return "#E91E63";
       }
+
       if (b >= 50 && b < 70) {
         return "#FFC107";
       }
+
       if (b >= 70 && b < 90) {
         return "#1E88E5";
       }
+
       if (b >= 90) {
         return "#64DD17";
       }
@@ -253,12 +260,15 @@ export default {
       if (porcentaje < 0) {
         return 0;
       }
+
       if (porcentaje < 90) {
         return Math.floor((rating * 100) / this.max);
       }
+
       if (porcentaje >= 90 && porcentaje < 100) {
         return Math.floor((rating * 100) / this.max);
       }
+
       if (porcentaje >= 100) {
         return "100";
       }
@@ -269,6 +279,7 @@ export default {
           math: true
         };
       }
+
       if (subject === "language") {
         return {
           language: true
@@ -322,6 +333,7 @@ export default {
         if (rating < max) {
           return rating > 1 ? rating : 1;
         }
+
         return rating >= max ? max : rating;
       };
 

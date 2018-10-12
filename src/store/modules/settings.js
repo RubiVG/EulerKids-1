@@ -50,9 +50,9 @@ const actions = {
     }
   },
   settingsErrorHandler({ commit, dispatch }, error) {
-    if (error.response.status === 500 || error.response.status === 422) {
-      commit("onOffSpinner", false);
+    commit("onOffSpinner", false);
 
+    if (error.response.status === 500 || error.response.status === 422) {
       return;
     }
 
@@ -121,6 +121,28 @@ const actions = {
           password: payload.password,
           newPassword: payload.newPassword,
           confirmPassword: payload.confirmPassword,
+          appVersion: rootState.appVersion
+        })
+        .then(response => {
+          resolve(response);
+          commit("onOffSpinner", false);
+        })
+        .catch(error => {
+          dispatch("settingsErrorHandler", error);
+          reject(error);
+        });
+    });
+  },
+  deleteAccount({ state, commit, dispatch, getters, rootState }, payload) {
+    commit("onOffSpinner", true);
+
+    return new Promise((resolve, reject) => {
+      axios
+        .post("/deleteAccount", {
+          token: rootState.token,
+          role: rootState.role,
+          username: rootState.username,
+          password: payload.password,
           appVersion: rootState.appVersion
         })
         .then(response => {
