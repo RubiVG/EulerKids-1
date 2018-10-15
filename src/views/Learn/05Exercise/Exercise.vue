@@ -377,6 +377,9 @@ export default {
   },
   watch: {
     $route() {},
+    isAuthenticated() {
+      this.gotIt();
+    },
     enterPressed(bool) {
       if (bool) {
         this.check();

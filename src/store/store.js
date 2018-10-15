@@ -186,24 +186,8 @@ export const store = new Vuex.Store({
       }
 
       if (state.urlName === "exercise") {
-        commit("twoFactAuth1", payload.response);
-        return dispatch("Learn/getQuestionDb")
-          .then(() => {
-            commit("twoFactAuth2", true);
-            payload.resolve();
-          })
-          .catch(error => {
-            if (
-              error.response.status === 401 ||
-              error.response.status === 403
-            ) {
-              payload.reject();
-              return;
-            }
-
-            commit("twoFactAuth2", true);
-            payload.resolve();
-          });
+        commit("authorized", payload.response);
+        payload.resolve(payload.response);
       }
 
       if (state.urlName === "setting") {
@@ -337,12 +321,9 @@ export const store = new Vuex.Store({
           });
       });
     },
-    signOut({ state, commit, dispatch }) {
+    signOut({ state, commit }) {
       commit("notAuthorized");
       commit("error500Data", false);
-      if (state.urlName === "exercise") {
-        dispatch("Learn/getQuestionDb").catch(error => {});
-      }
     }
   }
 });
