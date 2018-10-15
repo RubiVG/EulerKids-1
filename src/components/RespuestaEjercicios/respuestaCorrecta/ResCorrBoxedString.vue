@@ -1,5 +1,5 @@
 <template>
-  <span class="katex blue--text text--darken-1" v-katex="boxedStringAnswer(correcta)">
+  <span class="katex blue--text text--darken-1" v-katex="boxedStringAnswer(correct)">
   </span>
 </template>
 
@@ -8,7 +8,7 @@ import { boxedStringAnswer } from "../../../methods/exercises/util";
 
 export default {
   name: "ResCorrBoxedString",
-  props: ["correcta"],
+  props: ["correct"],
   data() {
     return {
       boxedStringAnswer

@@ -37,11 +37,11 @@ export default {
           gradient: "grad2",
           to: "math/second-grade"
         },
-        // {
-        //   img: "third.svg",
-        //   gradient: "grad2",
-        //   to: "math/third-grade"
-        // },
+        {
+          img: "third.svg",
+          gradient: "grad2",
+          to: "math/third-grade"
+        },
         // {
         //   img: "fourth.svg",
         //   gradient: "grad2",

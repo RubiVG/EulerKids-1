@@ -22,7 +22,7 @@ module.exports = {
     ],
     "third-grade": [
       {
-        exerciseName: "Sumas de dos dígitos sin llevar",
+        exerciseName: "Two-digit additions without carrying",
         total: 4455
       },
       {

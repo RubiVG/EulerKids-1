@@ -1,9 +1,9 @@
 const Tercero = (loadJsonFile, jsonPath) => {
   return {
-    "sumas-de-dos-digitos-sin-llevar-e": function() {
+    "two-digit-additions-without-carrying-e": function() {
       return loadJsonFile(
         jsonPath +
-          "/matematicas/tercero/SumDosDigi/SumaDosDigitosSinLLevar.json"
+          "/math/third-grade/TwoDigitAdd/TwoDigitAdd.json"
       );
     },
     "tablas-de-multiplicar-2-3-4-5-y-10-e": function() {

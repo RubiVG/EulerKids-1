@@ -20,8 +20,10 @@ const baseUrl = env => {
   if (env === "development") {
     return (axios.defaults.baseURL = "http://localhost:3000");
   }
+
   return (axios.defaults.baseURL = "https://www.eulerkids.com/");
 };
+
 baseUrl(process.env.NODE_ENV);
 
 Vue.config.productionTip = false;

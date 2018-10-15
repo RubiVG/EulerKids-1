@@ -32,10 +32,10 @@ export default {
           img: "additions3.svg",
           to: "third-grade/additions"
         },
-        {
-          img: "multiplications3.svg",
-          to: "third-grade/multiplications"
-        }
+        // {
+        //   img: "multiplications3.svg",
+        //   to: "third-grade/multiplications"
+        // }
       ]
     },
     "fourth-grade": {
@@ -160,17 +160,17 @@ export default {
           img: "addCard3.svg",
           lessons: [
             {
-              lesson: "Two-digit additions",
+              lesson: "Two-digit additions without carrying",
               img: "uno1.svg",
-              to: "additions/two-digit-additions",
-              page: "two-digit-additions",
+              to: "additions/two-digit-additions-without-carrying",
+              page: "two-digit-additions-without-carrying",
               exercises: [
                 {
-                  exercise: "two-digit-additions-e", // -e
-                  exerciseName: "Two-digit additions",
+                  exercise: "two-digit-additions-without-carrying-e", // -e
+                  exerciseName: "Two-digit additions without carrying",
                   img: "2digitAdds3.svg",
                   to:
-                    "two-digit-additions/two-digit-additions-e"
+                    "two-digit-additions-without-carrying/two-digit-additions-without-carrying-e"
                 }
               ]
             }

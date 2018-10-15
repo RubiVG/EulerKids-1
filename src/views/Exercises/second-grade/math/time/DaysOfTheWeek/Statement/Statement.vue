@@ -1,5 +1,5 @@
 <template>
-  <slot-exercises>
+  <exercise-slot>
     <div slot="instruction">
       Remember the days of the week:
     </div>
@@ -72,11 +72,11 @@
     <div slot="correctAnswer">
       <correct-answer :correct="question.correct"/>
     </div>
-  </slot-exercises>
+  </exercise-slot>
 </template>
 
 <script>
-import SlotExercises from "../../../../../slots/EjercicioSlot";
+import ExerciseSlot from "../../../../../slots/EjercicioSlot";
 import UserAnswer from "../../../../../../../components/RespuestaEjercicios/respuestaUsuario/texto";
 import CorrectAnswer from "../../../../../../../components/RespuestaEjercicios/respuestaCorrecta/texto";
 import CardSelectText from "../../../../../../../components/LogicaEjercicios/CardSelectTexto";
@@ -85,7 +85,7 @@ export default {
   name: "Dynamic",
   props: ["helpers", "subject", "img", "shuffleFisher"],
   components: {
-    "slot-exercises": SlotExercises,
+    "exercise-slot": ExerciseSlot,
     "card-select-text": CardSelectText,
     "user-answer": UserAnswer,
     "correct-answer": CorrectAnswer
