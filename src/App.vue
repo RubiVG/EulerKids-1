@@ -208,7 +208,7 @@ export default {
   },
   created() {
     this.$store
-      .dispatch("appVersion")
+      .dispatch("getAppVersion")
       .then(appVersion => {
         console.log(appVersion);
       })

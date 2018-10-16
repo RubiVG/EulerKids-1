@@ -218,7 +218,7 @@ export const store = new Vuex.Store({
       commit("authorized", payload.response);
       payload.resolve(payload.response);
     },
-    appVersion({ state, commit }) {
+    getAppVersion({ state, commit }) {
       return new Promise((resolve, reject) => {
         axios
           .get("/getAppVersion")
