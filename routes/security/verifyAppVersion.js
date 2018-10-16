@@ -2,8 +2,6 @@ module.exports.verifyAppVersion = appVersion => {
   return (req, res, next) => {
     const appVersionFront = req.body.appVersion;
 
-    console.log("appVersionFront = ", appVersionFront)
-
     if (appVersion === appVersionFront) {
       return next();
     }

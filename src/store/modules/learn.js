@@ -248,7 +248,6 @@ const actions = {
           commit("getQuestionRating", response.data.questionRating);
           commit("onOffSpinner", false);
           resolve(response);
-          console.log("getQuestionDb responded")
         })
         .catch(error => {
           dispatch("exerciseErrorHandler", error);

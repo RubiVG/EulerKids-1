@@ -1,6 +1,5 @@
 <template>
-  <v-layout v-if="$store.state.appVersion"
-            row
+  <v-layout row
             wrap class="mt-0">
     <card-info v-if="!isAuthenticated"
                :id="top"
@@ -394,7 +393,6 @@ export default {
     this.startClock();
   },
   created() {
-    console.log("Exercise created, appVersion =  ", this.$store.state.appVersion)
     // Seleccionamos las partes del ejercicio que necesitamos
     this.$store.commit("exerciseChooseElements");
     this.getQuestionDb();
