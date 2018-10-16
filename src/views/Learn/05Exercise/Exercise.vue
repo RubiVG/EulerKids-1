@@ -1,5 +1,6 @@
 <template>
-  <v-layout row
+  <v-layout v-if="$store.state.appVersion"
+            row
             wrap class="mt-0">
     <card-info v-if="!isAuthenticated"
                :id="top"
