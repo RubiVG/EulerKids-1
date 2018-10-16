@@ -393,6 +393,7 @@ export default {
     this.startClock();
   },
   created() {
+    console.log("Exercise created, appVersion =  ", this.$store.state.appVersion)
     // Seleccionamos las partes del ejercicio que necesitamos
     this.$store.commit("exerciseChooseElements");
     this.getQuestionDb();
