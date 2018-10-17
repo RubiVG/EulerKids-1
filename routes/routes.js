@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const app = require("express")();
+const cors = require("cors");
 const db = require("../database/dbModule");
 const MONGO = require("./mongoDb");
 const VAL = require("./security/validators");
@@ -37,7 +38,11 @@ const editEmail = require("./controllers/userSettings/editEmail");
 const editPassword = require("./controllers/userSettings/editPassword");
 const deleteAccount = require("./controllers/userSettings/deleteAccount");
 
-router.get("/getAppVersion", getAppVersion.getAppVersion(SECURITY.appVersion));
+router.get(
+  "/getAppVersion",
+  cors(),
+  getAppVersion.getAppVersion(SECURITY.appVersion)
+);
 
 router.post(
   "/signUp",
