@@ -1,7 +1,7 @@
 # [EulerKids](https://www.eulerkids.com)
-Educational technology must be a universal right.
 
-![alt text](https://raw.githubusercontent.com/andresperezc/EulerKids/blob/master/src/assets/Landing/ekLogo.svg)
+
+
 
 ## Project setup
 ```
