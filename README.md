@@ -5,12 +5,11 @@
 EuleKids is the dream to make educational technology a universal right.
  
 
-EulerKids is a free, adless, educational [single page application](https://es.wikipedia.org/wiki/Single-page_application) written in Javascript, 
-and relies on [Express](http://expressjs.com/) framework for the backend. 
-It uses [MongoDB](https://www.mongodb.com/) to store exercises, app usage and user progress.
-HTTP requests are proxied by [nginx](https://www.nginx.com/).
-The frontend is written in [Vue.js](https://vuejs.org/) and uses [Vuetify.js](https://vuetifyjs.com/en/)
-for styling.
+EulerKids is a free, adless, educational [single page application](https://es.wikipedia.org/wiki/Single-page_application) 
+written in Javascript. It relies on [Express](http://expressjs.com/) framework for the backend and uses 
+[MongoDB](https://www.mongodb.com/) to store exercises, app usage and user progress. HTTP requests are proxied by 
+[nginx](https://www.nginx.com/). The frontend is written in [Vue.js](https://vuejs.org/) and uses 
+[Vuetify.js](https://vuetifyjs.com/en/) for styling.
 
 The art has been created in [Inkscape](https://inkscape.org/) and provided by [Rubi Villanueva](https://github.com/rubivg).
 
@@ -35,3 +34,12 @@ npm install
 ```
 npm run serve
 ```
+
+### License
+
+Copyright © 2018 eulerkids.com
+
+The content of this repository bound by the following licenses:
+
+- GNU Affero General Public License 3.
+- Art work must be credit to Rubi Villanueva.
