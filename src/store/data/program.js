@@ -5,7 +5,7 @@ export default {
         {
           img: "numbers1.svg",
           to: "first-grade/numbers"
-        },
+        }
         // {
         //   img: "mixOp1.svg",
         //   to: "first-grade/mixed-operations"
@@ -31,7 +31,7 @@ export default {
         {
           img: "additions3.svg",
           to: "third-grade/additions"
-        },
+        }
         // {
         //   img: "multiplications3.svg",
         //   to: "third-grade/multiplications"
@@ -111,17 +111,16 @@ export default {
           img: "mixOpCard1.svg",
           lessons: [
             {
-              lesson: "\"+\" and \"-\" symbols",
+              lesson: '"+" and "-" symbols',
               img: "uno1.svg",
               to: "mixed-operations/plus-and-minus-symbols",
               page: "plus-and-minus-symbols",
               exercises: [
                 {
                   exercise: "plus-and-minus-symbols-e",
-                  exerciseName: "\"+\" and \"-\" symbols",
+                  exerciseName: '"+" and "-" symbols',
                   img: "plusMinus1.svg",
-                  to:
-                    "plus-and-minus-symbols/plus-and-minus-symbols-e"
+                  to: "plus-and-minus-symbols/plus-and-minus-symbols-e"
                 }
               ]
             }
@@ -155,7 +154,7 @@ export default {
     },
     "third-grade": {
       math: {
-        "additions": {
+        additions: {
           skillName: "Additions",
           img: "addCard3.svg",
           lessons: [
@@ -176,7 +175,7 @@ export default {
             }
           ]
         },
-        "multiplications": {
+        multiplications: {
           skillName: "Multiplications",
           img: "multiCard3.svg",
           lessons: [
@@ -197,7 +196,6 @@ export default {
             }
           ]
         }
-
       }
     },
     "fourth-grade": {
@@ -207,17 +205,17 @@ export default {
           img: "numbersCard4.svg",
           lessons: [
             {
-              lesson: "Expanded to standard form",
+              lesson: "From expanded to standard form",
               img: "uno1.svg",
-              to: "numbers/expanded-to-standard-form",
-              page: "expanded-to-standard-form",
+              to: "numbers/from-expanded-to-standard-form",
+              page: "from-expanded-to-standard-form",
               exercises: [
                 {
-                  exercise: "expanded-to-standard-form-e",
+                  exercise: "from-expanded-to-standard-form-e",
                   exerciseName: "Expanded to standard form",
                   img: "expandToStd4.svg",
                   to:
-                    "expanded-to-standard-form/expanded-to-standard-form-e"
+                    "from-expanded-to-standard-form/from-expanded-to-standard-form-e"
                 }
               ]
             }
@@ -252,7 +250,7 @@ export default {
     },
     "sixth-grade": {
       math: {
-        "numbers": {
+        numbers: {
           skillName: "Numbers",
           img: "numbersCard6.svg",
           lessons: [
@@ -266,14 +264,13 @@ export default {
                   exercise: "comparing-numbers-e",
                   exerciseName: "Comparing numbers",
                   img: "compNum6.svg",
-                  to:
-                    "comparing-numbers/comparing-numbers-e"
+                  to: "comparing-numbers/comparing-numbers-e"
                 }
               ]
             }
           ]
         },
-        "decimals": {
+        decimals: {
           skillName: "Decimals",
           img: "decimalsCard6.svg",
           lessons: [

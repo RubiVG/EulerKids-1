@@ -8,18 +8,17 @@
 
 <script>
 import MixinInput1 from "../../../../../../mixins/logicaEjercicios/input1";
-const questions = {
-  Dynamic: () => import("./preguntas/Dynamic")
-};
 
 export default {
-  name: "NotaDesaEstan",
+  name: "FromExToStd",
   props: ["helpers"],
   mixins: [MixinInput1],
-  components: questions,
+  components: {
+    Statement: () => import("./Statement/Statement")
+  },
   computed: {
     currentView() {
-      return "Dynamic";
+      return "Statement";
     }
   }
 };

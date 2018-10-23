@@ -1,4 +1,4 @@
 export default {
-  "notacion-desarrollada-a-estandar-4-e": () =>
-    import("../../fourth-grade/math/numeros/NotaDesaEstan/NotaDesaEstan")
+  "from-expanded-to-standard-form-e": () =>
+    import("../../fourth-grade/math/numbers/FromExToStd/FromExToStd")
 };

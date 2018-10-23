@@ -44,7 +44,7 @@ pool
     ]);
   })
   .then(() => {
-    console.log("Se han creado todos los índices");
+    console.log("All indexes had been created");
     server.listen(port, () => {
       console.log("appVersion = ", SECURITY.appVersion);
       console.log(`Node.js app is listening at http://localhost:${port}`);

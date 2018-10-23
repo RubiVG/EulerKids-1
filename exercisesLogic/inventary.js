@@ -32,8 +32,8 @@ module.exports = {
     ],
     "fourth-grade": [
       {
-        exerciseName: "Notación desarrollada a estándar",
-        total: 1500
+        exerciseName: "Expanded to standard form",
+        total: 2400
       }
     ],
     "fifth-grade": [
