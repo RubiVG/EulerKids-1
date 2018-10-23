@@ -2,6 +2,13 @@
 
 ![alt text](https://raw.githubusercontent.com/andresperezc/EulerKids/master/static/CoverGithub/ekCoverGit.png?token=AQdMHmenQpuvAup8Mw8lvG-v_Ltvqwm3ks5b2KhIwA%3D%3D)
 
+It features a search engine, computer analysis distributed with fishnet, tournaments, simuls, 
+forums, teams, tactic trainer, a mobile app, and a shared analysis board. 
+The UI is available in more than 80 languages thanks to the community.
+
+EulerKids is written in Javascript, and relies on [Express](http://expressjs.com/) for the routing and JSON. 
+It uses [MongoDB](https://www.mongodb.com/) to store exercises, app usage and user progress.
+The web client is written in [Vue.js](https://vuejs.org/). 
 
 ## Project setup
 ```
