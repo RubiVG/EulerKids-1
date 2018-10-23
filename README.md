@@ -1,6 +1,6 @@
 # [EulerKids](https://www.eulerkids.com)
 
-![alt text](https://raw.githubusercontent.com/andresperezc/EulerKids/master/static/CoverGithub/ekCoverGit.png?token=AQdMHmenQpuvAup8Mw8lvG-v_Ltvqwm3ks5b2KhIwA%3D%3D)
+![alt text](https://raw.githubusercontent.com/andresperezc/EulerKids/master/static/CoverGithub/ekCoverGit.png?token=AQdMHgmd-cF4zOvRh9HE28hXkxNJrg-gks5b2K4GwA%3D%3D)
 
 It features a search engine, computer analysis distributed with fishnet, tournaments, simuls, 
 forums, teams, tactic trainer, a mobile app, and a shared analysis board. 
