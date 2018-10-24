@@ -152,6 +152,10 @@ export default {
         {
           icon: "fab fa-instagram",
           to: "https://instagram.com/eulerkids"
+        },
+        {
+          icon: "fab fa-github-alt",
+          to: "https://github.com/andresperezc/EulerKids"
         }
       ],
       snackbar: {
