@@ -38,7 +38,7 @@ module.exports = {
     ],
     "fifth-grade": [
       {
-        exerciseName: "Paralelas, secantes ó perpendiculares",
+        exerciseName: "Parallels, secants and perpendicular lines",
         total: 150
       }
     ],

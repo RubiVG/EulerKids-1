@@ -1,8 +1,7 @@
 const uuidv4 = require("uuid/v4");
-const fs = require("fs");
 
 const logic = {
-  Paralelas() {
+  parallels() {
     const rating800 = [3, 8, 13, 15, 18, 20, 23, 28, 33, 38, 43, 45, 48, 50];
     const rating1200 = [
       1,
@@ -46,22 +45,22 @@ const logic = {
         assets: rating1800
       }
     ];
-    const preguntas = [];
+    const questions = [];
 
     for (var i = 0; i < ratings.length; i++) {
       for (var j = 0; j < ratings[i].assets.length; j++) {
-        preguntas.push({
-          imagen: `paralela${ratings[i].assets[j]}.svg`,
-          correcta: "paralela",
+        questions.push({
+          img: `paralela${ratings[i].assets[j]}.svg`,
+          correct: "parallel",
           id: uuidv4(),
           rating: ratings[i].rating
         });
       }
     }
 
-    return preguntas;
+    return questions;
   },
-  Secantes() {
+  secants() {
     const rating800 = [
       1,
       2,
@@ -121,22 +120,22 @@ const logic = {
         assets: rating1800
       }
     ];
-    const preguntas = [];
+    const questions = [];
 
     for (var i = 0; i < ratings.length; i++) {
       for (var j = 0; j < ratings[i].assets.length; j++) {
-        preguntas.push({
-          imagen: `secante${ratings[i].assets[j]}.svg`,
-          correcta: "secante",
+        questions.push({
+          img: `secante${ratings[i].assets[j]}.svg`,
+          correct: "secant",
           id: uuidv4(),
           rating: ratings[i].rating
         });
       }
     }
 
-    return preguntas;
+    return questions;
   },
-  Perpendiculares() {
+  perpendicular() {
     const rating800 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
     const rating1200 = [
       17,
@@ -190,40 +189,22 @@ const logic = {
         assets: rating1800
       }
     ];
-    const preguntas = [];
+    const questions = [];
 
     for (var i = 0; i < ratings.length; i++) {
       for (var j = 0; j < ratings[i].assets.length; j++) {
-        preguntas.push({
-          imagen: `perpendicular${ratings[i].assets[j]}.svg`,
-          correcta: "perpendicular",
+        questions.push({
+          img: `perpendicular${ratings[i].assets[j]}.svg`,
+          correct: "perpendicular",
           id: uuidv4(),
           rating: ratings[i].rating
         });
       }
     }
 
-    return preguntas;
+    return questions;
   },
   all() {
-    return this.Paralelas().concat(this.Secantes(), this.Perpendiculares());
+    return this.parallels().concat(this.secants(), this.perpendicular());
   }
 };
-
-// console.log(logic.all());
-
-const isEqual = require("lodash.isequal");
-const uniqWith = require("lodash.uniqwith");
-const uniqBy = require("lodash.uniqby");
-
-// let ejercicio = logic.all();
-// console.log(uniqWith(ejercicio, isEqual).length);
-// console.log(uniqBy(ejercicio, "id").length);
-// let string = JSON.stringify(ejercicio);
-//
-// fs.writeFile("ParaSecPer.json", string, function(err) {
-//   if (err) {
-//     console.log(err);
-//     throw err;
-//   }
-// });

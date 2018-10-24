@@ -47,11 +47,11 @@ export default {
           gradient: "grad2",
           to: "math/fourth-grade"
         },
-        // {
-        //   img: "fifth.svg",
-        //   gradient: "grad2",
-        //   to: "math/fifth-grade"
-        // },
+        {
+          img: "fifth.svg",
+          gradient: "grad2",
+          to: "math/fifth-grade"
+        },
         // {
         //   img: "sixth.svg",
         //   gradient: "grad2",

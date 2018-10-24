@@ -1,4 +1,4 @@
 export default {
-  "paralelas-secantes-o-perpendiculares-e": () =>
-    import("../../fifth-grade/math/FigGeo2D/ParaSecPer/Paralelas")
+  "parallels-secants-and-perpendicular-lines-e": () =>
+    import("../../fifth-grade/math/2DShapes/ParaSecPer/ParaSecPer")
 };

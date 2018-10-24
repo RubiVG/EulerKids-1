@@ -1,68 +1,64 @@
 <template>
-  <ejercicio-slot>
-    <div slot="instruccion">
-      Identifica si la línea es paralela, secante ó perpendicular.
+  <exercise-slot>
+    <div slot="instruction">
+      Determine if lines are parallel, secant or perpendicular.
     </div>
-    <div slot="operacion">
+    <div slot="operation">
       <div class="mt-3">
-        <img :src="imagenDynamic(question.imagen)"
+        <img :src="img(question.img)"
              height="150"
              class="responsive">
       </div>
     </div>
-    <div slot="interaccion">
+    <div slot="interaction">
       <v-container fluid>
         <v-layout row
                   align-center
                   justify-center
                   wrap>
-          <card-select-texto v-for="question in questions"
-                             :key="question.textoCard"
+          <card-select-text v-for="question in questions"
+                             :key="question.message"
                              :helpers="helpers"
                              :btn="question.btn"
                              :subject="subject"
                              :active="question.active"
-                             :texto-card="question.textoCard"
-                             :text-size="textSize">
-          </card-select-texto>
+                             :message="question.message"
+                             :text-size="textSize"/>
         </v-layout>
       </v-container>
     </div>
-    <div slot="tuRespuesta">
-      <respuesta-usuario :helpers="helpers"
-                         :respuesta-usuario="$store.state.Learn.userAnswer"
-                         :respuesta-data="$store.state.Learn.answerData"/>
+    <div slot="yourAnswer">
+      <user-answer :helpers="helpers"
+                         :user-answer="$store.state.Learn.userAnswer"
+                         :answer-data="$store.state.Learn.answerData"/>
     </div>
-    <div slot="solucion">
-      <div>
-        Recordemos:
-      </div>
+    <div slot="solution">
       <div class="mt-3">
-        <img :src="imagenDynamic(imagenRespuesta)"
+        <img :src="img(answerImg)"
              height="350"
              class="responsive">
       </div>
     </div>
-    <div slot="respuestaCorrecta">
-      <respuesta-correcta :correcta="question.correcta"/>
+    <div slot="correctAnswer">
+      <correct-answer :correct="question.correct"/>
     </div>
-  </ejercicio-slot>
+  </exercise-slot>
 </template>
 
 <script>
-import EjercicioSlot from "../../../../../slots/EjercicioSlot";
-import RespuestaUsuario from "../../../../../../../components/RespuestaEjercicios/respuestaUsuario/texto";
-import RespuestaCorrecta from "../../../../../../../components/RespuestaEjercicios/respuestaCorrecta/texto";
-import CardSelectTexto from "../../../../../../../components/LogicaEjercicios/CardSelectTexto";
+import ExerciseSlot from "../../../../../slots/EjercicioSlot";
+import UserAnswer from "../../../../../../../components/RespuestaEjercicios/respuestaUsuario/texto";
+import CorrectAnswer from "../../../../../../../components/RespuestaEjercicios/respuestaCorrecta/texto";
+import CardSelectText from "../../../../../../../components/LogicaEjercicios/CardSelectTexto";
 
 export default {
   name: "Dynamic",
-  props: ["helpers", "subject", "imagenDynamic"],
+  props: ["helpers", "subject", "img"],
   components: {
-    "ejercicio-slot": EjercicioSlot,
-    "card-select-texto": CardSelectTexto,
-    "respuesta-usuario": RespuestaUsuario,
-    "respuesta-correcta": RespuestaCorrecta
+    "exercise-slot": ExerciseSlot,
+    "card-select-text": CardSelectText,
+    "user-answer": UserAnswer,
+    "correct-answer": CorrectAnswer
   },
   data() {
     return {
@@ -70,13 +66,13 @@ export default {
       btn1: false,
       btn2: false,
       btn3: false,
-      paralela: "paralela",
-      secante: "secante",
+      parallel: "parallel",
+      secant: "secant",
       perpendicular: "perpendicular",
-      imagenRespuesta: "parpersecresp.svg",
+      answerImg: "parPerSec_A.svg",
       dummy: {
-        imagen: "secante1.svg",
-        correcta: "secante"
+        img: "secante1.svg",
+        correct: "secant"
       }
     };
   },
@@ -87,7 +83,7 @@ export default {
       this.btn3 = false;
 
       if (!input) {
-        this.respuestaCorrectaChecker(answerData);
+        this.correctAnswerChecker(answerData);
         this.btn1 = true;
         this.btn2 = false;
         this.btn3 = false;
@@ -111,7 +107,7 @@ export default {
       this.btn3 = false;
 
       if (!input) {
-        this.respuestaCorrectaChecker(answerData);
+        this.correctAnswerChecker(answerData);
         this.btn1 = false;
         this.btn2 = true;
         this.btn3 = false;
@@ -135,7 +131,7 @@ export default {
       this.btn3 = false;
 
       if (!input) {
-        this.respuestaCorrectaChecker(answerData);
+        this.correctAnswerChecker(answerData);
         this.btn1 = false;
         this.btn2 = false;
         this.btn3 = true;
@@ -153,8 +149,8 @@ export default {
         this.$store.commit("Learn/disableButton");
       }
     },
-    respuestaCorrectaChecker(answerData) {
-      return answerData === this.question.correcta
+    correctAnswerChecker(answerData) {
+      return answerData === this.question.correct
         ? this.$store.commit("Learn/getUserAnswer", {
             answer: true,
             answerData: answerData
@@ -167,25 +163,23 @@ export default {
   },
   computed: {
     questions() {
-      const questions = [
+      return [
         {
           btn: this.btn1,
           active: this.active1,
-          textoCard: this.paralela
+          message: this.parallel
         },
         {
           btn: this.btn2,
           active: this.active2,
-          textoCard: this.secante
+          message: this.secant
         },
         {
           btn: this.btn3,
           active: this.active3,
-          textoCard: this.perpendicular
+          message: this.perpendicular
         }
       ];
-
-      return questions;
     },
     question() {
       return this.$store.state.Learn.question;
