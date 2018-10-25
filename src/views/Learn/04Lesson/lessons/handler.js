@@ -1,13 +1,13 @@
-import CardPractica from "../../../../components/Cards/CardPractica";
-import CardProgreso from "../../../../components/Cards/CardProgreso";
-import CardInfo from "../../../../components/Cards/CardInfo";
+import Practice from "../../../../components/Cards/CardPractica";
+import Progress from "../../../../components/Cards/CardProgreso";
+import Info from "../../../../components/Cards/CardInfo";
 import Spinner from "../../../../components/Spinners/Spinner";
 
 const components = {
-  "app-card-practica": CardPractica,
-  "app-progreso": CardProgreso,
+  "euler-practice": Practice,
+  "euler-progress": Progress,
   spinner: Spinner,
-  "card-info": CardInfo
+  "euler-info": Info
 };
 
 const MathFirstGrade = {

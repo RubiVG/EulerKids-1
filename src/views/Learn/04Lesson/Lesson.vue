@@ -94,25 +94,25 @@
                   offset-sm3
                   v-for="exercise in exercisesList"
                   :key="exercise.exercise">
-            <app-card-practica
+            <euler-practice
                     :id="exercise.exercise"
                     :img="exerciseImg(exercise.img)"
                     :gradient="helpers.gradiante(subject)"
                     :to="exercise.to">
-            </app-card-practica>
+            </euler-practice>
           </v-flex>
         </v-tab-item>
         <v-tab-item id="progress"
                     :transition="transition"
                     :reverse-transition="transition">
           <v-flex xs12>
-            <card-info v-if="!isAuthenticated"
+            <euler-info v-if="!isAuthenticated"
                        :helpers="helpers"
                        :subject="subject"
                        :icon="icon"
                        :msg="msg">
-            </card-info>
-            <app-progreso v-if="isAuthenticated"
+            </euler-info>
+            <euler-progress v-if="isAuthenticated"
                           :spinner="spinner"
                           :src="srcProgress"
                           :imgLessons="imgLessons"
@@ -124,7 +124,7 @@
                           :exerciseName="exerciseName"
                           :size="size"
                           :width="width">
-            </app-progreso>
+            </euler-progress>
           </v-flex>
         </v-tab-item>
       </v-tabs>
