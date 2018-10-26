@@ -25,6 +25,7 @@ const state = {
   spinner: false,
   lessonsName: [],
   progress: null,
+  dailyPractice: [],
   enterPressed: false
 };
 
@@ -107,6 +108,9 @@ const mutations = {
   },
   getProgress(state, payload) {
     state.progress = payload;
+  },
+  getDailyPractice(state, payload) {
+    state.dailyPractice = payload;
   },
   enterPressedData(state, payload) {
     state.enterPressed = payload;
@@ -215,6 +219,7 @@ const actions = {
         })
         .then(response => {
           commit("getProgress", response.data.progress);
+          commit("getDailyPractice", response.data.dailyPractice);
           commit("onOffSpinner", false);
           resolve(response);
         })

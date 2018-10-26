@@ -133,6 +133,15 @@ module.exports = {
       })
       .toArray();
   },
+  findDailyPractice(db, username) {
+    const collection = db.collection("userTotalUsage");
+
+    return collection
+      .find({
+        username: username
+      })
+      .toArray();
+  },
   findRatingUsuarioEjer(db, subject, username, exercise) {
     const collection = db.collection(subject);
 

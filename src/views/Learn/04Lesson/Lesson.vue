@@ -120,6 +120,7 @@
                           :correct="correct"
                           :time="time"
                           :rating="rating"
+                          :dailyPractice="dailyPractice"
                           :max="max"
                           :exerciseName="exerciseName"
                           :size="size"
@@ -277,6 +278,9 @@ export default {
     },
     rating() {
       return this.get(this.$store.state.Learn.progress, "rating", 0);
+    },
+    dailyPractice() {
+      return this.$store.state.Learn.dailyPractice;
     },
     spinner() {
       return this.$store.state.Learn.spinner;

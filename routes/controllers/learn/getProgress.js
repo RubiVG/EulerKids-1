@@ -1,16 +1,19 @@
-module.exports.getProgress = (db, MONGO) => {
+module.exports.getProgress = (db, MONGO, _, HELP) => {
   return (req, res) => {
-    // console.log("getProgress");
-
     const username = req.body.username;
     const subject = req.body.subject;
     const grade = req.body.grade;
     const skill = req.body.skill;
-    const lesson = req.body.lesson + "-e"; // Para convertirlo en string de ejercicio
+    const lesson = req.body.lesson + "-e";
 
-    MONGO.findTema(db.get(), subject,  username, grade, skill, lesson)
+    return Promise.all([
+      MONGO.findTema(db.get(), subject, username, grade, skill, lesson),
+      MONGO.findDailyPractice(db.get(), username)
+    ])
       .then(docs => {
-        const progress = docs
+        const progress = _.chain(docs)
+          .nth(0)
+          .value()
           .map(e => {
             return {
               total: e.total,
@@ -22,13 +25,20 @@ module.exports.getProgress = (db, MONGO) => {
           .reduce((a, b) => {
             return b;
           }, []);
+        const dailyPracticeFilter = _.chain(docs)
+          .nth(1)
+          .value()
+
+          .filter(e => _.get(e, [grade, subject, skill, lesson]));
+        const dailyPracticeFinal = HELP.dailyPractice(dailyPracticeFilter, _);
 
         res.status(200).send({
-          progress: progress
+          progress: progress,
+          dailyPractice: dailyPracticeFinal
         });
       })
       .catch(err => {
-        return res.status(500).send({ message: "Error al obtener progreso" });
+        res.status(500).send();
       });
   };
 };

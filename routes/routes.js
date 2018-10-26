@@ -11,6 +11,7 @@ const successMsg = require("./modules/successMsg");
 const verifyAppVersion = require("./security/verifyAppVersion");
 const randomString = require("../utilities/random").randomString;
 const RESET_PASS = require("./security/resetPassword");
+const HELP = require("./helpers");
 
 // Libraries
 const bcrypt = require("bcryptjs");
@@ -117,7 +118,7 @@ router.post(
   verifyAppVersion.verifyAppVersion(SECURITY.appVersion),
   VAL.getProgress(check),
   VAL.validationMiddleware,
-  getProgress.getProgress(db, MONGO)
+  getProgress.getProgress(db, MONGO, _, HELP)
 );
 
 router.post(
