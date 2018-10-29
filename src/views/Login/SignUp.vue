@@ -93,10 +93,27 @@ export default {
           return true;
         }
         return !/^\d/.test(value);
+      },
+      onlyAscci: value => {
+        if (typeof value === "undefined" || value === null || value === "") {
+          return true;
+        }
+
+        return /^[\w]+$/.test(value);
       }
     },
     email: { required, email },
-    password: { required, minLength: minLength(8) }
+    password: {
+      required,
+      minLength: minLength(8),
+      onlyAscci: value => {
+        if (typeof value === "undefined" || value === null || value === "") {
+          return true;
+        }
+
+        return /^[\w]+$/.test(value);
+      }
+    }
   },
   props: [
     "size",
@@ -119,6 +136,7 @@ export default {
       email: "",
       passErr1: "Password is required",
       passErr2: "Password must be at least 8 characters",
+      passErr3: "Password has invalid characters",
       userErr1: "Username is required",
       userErr2: "Username has invalid characters",
       userErr3: "Username must be at least 6 characters",
@@ -153,7 +171,7 @@ export default {
           this.clearForm();
           this.$emit("closeRegisterWindowSignUp", false);
         })
-        .catch(err => {
+        .catch(() => {
           this.clearForm();
           this.spinner = false;
         });
@@ -165,6 +183,7 @@ export default {
       if (!this.$v.password.$dirty) return errors;
       !this.$v.password.required && errors.push(this.passErr1);
       !this.$v.password.minLength && errors.push(this.passErr2);
+      !this.$v.password.onlyAscci && errors.push(this.passErr3);
 
       return errors;
     },
@@ -175,6 +194,7 @@ export default {
       !this.$v.username.required && errors.push(this.userErr1);
       !this.$v.username.noSpaces && errors.push(this.userErr2);
       !this.$v.username.noNumbersBeginning && errors.push(this.userErr2);
+      !this.$v.username.onlyAscci && errors.push(this.userErr2);
 
       return errors;
     },
