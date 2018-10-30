@@ -16,7 +16,8 @@
                      :icon="alertIcon(success)"
                      :value="true">
               {{ serverMsgGetter }}
-              <ul v-for="error in serverErrorsGetter">
+              <ul v-for="error in serverErrorsGetter"
+                  :key="error.msg">
                 <li>{{ error.msg }}</li>
               </ul>
             </v-alert>
@@ -36,7 +37,6 @@
               <v-flex xs12>
                 <v-text-field label="New password"
                               color="blue darken-1"
-                              type="password"
                               required
                               v-model="newPassword"
                               :error-messages="newPasswordErrors"
@@ -51,7 +51,6 @@
               <v-flex xs12>
                 <v-text-field label="Confirm new password"
                               color="blue darken-1"
-                              type="password"
                               required
                               v-model="confirmPassword"
                               :error-messages="confirmPasswordErrors"
@@ -89,129 +88,149 @@
 </template>
 
 <script>
-import { required, minLength, sameAs } from "vuelidate/lib/validators";
-import Spinner from "../../components/Spinners/Spinner";
-import { mapGetters } from "vuex";
-import { store } from "../../store/store";
-import axios from "axios";
+  import { required, minLength, sameAs } from "vuelidate/lib/validators";
+  import Spinner from "../../components/Spinners/Spinner";
+  import { mapGetters } from "vuex";
+  import { store } from "../../store/store";
+  import axios from "axios";
 
-export default {
-  name: "ResetPassword",
-  validations: {
-    newPassword: { required, minLength: minLength(8) },
-    confirmPassword: {
-      sameAsPassword: sameAs("newPassword"),
-      required,
-      minLength: minLength(8)
-    }
-  },
-  components: {
-    spinner: Spinner
-  },
-  data() {
-    return {
-      size: 60,
-      width: 2,
-      e1: true,
-      e2: true,
-      newPassword: "",
-      confirmPassword: "",
-      passErr1: "This field is required",
-      passErr2: "Password must be at least 8 characters",
-      passErr3: "Passwords must be identical",
-      spinner: false,
-      success: false,
-      fail: false,
-      errors: [],
-      username: ""
-    };
-  },
-  methods: {
-    clearForm() {
-      this.$v.$reset();
-      this.newPassword = "";
-      this.confirmPassword = "";
-    },
-    reset() {
-      this.$v.$touch();
-
-      if (this.$v.$invalid) {
-        return;
-      }
-
-      this.spinner = true;
-
-      this.$store
-        .dispatch("setNewPassword", {
-          token: this.$route.params.token,
-          username: this.username,
-          newPassword: this.newPassword,
-          confirmPassword: this.confirmPassword
-        })
-        .then(() => {
-          this.clearForm();
-          this.spinner = false;
-          this.success = true;
-        })
-        .catch(error => {
-          if (error.response.status === 401) {
-            this.fail = true;
+  export default {
+    name: "ResetPassword",
+    validations: {
+      newPassword: {
+        required,
+        minLength: minLength(8),
+        onlyAscci: value => {
+          if (typeof value === "undefined" || value === null || value === "") {
+            return true;
           }
 
-          this.clearForm();
-          this.spinner = false;
-        });
-    },
-    alertColor(success) {
-      return success ? "blue darken-1" : "error";
-    },
-    alertIcon(success) {
-      return success ? "check_circle" : "warning";
-    }
-  },
-  computed: {
-    ...mapGetters({
-      serverMsgGetter: "serverMsgGetter",
-      serverErrorsGetter: "serverErrorsGetter"
-    }),
-    successOrFail() {
-      return this.success || this.fail;
-    },
-    newPasswordErrors() {
-      const errors = [];
-      if (!this.$v.newPassword.$dirty) return errors;
-      !this.$v.newPassword.required && errors.push(this.passErr1);
-      !this.$v.newPassword.minLength && errors.push(this.passErr2);
+          return /^[\w]+$/.test(value);
+        }
+      },
+      confirmPassword: {
+        sameAsPassword: sameAs("newPassword"),
+        required,
+        minLength: minLength(8),
+        onlyAscci: value => {
+          if (typeof value === "undefined" || value === null || value === "") {
+            return true;
+          }
 
-      return errors;
+          return /^[\w]+$/.test(value);
+        }
+      }
     },
-    confirmPasswordErrors() {
-      const errors = [];
-      if (!this.$v.confirmPassword.$dirty) return errors;
-      !this.$v.confirmPassword.required && errors.push(this.passErr1);
-      !this.$v.confirmPassword.minLength && errors.push(this.passErr2);
-      !this.$v.confirmPassword.sameAsPassword && errors.push(this.passErr3);
+    components: {
+      spinner: Spinner
+    },
+    data() {
+      return {
+        size: 60,
+        width: 2,
+        e1: true,
+        e2: true,
+        newPassword: "",
+        confirmPassword: "",
+        passErr1: "This field is required",
+        passErr2: "Password must be at least 8 characters",
+        passErr3: "Passwords must be identical",
+        passErr4: "Password has invalid characters",
+        spinner: false,
+        success: false,
+        fail: false,
+        errors: [],
+        username: ""
+      };
+    },
+    methods: {
+      clearForm() {
+        this.$v.$reset();
+        this.newPassword = "";
+        this.confirmPassword = "";
+      },
+      reset() {
+        this.$v.$touch();
 
-      return errors;
+        if (this.$v.$invalid) {
+          return;
+        }
+
+        this.spinner = true;
+
+        this.$store
+          .dispatch("setNewPassword", {
+            token: this.$route.params.token,
+            username: this.username,
+            newPassword: this.newPassword,
+            confirmPassword: this.confirmPassword
+          })
+          .then(() => {
+            this.clearForm();
+            this.spinner = false;
+            this.success = true;
+          })
+          .catch(error => {
+            if (error.response.status === 401) {
+              this.fail = true;
+            }
+
+            this.clearForm();
+            this.spinner = false;
+          });
+      },
+      alertColor(success) {
+        return success ? "blue darken-1" : "error";
+      },
+      alertIcon(success) {
+        return success ? "check_circle" : "warning";
+      }
+    },
+    computed: {
+      ...mapGetters({
+        serverMsgGetter: "serverMsgGetter",
+        serverErrorsGetter: "serverErrorsGetter"
+      }),
+      successOrFail() {
+        return this.success || this.fail;
+      },
+      newPasswordErrors() {
+        const errors = [];
+        if (!this.$v.newPassword.$dirty) return errors;
+        !this.$v.newPassword.required && errors.push(this.passErr1);
+        !this.$v.newPassword.minLength && errors.push(this.passErr2);
+        !this.$v.newPassword.onlyAscci && errors.push(this.passErr4);
+
+        return errors;
+      },
+      confirmPasswordErrors() {
+        const errors = [];
+        if (!this.$v.confirmPassword.$dirty) return errors;
+        !this.$v.confirmPassword.required && errors.push(this.passErr1);
+        !this.$v.confirmPassword.minLength && errors.push(this.passErr2);
+        !this.$v.confirmPassword.sameAsPassword && errors.push(this.passErr3);
+        !this.$v.confirmPassword.onlyAscci && errors.push(this.passErr4);
+
+        return errors;
+      }
+    },
+    beforeRouteEnter(to, from, next) {
+      next(vm => {
+        axios
+          .post("/validateToken", {
+            token: vm.$route.params.token
+          })
+          .then(response => {
+            vm.username = response.data.username;
+          })
+          .catch(error => {
+            vm.fail = true;
+            store.dispatch("getServerMsgError", error);
+          });
+      });
+    },
+    destroyed() {
+      this.$store.dispatch("resetServerMsg");
     }
-  },
-  beforeRouteEnter(to, from, next) {
-    next(vm => {
-      axios
-        .post("/validateToken", {
-          token: vm.$route.params.token
-        })
-        .then(response => {
-          vm.username = response.data.username;
-        })
-        .catch(error => {
-          vm.fail = true;
-          store.dispatch("getServerMsgError", error);
-        });
-    });
-  },
-  destroyed() {
-    this.$store.dispatch("resetServerMsg");
-  }
-};
+  };
 </script>
