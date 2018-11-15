@@ -1,16 +1,15 @@
 <template>
-  <v-flex xs12 sm8
-          offset-sm2
-          md4
-          offset-md4>
+  <v-flex xs12 sm8 offset-sm2 md4 offset-md4>
     <v-card>
       <v-container v-if="serverMsg">
         <v-layout>
-          <v-alert v-if="serverMsg"
-                   outline
-                   :color="colorAlert(isThereNewApp, fail)"
-                   :icon="iconAlert(isThereNewApp, fail)"
-                   :value="true">
+          <v-alert
+            v-if="serverMsg"
+            outline
+            :color="colorAlert(isThereNewApp, fail)"
+            :icon="iconAlert(isThereNewApp, fail)"
+            :value="true"
+          >
             {{ serverMsg }}
             <ul v-for="error in errors">
               <li>{{ error.msg }}</li>
@@ -23,65 +22,65 @@
           <div class="title grey--text text--darken-2">Edit password:</div>
         </div>
       </v-card-title>
-      <spinner v-if="spinner"
-               :size="size"
-               :width="width">
-      </spinner>
-      <form v-if="!spinner"
-            class="ml-2 mr-2">
-
+      <spinner v-if="spinner" :size="size" :width="width"> </spinner>
+      <form v-if="!spinner" class="ml-2 mr-2">
         <v-flex xs12>
-          <v-text-field label="Current password"
-                        color="purple lighten-1"
-                        type="password"
-                        required
-                        v-model="password"
-                        :error-messages="passwordErrors"
-                        @input="$v.password.$touch()"
-                        @blur="$v.password.$touch()"
-                        @keyup.enter="editPassword"
-                        :append-icon="e1 ? 'visibility' : 'visibility_off'"
-                        @click:append="() => (e1 = !e1)"
-                        :type="e1 ? 'password' : 'text'">
+          <v-text-field
+            label="Current password"
+            color="purple lighten-1"
+            required
+            v-model="password"
+            :error-messages="passwordErrors"
+            @input="$v.password.$touch();"
+            @blur="$v.password.$touch();"
+            @keyup.enter="editPassword"
+            :append-icon="e1 ? 'visibility' : 'visibility_off'"
+            @click:append="() => (e1 = !e1)"
+            :type="e1 ? 'password' : 'text'"
+          >
           </v-text-field>
         </v-flex>
         <v-flex xs12>
-          <v-text-field label="New password"
-                        color="blue darken-1"
-                        type="password"
-                        required
-                        v-model="newPassword"
-                        :error-messages="newPasswordErrors"
-                        @input="$v.newPassword.$touch()"
-                        @blur="$v.newPassword.$touch()"
-                        @keyup.enter="editPassword"
-                        :append-icon="e2 ? 'visibility' : 'visibility_off'"
-                        @click:append="() => (e2 = !e2)"
-                        :type="e2 ? 'password' : 'text'">
+          <v-text-field
+            label="New password"
+            color="blue darken-1"
+            required
+            v-model="newPassword"
+            :error-messages="newPasswordErrors"
+            @input="$v.newPassword.$touch();"
+            @blur="$v.newPassword.$touch();"
+            @keyup.enter="editPassword"
+            :append-icon="e2 ? 'visibility' : 'visibility_off'"
+            @click:append="() => (e2 = !e2)"
+            :type="e2 ? 'password' : 'text'"
+          >
           </v-text-field>
         </v-flex>
         <v-flex xs12>
-          <v-text-field label="Confirm new password"
-                        color="blue darken-1"
-                        type="password"
-                        required
-                        v-model="confirmPassword"
-                        :error-messages="confirmPasswordErrors"
-                        @input="$v.confirmPassword.$touch()"
-                        @blur="$v.confirmPassword.$touch()"
-                        @keyup.enter="editPassword"
-                        :append-icon="e3 ? 'visibility' : 'visibility_off'"
-                        @click:append="() => (e3 = !e3)"
-                        :type="e3 ? 'password' : 'text'">
+          <v-text-field
+            label="Confirm new password"
+            color="blue darken-1"
+            required
+            v-model="confirmPassword"
+            :error-messages="confirmPasswordErrors"
+            @input="$v.confirmPassword.$touch();"
+            @blur="$v.confirmPassword.$touch();"
+            @keyup.enter="editPassword"
+            :append-icon="e3 ? 'visibility' : 'visibility_off'"
+            @click:append="() => (e3 = !e3)"
+            :type="e3 ? 'password' : 'text'"
+          >
           </v-text-field>
         </v-flex>
       </form>
       <v-card-actions>
-        <v-btn flat
-               outline
-               color="purple lighten-1"
-               :disabled="spinner"
-               @click.native="editPassword">
+        <v-btn
+          flat
+          outline
+          color="purple lighten-1"
+          :disabled="spinner"
+          @click.native="editPassword"
+        >
           Save
         </v-btn>
       </v-card-actions>
@@ -123,7 +122,8 @@ export default {
       confirmPassword: "",
       passErr1: "This field is required",
       passErr2: "Password must be at least 8 characters",
-      passErr3: "Passwords must be identical"
+      passErr3: "Passwords must be identical",
+      passErr4: "Password has invalid characters"
     };
   },
   methods: {

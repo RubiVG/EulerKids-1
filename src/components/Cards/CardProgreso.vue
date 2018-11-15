@@ -1,31 +1,20 @@
 <template>
-  <v-flex xs12
-          md6
-          offset-md3>
+  <v-flex xs12 md6 offset-md3>
     <v-card tile>
       <v-container fluid grid-list-lg>
         <v-layout>
           <v-flex>
-            <v-img :src="imgLessons(src)"
-                   height="100px"
-                   contain
-                   class="ma-2">
+            <v-img :src="imgLessons(src)" height="100px" contain class="ma-2">
             </v-img>
             <div class="title grey--text text--darken-1 text-xs-center">
               {{ exerciseName }}
             </div>
           </v-flex>
         </v-layout>
-        <spinner v-if="spinner"
-                 :width="width"
-                 :size="size">
-        </spinner>
-        <v-card v-if="!spinner"
-                tile
-                flat>
-          <v-container fluid
-                       grid-list-lg >
-            <v-layout >
+        <spinner v-if="spinner" :width="width" :size="size"> </spinner>
+        <v-card v-if="!spinner" tile flat>
+          <v-container fluid grid-list-lg>
+            <v-layout>
               <v-flex xs12>
                 <div class="title grey--text text--darken-1 text-xs-center">
                   Correct
@@ -47,10 +36,12 @@
               <v-flex xs12>
                 <div class="title grey--text text--darken-1 text-xs-center">
                   Current Level
-                  <v-img :src="becomeEuler(rating, max)"
-                         contain
-                         height="100"
-                         class="mt-2">
+                  <v-img
+                    :src="becomeEuler(rating, max)"
+                    contain
+                    height="100"
+                    class="mt-2"
+                  >
                   </v-img>
                 </div>
               </v-flex>
@@ -62,8 +53,7 @@
             Daily Practice
           </div>
         </v-flex>
-        <div class="amCharts" ref="chartdiv">
-        </div>
+        <div class="amCharts" ref="chartdiv"></div>
       </v-container>
     </v-card>
   </v-flex>
@@ -137,7 +127,6 @@ export default {
       });
     }
 
-
     chart.data = data;
     let dateAxis = chart.xAxes.push(new am4charts.DateAxis());
     dateAxis.renderer.grid.template.location = 0;
@@ -148,7 +137,6 @@ export default {
     valueAxis.tooltip.disabled = true;
     valueAxis.renderer.minWidth = 35;
     valueAxis.baseUnit = "second";
-
 
     let series = chart.series.push(new am4charts.LineSeries());
     series.dataFields.dateX = "date";
@@ -181,7 +169,7 @@ export default {
     }
   },
   created() {
-    console.log(this.dailyPractice)
+    console.log(this.dailyPractice);
   }
 };
 </script>

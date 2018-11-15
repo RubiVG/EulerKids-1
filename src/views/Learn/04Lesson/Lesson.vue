@@ -1,130 +1,144 @@
 <template>
-  <v-layout row
-            wrap
-            class="mt-0">
-    <v-flex xs12
-            xl10
-            offset-xl1>
-      <v-tabs icons-and-text
-              centered
-              dark
-              :color="helpers.colorMaster(subject)"
-              v-model="active">
-        <v-tabs-slider color="pink"/>
-        <v-spacer/>
-        <v-btn flat
-               :dark="isDark(makeBook[counter - 1])"
-               icon
-               class="hidden-xs-only mt-3"
-               :disabled="disabled(makeBook[counter - 1])"
-               @click="prev">
+  <v-layout row wrap class="mt-0">
+    <v-flex xs12 xl10 offset-xl1>
+      <v-tabs
+        icons-and-text
+        centered
+        dark
+        :color="helpers.colorMaster(subject)"
+        v-model="active"
+      >
+        <v-tabs-slider color="pink" />
+        <v-spacer />
+        <v-btn
+          flat
+          :dark="isDark(makeBook[counter - 1])"
+          icon
+          class="hidden-xs-only mt-3"
+          :disabled="disabled(makeBook[counter - 1])"
+          @click="prev"
+        >
           <v-icon>arrow_back</v-icon>
         </v-btn>
-        <v-tab v-for="tab in tabs"
-               :key="tab.title"
-               ripple
-               :href="tab.href">
+        <v-tab v-for="tab in tabs" :key="tab.title" ripple :href="tab.href">
           {{ tab.title }}
           <v-icon>{{ tab.icon }}</v-icon>
         </v-tab>
-        <v-btn flat
-               :dark="isDark(makeBook[counter + 1])"
-               icon
-               class="hidden-xs-only mt-3"
-               :disabled="disabled(makeBook[counter + 1])"
-               @click="next">
+        <v-btn
+          flat
+          :dark="isDark(makeBook[counter + 1])"
+          icon
+          class="hidden-xs-only mt-3"
+          :disabled="disabled(makeBook[counter + 1])"
+          @click="next"
+        >
           <v-icon>arrow_forward</v-icon>
         </v-btn>
-        <v-spacer/>
-        <v-tab-item :transition="transition"
-                    :reverse-transition="transition"
-                    id="learn">
+        <v-spacer />
+        <v-tab-item
+          :transition="transition"
+          :reverse-transition="transition"
+          id="learn"
+        >
           <v-card class="mt-4">
-            <v-layout row
-                      justify-space-around>
-              <v-flex xs2
-                      class="hidden-sm-and-up">
+            <v-layout row justify-space-around>
+              <v-flex xs2 class="hidden-sm-and-up">
                 <div class="text-xs-left">
-                  <v-btn small
-                         fab
-                         dark
-                         :color="helpers.colorMaster(subject)"
-                         :disabled="disabled(makeBook[counter - 1])"
-                         :dark="isDark(makeBook[counter - 1])"
-                         @click="prev">
+                  <v-btn
+                    small
+                    fab
+                    dark
+                    :color="helpers.colorMaster(subject)"
+                    :disabled="disabled(makeBook[counter - 1])"
+                    :dark="isDark(makeBook[counter - 1])"
+                    @click="prev"
+                  >
                     <v-icon>arrow_back</v-icon>
                   </v-btn>
                 </div>
               </v-flex>
               <v-flex xs2>
                 <div class="text-xs-center">
-                  <v-btn small
-                         fab
-                         dark
-                         :color="helpers.colorMaster(subject)"
-                         @click="goToLessons">
+                  <v-btn
+                    small
+                    fab
+                    dark
+                    :color="helpers.colorMaster(subject)"
+                    @click="goToLessons"
+                  >
                     <v-icon>menu</v-icon>
                   </v-btn>
                 </div>
               </v-flex>
-              <v-flex xs2
-                      class="hidden-sm-and-up">
+              <v-flex xs2 class="hidden-sm-and-up">
                 <div class="text-xs-right">
-                  <v-btn small
-                         fab
-                         dark
-                         :color="helpers.colorMaster(subject)"
-                         :disabled="disabled(makeBook[counter + 1])"
-                         :dark="isDark(makeBook[counter + 1])"
-                         @click="next">
+                  <v-btn
+                    small
+                    fab
+                    dark
+                    :color="helpers.colorMaster(subject)"
+                    :disabled="disabled(makeBook[counter + 1])"
+                    :dark="isDark(makeBook[counter + 1])"
+                    @click="next"
+                  >
                     <v-icon>arrow_forward</v-icon>
                   </v-btn>
                 </div>
               </v-flex>
             </v-layout>
-            <component :is="currentView">
-            </component>
+            <component :is="currentView"> </component>
           </v-card>
         </v-tab-item>
-        <v-tab-item :transition="transition"
-                    :reverse-transition="transition"
-                    id="practice">
-          <v-flex xs12
-                  sm6
-                  offset-sm3
-                  v-for="exercise in exercisesList"
-                  :key="exercise.exercise">
+        <v-tab-item
+          :transition="transition"
+          :reverse-transition="transition"
+          id="practice"
+        >
+          <v-flex
+            xs12
+            sm6
+            offset-sm3
+            v-for="exercise in exercisesList"
+            :key="exercise.exercise"
+          >
             <euler-practice
-                    :id="exercise.exercise"
-                    :img="exerciseImg(exercise.img)"
-                    :gradient="helpers.gradiante(subject)"
-                    :to="exercise.to">
+              :id="exercise.exercise"
+              :img="exerciseImg(exercise.img)"
+              :gradient="helpers.gradiante(subject)"
+              :to="exercise.to"
+            >
             </euler-practice>
           </v-flex>
         </v-tab-item>
-        <v-tab-item id="progress"
-                    :transition="transition"
-                    :reverse-transition="transition">
+        <v-tab-item
+          id="progress"
+          :transition="transition"
+          :reverse-transition="transition"
+        >
           <v-flex xs12>
-            <euler-info v-if="!isAuthenticated"
-                       :helpers="helpers"
-                       :subject="subject"
-                       :icon="icon"
-                       :msg="msg">
+            <euler-info
+              v-if="!isAuthenticated"
+              :helpers="helpers"
+              :subject="subject"
+              :icon="icon"
+              :msg="msg"
+            >
             </euler-info>
-            <euler-progress v-if="isAuthenticated"
-                          :spinner="spinner"
-                          :src="srcProgress"
-                          :imgLessons="imgLessons"
-                          :total="total"
-                          :correct="correct"
-                          :time="time"
-                          :rating="rating"
-                          :dailyPractice="dailyPractice"
-                          :max="max"
-                          :exerciseName="exerciseName"
-                          :size="size"
-                          :width="width">
+            <euler-progress
+              v-if="isAuthenticated"
+              :spinner="spinner"
+              :src="srcProgress"
+              :imgLessons="imgLessons"
+              :total="total"
+              :correct="correct"
+              :time="time"
+              :rating="rating"
+              :dailyPractice="dailyPractice"
+              :max="max"
+              :exerciseName="exerciseName"
+              :size="size"
+              :width="width"
+            >
             </euler-progress>
           </v-flex>
         </v-tab-item>

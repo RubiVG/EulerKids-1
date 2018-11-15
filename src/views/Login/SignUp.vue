@@ -1,66 +1,70 @@
 <template>
   <div>
-    <spinner v-if="spinner"
-             class="mb-3"
-             :size="size"
-             :width="width"/>
-    <v-alert v-if="serverMsgGetter"
-             outline
-             :color="alertColor(isThereNewApp)"
-             icon="warning"
-             :value="true">
+    <spinner v-if="spinner" class="mb-3" :size="size" :width="width" />
+    <v-alert
+      v-if="serverMsgGetter"
+      outline
+      :color="alertColor(isThereNewApp)"
+      icon="warning"
+      :value="true"
+    >
       {{ serverMsgGetter }}
       <ul v-for="error in serverErrorsGetter">
         <li>{{ error.msg }}</li>
       </ul>
     </v-alert>
-    <v-layout v-if="!spinner"
-              wrap>
+    <v-layout v-if="!spinner" wrap>
       <v-flex xs12>
-        <v-text-field label="Username"
-                      color="blue darken-1"
-                      required
-                      v-model="username"
-                      :error-messages="usernameErrors"
-                      @input="$v.username.$touch()"
-                      @blur="$v.username.$touch()"
-                      @keyup.enter="signUp">
-
+        <v-text-field
+          label="Username"
+          color="blue darken-1"
+          required
+          v-model="username"
+          :error-messages="usernameErrors"
+          @input="$v.username.$touch();"
+          @blur="$v.username.$touch();"
+          @keyup.enter="signUp"
+        >
         </v-text-field>
       </v-flex>
       <v-flex xs12>
-        <v-text-field label="Email"
-                      color="blue darken-1"
-                      required
-                      v-model="email"
-                      :error-messages="emailErrors"
-                      @input="$v.email.$touch()"
-                      @blur="$v.email.$touch()"
-                      @keyup.enter="signUp">
+        <v-text-field
+          label="Email"
+          color="blue darken-1"
+          required
+          v-model="email"
+          :error-messages="emailErrors"
+          @input="$v.email.$touch();"
+          @blur="$v.email.$touch();"
+          @keyup.enter="signUp"
+        >
         </v-text-field>
       </v-flex>
       <v-flex xs12>
-        <v-text-field label="Password"
-                      color="blue darken-1"
-                      type="password"
-                      required
-                      v-model="password"
-                      :error-messages="passwordErrors"
-                      @input="$v.password.$touch()"
-                      @blur="$v.password.$touch()"
-                      @keyup.enter="signUp"
-                      :append-icon="e1 ? 'visibility' : 'visibility_off'"
-                      @click:append="() => (e1 = !e1)"
-                      :type="e1 ? 'password' : 'text'">
+        <v-text-field
+          label="Password"
+          color="blue darken-1"
+          required
+          v-model="password"
+          :error-messages="passwordErrors"
+          @input="$v.password.$touch();"
+          @blur="$v.password.$touch();"
+          @keyup.enter="signUp"
+          :append-icon="e1 ? 'visibility' : 'visibility_off'"
+          @click:append="() => (e1 = !e1)"
+          :type="e1 ? 'password' : 'text'"
+        >
         </v-text-field>
       </v-flex>
     </v-layout>
     <div class="text-xs-center">
-      <v-btn color="blue darken-1"
-             outline
-             flat
-             :disabled="spinner"
-             @click.native="signUp">
+      <v-btn
+        color="blue darken-1"
+        outline
+        flat
+        :disabled="spinner"
+        @click.native="signUp"
+      >
         Sign Up
       </v-btn>
       <div>
