@@ -1,50 +1,40 @@
 <template>
-  <v-layout row
-            wrap class="mt-0">
-    <card-info v-if="!isAuthenticated"
-               :id="top"
-               :helpers="helpers"
-               :subject="subject"
-               :icon="icon"
-               :msg="msg">
+  <v-layout row wrap class="mt-0">
+    <card-info
+      v-if="!isAuthenticated"
+      :id="top"
+      :helpers="helpers"
+      :subject="subject"
+      :icon="icon"
+      :msg="msg"
+    >
     </card-info>
-    <v-flex v-if="isAuthenticated"
-            xs12
-            md8
-            offset-md2
-            xl6
-            offset-xl3>
+    <v-flex v-if="isAuthenticated" xs12 md8 offset-md2 xl6 offset-xl3>
       <!--Level Bar-->
       <v-card :id="top">
         <v-container>
-          <spinner v-if="spinner"
-                   :size="size2"
-                   :width="width">
-          </spinner>
-          <v-layout row
-                    justify-space-between>
+          <spinner v-if="spinner" :size="size2" :width="width"> </spinner>
+          <v-layout row justify-space-between>
             <v-flex xs9 md10>
-              <div id="myProgress"
-                   class="mt-3"
-                   v-if="!spinner">
-                <div id="myBar"
-                     :style="{
-                       width: changeWidth(rating),
-                       'background-color': barColor(rating)
-                     }">
-                  <div class="subheading">
-                    {{ barNumber(rating) }}
-                  </div>
+              <div id="myProgress" class="mt-3" v-if="!spinner">
+                <div
+                  id="myBar"
+                  :style="{
+                    width: changeWidth(rating),
+                    'background-color': barColor(rating)
+                  }"
+                >
+                  <div class="subheading">{{ barNumber(rating) }}</div>
                 </div>
               </div>
             </v-flex>
-            <v-flex xs3
-                    md2
-                    v-if="!spinner">
-              <v-img :src="becomeEuler(rating, max)"
-                     contain
-                     height="50"
-                     class="mb-2">
+            <v-flex xs3 md2 v-if="!spinner">
+              <v-img
+                :src="becomeEuler(rating, max)"
+                contain
+                height="50"
+                class="mb-2"
+              >
               </v-img>
             </v-flex>
           </v-layout>
@@ -52,9 +42,7 @@
       </v-card>
     </v-flex>
     <!--Statement-->
-    <v-flex xs12
-            xl10
-            offset-xl1>
+    <v-flex xs12 xl10 offset-xl1>
       <v-card>
         <v-container fluid>
           <div :class="borderColor(subject)">
@@ -65,38 +53,42 @@
               {{ exerciseName }}
             </div>
             <div v-if="!spinner">
-              <v-flex xs12
-                      v-if="alertRespuesta">
-                <v-alert :value="true"
-                         :color="answerAlertColor(userAnswer)"
-                         :icon="iconAlert(userAnswer)">
-                  <div class="title">{{ emoji(userAnswer)}} </div>
+              <v-flex xs12 v-if="alertRespuesta">
+                <v-alert
+                  :value="true"
+                  :color="answerAlertColor(userAnswer)"
+                  :icon="iconAlert(userAnswer)"
+                >
+                  <div class="title">{{ emoji(userAnswer) }}</div>
                 </v-alert>
               </v-flex>
             </div>
-            <spinner v-if="spinner"
-                     :size="size"
-                     :width="width">
-            </spinner>
-            <component v-if="!spinner"
-                       class="mt-3"
-                       :is="currentView"
-                       :helpers="helpers"
-                       :subject="subject">
+            <spinner v-if="spinner" :size="size" :width="width"> </spinner>
+            <component
+              v-if="!spinner"
+              class="mt-3"
+              :is="currentView"
+              :helpers="helpers"
+              :subject="subject"
+            >
             </component>
-            <v-btn v-if="!$store.state.Learn.gotIt"
-                   class="mt-3"
-                   :dark="!disabled"
-                   :color="helpers.btnColorMaster(subject)"
-                   :disabled="disabled"
-                   @click="check">
+            <v-btn
+              v-if="!$store.state.Learn.gotIt"
+              class="mt-3"
+              :dark="!disabled"
+              :color="helpers.btnColorMaster(subject)"
+              :disabled="disabled"
+              @click="check"
+            >
               Check
             </v-btn>
-            <v-btn v-if="$store.state.Learn.gotIt"
-                   class="mt-3"
-                   :color="helpers.btnColorMaster(subject)"
-                   dark
-                   @click="gotIt">
+            <v-btn
+              v-if="$store.state.Learn.gotIt"
+              class="mt-3"
+              :color="helpers.btnColorMaster(subject)"
+              dark
+              @click="gotIt"
+            >
               {{ btnGotItText(userAnswer) }}
             </v-btn>
           </div>

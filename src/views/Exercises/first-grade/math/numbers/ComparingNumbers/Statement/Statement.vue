@@ -1,23 +1,20 @@
 |<template>
   <ejercicio-slot>
-    <div slot="instruction">
-    </div>
-    <div slot="operation">
-      <span v-html="question.operacion"></span>
-    </div>
+    <div slot="instruction"></div>
+    <div slot="operation"><span v-html="question.operacion"></span></div>
     <div slot="interaction">
       <v-container fluid>
-        <v-layout row
-                  wrap>
+        <v-layout row wrap>
           <card-select-imagen
-                  v-for="question in questions"
-                  :key="question.img"
-                  :helpers="helpers"
-                  :subject="subject"
-                  :btn="question.btn"
-                  :active="question.active"
-                  :img="question.img"
-                  :answerData="question.answerData">
+            v-for="question in questions"
+            :key="question.img"
+            :helpers="helpers"
+            :subject="subject"
+            :btn="question.btn"
+            :active="question.active"
+            :img="question.img"
+            :answerData="question.answerData"
+          >
           </card-select-imagen>
         </v-layout>
       </v-container>
@@ -25,25 +22,22 @@
     <div slot="yourAnswer">
       <!--Control para checar respuesta correcta e imágen borrar después-->
       <!--<span :class="helpers.tuRespuestaColor($store.state.Learn.respuestaUsuario)">-->
-        <!--{{ $store.state.Learn.respuestaData }}-->
+      <!--{{ $store.state.Learn.respuestaData }}-->
       <!--</span>-->
-      <respuesta-usuario :img="img"
-                         :answerData="$store.state.Learn.answerData"/>
+      <respuesta-usuario
+        :img="img"
+        :answerData="$store.state.Learn.answerData"
+      />
     </div>
     <div slot="solution">
-      <div>
-        <span v-html="question.solucion"></span>
-      </div>
+      <div><span v-html="question.solucion"></span></div>
       <div class="images-2">
-        <img :src="img(question.imagenR1)"
-             height="200">
-        <img :src="img(question.imagenR2)"
-             height="200">
+        <img :src="img(question.imagenR1)" height="200" />
+        <img :src="img(question.imagenR2)" height="200" />
       </div>
     </div>
     <div slot="correctAnswer">
-      <respuesta-correcta :img="img"
-                          :answerData="question.correcta"/>
+      <respuesta-correcta :img="img" :answerData="question.correcta" />
     </div>
   </ejercicio-slot>
 </template>

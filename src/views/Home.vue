@@ -1,33 +1,33 @@
 <template>
   <div>
     <section>
-      <v-parallax :src="paralax"
-                  height="450">
-        <v-layout column
-                  align-center
-                  justify-center
-                  class="grey--text text--darken-2">
-          <img :src="logo"
-               alt="Euler Kids"
-               height="150">
-          <img :src="slogan"
-               class="responsiveSub
+      <v-parallax :src="paralax" height="450">
+        <v-layout
+          column
+          align-center
+          justify-center
+          class="grey--text text--darken-2"
+        >
+          <img :src="logo" alt="Euler Kids" height="150" />
+          <img
+            :src="slogan"
+            class="responsiveSub
              mt-3"
-               alt="practica">
+            alt="practica"
+          />
         </v-layout>
       </v-parallax>
     </section>
     <v-container grid-list-lg>
       <v-layout row wrap>
-        <v-flex xs12
-                md4
-                v-for="subject in subjects"
-                :key="subject.title">
-          <subject-card :title="subject.title"
-                         :description="subject.description"
-                         :img="asset(subject.img)"
-                         :gradient="subject.gradient"
-                         :to="subject.to">
+        <v-flex xs12 md4 v-for="subject in subjects" :key="subject.title">
+          <subject-card
+            :title="subject.title"
+            :description="subject.description"
+            :img="asset(subject.img)"
+            :gradient="subject.gradient"
+            :to="subject.to"
+          >
           </subject-card>
         </v-flex>
       </v-layout>
@@ -37,6 +37,7 @@
 
 <script>
 import SubjectCard from "../components/Cards/MateriasCard";
+import axios from "axios";
 
 export default {
   name: "Home",
@@ -64,7 +65,8 @@ export default {
         },
         {
           title: "Language",
-          description: "Learn how to communicate by landing on the language planet!",
+          description:
+            "Learn how to communicate by landing on the language planet!",
           img: "language.svg",
           gradient: "grad1",
           to: "/learn/language"

@@ -1,7 +1,8 @@
 <template>
   <exercise-slot>
     <div slot="instruction">
-      Write the number in <b><span class="blue--text darken--1--text"> standard</span></b> form.
+      Write the number in
+      <b><span class="blue--text darken--1--text"> standard</span></b> form.
       Don't forget the commas.
     </div>
     <div slot="operation">
@@ -9,75 +10,108 @@
     </div>
     <div slot="interaction">
       <div v-if="!$store.state.Learn.gotIt">
-        <v-flex xs12
-                sm4
-                md3>
+        <v-flex xs12 sm4 md3>
           <v-text-field
-                  :color="helpers.colorMaster($store.state.Learn.subject)"
-                  @keyup.enter="enterPressed(input1)"
-                  v-model="input1"
-                  label="Answer">
+            :color="helpers.colorMaster($store.state.Learn.subject)"
+            @keyup.enter="enterPressed(input1)"
+            v-model="input1"
+            label="Answer"
+          >
           </v-text-field>
         </v-flex>
       </div>
     </div>
     <div slot="yourAnswer">
-      <user-answer :helpers="helpers"
-                   :expresion="input1"/>
+      <user-answer :helpers="helpers" :expresion="input1" />
     </div>
     <div slot="solution">
       <div>Let's place each digit on the place value chart:</div>
       <v-data-table
-              v-if="question.thousands"
-              :headers="question.headers"
-              :items="question.placeValues"
-              hide-actions
-              class="elevation-1 mt-2">
+        v-if="question.thousands"
+        :headers="question.headers"
+        :items="question.placeValues"
+        hide-actions
+        class="elevation-1 mt-2"
+      >
         <template slot="items" slot-scope="props">
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.thousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.hundreds }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.tens }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.ones }}</td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.thousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.hundreds }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.tens }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.ones }}
+          </td>
         </template>
       </v-data-table>
       <v-data-table
-              v-if="question.tenThousands"
-              :headers="question.headers"
-              :items="question.placeValues"
-              hide-actions
-              class="elevation-1 mt-2">
+        v-if="question.tenThousands"
+        :headers="question.headers"
+        :items="question.placeValues"
+        hide-actions
+        class="elevation-1 mt-2"
+      >
         <template slot="items" slot-scope="props">
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.tenThousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.thousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.hundreds }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.tens }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.ones }}</td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.tenThousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.thousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.hundreds }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.tens }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.ones }}
+          </td>
         </template>
       </v-data-table>
       <v-data-table
-              v-if="question.hundredThousands"
-              :headers="question.headers"
-              :items="question.placeValues"
-              hide-actions
-              class="elevation-1 mt-2">
+        v-if="question.hundredThousands"
+        :headers="question.headers"
+        :items="question.placeValues"
+        hide-actions
+        class="elevation-1 mt-2"
+      >
         <template slot="items" slot-scope="props">
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.hundredThousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.tenThousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.thousands }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.hundreds }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.tens }}</td>
-          <td class="text-xs-center title blue--text text--darken-1">{{ props.item.ones }}</td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.hundredThousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.tenThousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.thousands }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.hundreds }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.tens }}
+          </td>
+          <td class="text-xs-center title blue--text text--darken-1">
+            {{ props.item.ones }}
+          </td>
         </template>
       </v-data-table>
-      <br/>
+      <br />
       <div v-for="respuesta in question.answers">
         <span v-katex="respuesta.number"></span> is
         <span v-katex="respuesta.value"></span>
-        <span class="blue--text text--darken-1"> {{ respuesta.placeValue }}</span>
+        <span class="blue--text text--darken-1">
+          {{ respuesta.placeValue }}</span
+        >
       </div>
     </div>
     <div slot="correctAnswer">
-      <correct-answer :correct="question.correct"/>
+      <correct-answer :correct="question.correct" />
     </div>
   </exercise-slot>
 </template>
@@ -158,8 +192,8 @@ export default {
             placeValue: "ones"
           }
         ],
-        thousands: true,
-      },
+        thousands: true
+      }
     };
   },
   computed: {

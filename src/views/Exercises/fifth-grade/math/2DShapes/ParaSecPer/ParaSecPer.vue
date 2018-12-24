@@ -1,8 +1,5 @@
 <template>
-  <component :is="currentView"
-             :helpers="helpers"
-             :subject="subject"
-             :img="img">
+  <component :is="currentView" :helpers="helpers" :subject="subject" :img="img">
   </component>
 </template>
 

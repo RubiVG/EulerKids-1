@@ -1,8 +1,10 @@
 <template>
-  <component :is="currentView"
-             :helpers="helpers"
-             :enterPressed="enterPressed"
-             :question="question">
+  <component
+    :is="currentView"
+    :helpers="helpers"
+    :enterPressed="enterPressed"
+    :question="question"
+  >
   </component>
 </template>
 

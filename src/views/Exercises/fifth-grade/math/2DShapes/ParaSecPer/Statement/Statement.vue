@@ -5,42 +5,39 @@
     </div>
     <div slot="operation">
       <div class="mt-3">
-        <img :src="img(question.img)"
-             height="150"
-             class="responsive">
+        <img :src="img(question.img)" height="150" class="responsive" />
       </div>
     </div>
     <div slot="interaction">
       <v-container fluid>
-        <v-layout row
-                  align-center
-                  justify-center
-                  wrap>
-          <card-select-text v-for="question in questions"
-                             :key="question.message"
-                             :helpers="helpers"
-                             :btn="question.btn"
-                             :subject="subject"
-                             :active="question.active"
-                             :message="question.message"
-                             :text-size="textSize"/>
+        <v-layout row align-center justify-center wrap>
+          <card-select-text
+            v-for="question in questions"
+            :key="question.message"
+            :helpers="helpers"
+            :btn="question.btn"
+            :subject="subject"
+            :active="question.active"
+            :message="question.message"
+            :text-size="textSize"
+          />
         </v-layout>
       </v-container>
     </div>
     <div slot="yourAnswer">
-      <user-answer :helpers="helpers"
-                         :user-answer="$store.state.Learn.userAnswer"
-                         :answer-data="$store.state.Learn.answerData"/>
+      <user-answer
+        :helpers="helpers"
+        :user-answer="$store.state.Learn.userAnswer"
+        :answer-data="$store.state.Learn.answerData"
+      />
     </div>
     <div slot="solution">
       <div class="mt-3">
-        <img :src="img(answerImg)"
-             height="350"
-             class="responsive">
+        <img :src="img(answerImg)" height="350" class="responsive" />
       </div>
     </div>
     <div slot="correctAnswer">
-      <correct-answer :correct="question.correct"/>
+      <correct-answer :correct="question.correct" />
     </div>
   </exercise-slot>
 </template>

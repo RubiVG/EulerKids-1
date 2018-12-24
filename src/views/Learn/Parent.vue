@@ -1,37 +1,42 @@
 <template>
-  <v-container grid-list-lg
-               fluid>
+  <v-container grid-list-lg fluid>
     <v-layout wrap>
-      <bread-crumb :bread-items="breadItems"
-                   :bread-color="breadColor"
-                   :subject="subject"
-                   :btns="btns"
-                   :btns-color="btnsColor">
+      <bread-crumb
+        :bread-items="breadItems"
+        :bread-color="breadColor"
+        :subject="subject"
+        :btns="btns"
+        :btns-color="btnsColor"
+      >
       </bread-crumb>
-      <server-error v-if="isThereError500"
-                    :errorMsgGetter="exerciseErrorMsgGetter"
-                    :errorsGetter="exerciseErrorsGetter"/>
-      <router-view v-show="!isThereError500"
-                   :isThereError500="isThereError500"
-                   :helpers="helpers"
-                   :get="get"
-                   :subject="subject"
-                   :grade="grade"
-                   :skill="skill"
-                   :lesson="lesson"
-                   :skillsList="skillsList"
-                   :imgCard="imgCard"
-                   :skillsImg="skillsImg"
-                   :imgLessons="imgLessons"
-                   :gradient="gradient"
-                   :getImgCard="getImgCard"
-                   :lessonsList="lessonsList"
-                   :lessons="lessons"
-                   :exercise="exercise"
-                   :exerciseName="exerciseName"
-                   :skillName="skillName"
-                   :subjectName="subjectName"
-                   :isAuthenticated="isAuthenticated"/>
+      <server-error
+        v-if="isThereError500"
+        :errorMsgGetter="exerciseErrorMsgGetter"
+        :errorsGetter="exerciseErrorsGetter"
+      />
+      <router-view
+        v-show="!isThereError500"
+        :isThereError500="isThereError500"
+        :helpers="helpers"
+        :get="get"
+        :subject="subject"
+        :grade="grade"
+        :skill="skill"
+        :lesson="lesson"
+        :skillsList="skillsList"
+        :imgCard="imgCard"
+        :skillsImg="skillsImg"
+        :imgLessons="imgLessons"
+        :gradient="gradient"
+        :getImgCard="getImgCard"
+        :lessonsList="lessonsList"
+        :lessons="lessons"
+        :exercise="exercise"
+        :exerciseName="exerciseName"
+        :skillName="skillName"
+        :subjectName="subjectName"
+        :isAuthenticated="isAuthenticated"
+      />
     </v-layout>
   </v-container>
 </template>
@@ -160,10 +165,7 @@ export default {
       return this.$store.state.Learn.lesson;
     },
     exercise() {
-      this.$store.commit(
-        "Learn/getExerciseUrl",
-        this.$route.params.exercise
-      );
+      this.$store.commit("Learn/getExerciseUrl", this.$route.params.exercise);
 
       return this.$store.state.Learn.exerciseUrl;
     },

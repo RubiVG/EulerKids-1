@@ -48,12 +48,6 @@
             </v-layout>
           </v-container>
         </v-card>
-        <v-flex xs12>
-          <div class="title grey--text text--darken-1 text-xs-center">
-            Daily Practice
-          </div>
-        </v-flex>
-        <div class="amCharts" ref="chartdiv"></div>
       </v-container>
     </v-card>
   </v-flex>
@@ -62,11 +56,6 @@
 <script>
 import MixinLearn from "../../mixins/learn";
 import Spinner from "../../components/Spinners/Spinner";
-import * as am4core from "@amcharts/amcharts4/core";
-import * as am4charts from "@amcharts/amcharts4/charts";
-import am4themes_animated from "@amcharts/amcharts4/themes/animated";
-
-am4core.useTheme(am4themes_animated);
 
 export default {
   props: [
@@ -109,74 +98,10 @@ export default {
       }
       return hours + ":" + minutes + ":" + seconds;
     }
-  },
-  mounted() {
-    let chart = am4core.create(this.$refs.chartdiv, am4charts.XYChart);
-
-    chart.paddingRight = 20;
-
-    let data = [];
-    let visits = 10;
-    for (let i = 1; i < 366; i++) {
-      visits += Math.round((Math.random() < 0.5 ? 1 : 0) * Math.random() * 10);
-      data.push({
-        date: new Date(2018, 0, i),
-        name: "name" + i,
-        value: visits,
-        time: visits + 100
-      });
-    }
-
-    chart.data = data;
-    let dateAxis = chart.xAxes.push(new am4charts.DateAxis());
-    dateAxis.renderer.grid.template.location = 0;
-
-    // DurationAxis instead of ValueAxis
-    let valueAxis = chart.yAxes.push(new am4charts.DurationAxis());
-    valueAxis.title.text = "[#757575]Time[/]";
-    valueAxis.tooltip.disabled = true;
-    valueAxis.renderer.minWidth = 35;
-    valueAxis.baseUnit = "second";
-
-    let series = chart.series.push(new am4charts.LineSeries());
-    series.dataFields.dateX = "date";
-    series.dataFields.valueY = "time";
-
-    // let circleBullet = series.bullets.push(new am4charts.CircleBullet());
-    // circleBullet.circle.stroke = am4core.color("#fff");
-    // circleBullet.circle.strokeWidth = 2;
-
-    // let labelBullet = lineSeries.bullets.push(new am4charts.LabelBullet());
-    // labelBullet.label.text = "{value}";
-    // labelBullet.label.dy = -20;
-
-    series.tooltipText =
-      "Date: {date} \n Time: {time.formatDuration('hh:mm:ss')} \n Exercises: {valueY}";
-    series.tooltip.getFillFromObject = false;
-    series.tooltip.background.fill = am4core.color("#1E88E5");
-    chart.cursor = new am4charts.XYCursor();
-
-    let scrollbarX = new am4charts.XYChartScrollbar();
-    scrollbarX.series.push(series);
-    chart.scrollbarX = scrollbarX;
-
-    this.chart = chart;
-  },
-
-  beforeDestroy() {
-    if (this.chart) {
-      this.chart.dispose();
-    }
-  },
-  created() {
-    console.log(this.dailyPractice);
   }
 };
 </script>
 
 <style scoped>
-.amCharts {
-  width: 100%;
-  height: 500px;
-}
+
 </style>
