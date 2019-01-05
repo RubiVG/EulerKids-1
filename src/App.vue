@@ -1,124 +1,100 @@
 <template>
   <v-app>
-    <v-toolbar app
-               :clipped-left="clipped">
+    <v-toolbar app :clipped-left="clipped">
       <v-toolbar-items>
-        <v-btn active-class
-               to="/"
-               flat
-               slot="activator">
-          <v-avatar  height="200px">
-            <img :src="rocket"
-                 alt="logo">
-          </v-avatar>
+        <v-btn active-class to="/" flat slot="activator">
+          <v-avatar height="200px"> <img :src="rocket" alt="logo" /> </v-avatar>
         </v-btn>
       </v-toolbar-items>
-      <v-spacer/>
-      <v-btn icon
-             to="/love"
-             class="">
+      <v-spacer />
+      <v-btn icon to="/love" class="">
         <v-icon large color="pink">favorite</v-icon>
       </v-btn>
-      <v-btn v-if="!isAuthenticated"
-             flat
-             @click.native.stop="dialogOn">
+      <v-btn v-if="!isAuthenticated" flat @click.native.stop="dialogOn">
         Log in
       </v-btn>
-      <v-menu v-if="isAuthenticated"
-              bottom
-              offset-y
-              left
-              :close-on-content-click="true">
-        <v-btn slot="activator"
-               icon>
-          <v-icon>more_horiz</v-icon>
-        </v-btn>
+      <v-menu
+        v-if="isAuthenticated"
+        bottom
+        offset-y
+        left
+        :close-on-content-click="true"
+      >
+        <v-btn slot="activator" icon> <v-icon>more_horiz</v-icon> </v-btn>
         <v-list>
           <v-list-tile avatar>
             <v-list-tile-content>
-              <v-list-tile-sub-title>
-                Welcome!
-              </v-list-tile-sub-title>
+              <v-list-tile-sub-title> Welcome! </v-list-tile-sub-title>
               <v-list-tile-title>{{ username }}</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
-          <v-divider/>
+          <v-divider />
           <v-list>
-            <v-list-tile :to="settings"
-                         active-class="purple--text text--lighten-1">
-              <v-list-tile-title>
-                Settings
-              </v-list-tile-title>
+            <v-list-tile
+              :to="settings"
+              active-class="purple--text text--lighten-1"
+            >
+              <v-list-tile-title> Settings </v-list-tile-title>
             </v-list-tile>
           </v-list>
-          <v-divider/>
-          <v-list class="mt-1" >
-            <v-list-tile  @click.stop="signOut">
-              <v-list-tile-title >
-                Log out
-              </v-list-tile-title>
+          <v-divider />
+          <v-list class="mt-1">
+            <v-list-tile @click.stop="signOut">
+              <v-list-tile-title> Log out </v-list-tile-title>
             </v-list-tile>
           </v-list>
         </v-list>
       </v-menu>
     </v-toolbar>
-    <v-content>
-      <router-view/>
-    </v-content>
-    <log-in :dialog="showDialog"
-            @closeRegisterWindow="dialogOff"/>
-    <new-app :snackbar="isThereNewApp"
-             :x="snackbar.x"
-             :y="snackbar.y"
-             :color="snackbar.color"
-             :timeout="snackbar.timeout"
-             :text="snackbar.text"
-             @updateApp="updateApp">
+    <v-content> <router-view /> </v-content>
+    <log-in :dialog="showDialog" @closeRegisterWindow="dialogOff" />
+    <new-app
+      :snackbar="isThereNewApp"
+      :x="snackbar.x"
+      :y="snackbar.y"
+      :color="snackbar.color"
+      :timeout="snackbar.timeout"
+      :text="snackbar.text"
+      @updateApp="updateApp"
+    >
     </new-app>
-    <v-footer app
-              :absolute="absolute"
-              height="auto">
-      <v-layout row
-                wrap
-                class="grey lighten-3">
-        <v-flex xs12
-                sm6
-                offset-sm3>
-          <v-layout row
-                    wrap>
-            <v-flex xs12
-                    class="text-xs-center">
-              <v-btn small
-                     v-for="icon in icons"
-                     :key="icon.icon"
-                     icon
-                     target="_blank"
-                     :href="icon.to"
-                     class="grey--text lighten-2">
+    <v-footer app :absolute="absolute" height="auto">
+      <v-layout row wrap class="grey lighten-3">
+        <v-flex xs12 sm6 offset-sm3>
+          <v-layout row wrap>
+            <v-flex xs12 class="text-xs-center">
+              <v-btn
+                small
+                v-for="icon in icons"
+                :key="icon.icon"
+                icon
+                target="_blank"
+                :href="icon.to"
+                class="grey--text lighten-2"
+              >
                 <v-icon size="24px">{{ icon.icon }}</v-icon>
               </v-btn>
             </v-flex>
-            <v-flex xs12
-                    py-1
-                    class="text-xs-center">
-              <router-link class="caption grey--text lighten-2 mr-2"
-                           to="/help">
+            <v-flex xs12 py-1 class="text-xs-center">
+              <router-link class="caption grey--text lighten-2 mr-2" to="/help">
                 Help
               </router-link>
-              <router-link class="caption grey--text lighten-2 mr-2"
-                           to="/privacy-policy">
+              <router-link
+                class="caption grey--text lighten-2 mr-2"
+                to="/privacy-policy"
+              >
                 Privacy
               </router-link>
-              <router-link class="caption grey--text lighten-2 mr-1"
-                           to="/terms-of-service">
+              <router-link
+                class="caption grey--text lighten-2 mr-1"
+                to="/terms-of-service"
+              >
                 Terms
               </router-link>
             </v-flex>
-            <v-flex xs12
-                    text-xs-center
-                    grey--text
-                    lighten-2>
-              &copy;{{ year }} — <strong>Euler Kids</strong> made with <v-icon color="grey" small>favorite</v-icon>
+            <v-flex xs12 text-xs-center grey--text lighten-2>
+              &copy;{{ year }} — <strong>Euler Kids</strong> made with
+              <v-icon color="grey" small>favorite</v-icon>
             </v-flex>
           </v-layout>
         </v-flex>
@@ -208,7 +184,7 @@ export default {
     },
     rocket() {
       return require(`@/assets/Landing/rocket.svg`);
-    },
+    }
   },
   created() {
     this.$store

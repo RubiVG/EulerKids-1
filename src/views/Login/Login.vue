@@ -21,8 +21,8 @@
           required
           v-model="username"
           :error-messages="usernameErrors"
-          @input="$v.username.$touch();"
-          @blur="$v.username.$touch();"
+          @input="$v.username.$touch()"
+          @blur="$v.username.$touch()"
           @keyup.enter="login"
         >
         </v-text-field>
@@ -35,8 +35,8 @@
           required
           v-model="password"
           :error-messages="passwordErrors"
-          @input="$v.password.$touch();"
-          @blur="$v.password.$touch();"
+          @input="$v.password.$touch()"
+          @blur="$v.password.$touch()"
           @keyup.enter="login"
           :append-icon="e1 ? 'visibility' : 'visibility_off'"
           @click:append="() => (e1 = !e1)"

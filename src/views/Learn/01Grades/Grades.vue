@@ -1,15 +1,11 @@
 <template>
-  <v-layout row
-            wrap
-            class="ml-0 mr-0">
-    <v-flex xs12
-            sm6
-            md4
-            v-for="(grade, i) in grades"
-            :key="i">
-      <grade-card :img="asset(grade.img)"
-                   :gradient="grade.gradient"
-                   :to="grade.to">
+  <v-layout row wrap class="ml-0 mr-0">
+    <v-flex xs12 sm6 md4 v-for="(grade, i) in grades" :key="i">
+      <grade-card
+        :img="asset(grade.img)"
+        :gradient="grade.gradient"
+        :to="grade.to"
+      >
       </grade-card>
     </v-flex>
   </v-layout>
@@ -51,7 +47,7 @@ export default {
           img: "fifth.svg",
           gradient: "grad2",
           to: "math/fifth-grade"
-        },
+        }
         // {
         //   img: "sixth.svg",
         //   gradient: "grad2",
